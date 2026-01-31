@@ -3,7 +3,7 @@ title: Hoodini Colab
 description: Interactive parameter configurator for Hoodini in Google Colab
 ---
 
-import { Callout, Cards, Card, Steps } from 'nextra/components'
+import { Callout, Cards, Steps } from 'nextra/components'
 
 # Hoodini Colab
 
@@ -20,18 +20,9 @@ Hoodini Colab is an interactive Jupyter widget that provides a visual interface 
 Instead of remembering dozens of command-line parameters and flags, you get a visual interface where you can click, select, and configure everything through an intuitive web-based UI.
 
 <Cards>
-  <Card title="Zero Setup" href="#quick-start">
-    Run analyses in Google Colab without installing anything locally
-  </Card>
-  <Card title="Visual Configuration" href="#key-features">
-    Configure all parameters through an intuitive interface
-  </Card>
-  <Card title="Smart Defaults" href="#key-features">
-    Start with sensible defaults and customize only what you need
-  </Card>
-  <Card title="Instant Feedback" href="#key-features">
-    See the generated command update in real-time as you change settings
-  </Card>
+  <Cards.Card title="🚀 Zero Setup" href="#quick-start" />
+  <Cards.Card title="🎛️ Visual Configuration" href="#key-features" />
+  <Cards.Card title="⚙️ Smart Defaults" href="#key-features" />
 </Cards>
 
 ## Quick Start
@@ -46,17 +37,10 @@ Click the button below to open the interactive notebook in Google Colab:
 
 ### Run the Setup Cell
 
-Execute the first cell to install the hoodini-colab package:
+Run the cell below **only once**. Running it multiple times may cause errors!
 
 ```python
 !pip install -q hoodini-colab
-```
-
-### Launch the Widget
-
-Run the second cell to display the interactive launcher:
-
-```python
 from hoodini_colab import create_launcher
 launcher = create_launcher()
 display(launcher)
