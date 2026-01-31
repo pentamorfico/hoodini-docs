@@ -32,6 +32,20 @@
   --nextra-border: 34 34 34;
 }
 
+/* Logo theme switching - explicit rules for reliability */
+.logo-light {
+  display: block;
+}
+.logo-dark {
+  display: none;
+}
+.dark .logo-light {
+  display: none;
+}
+.dark .logo-dark {
+  display: block;
+}
+
 /* Apply fonts */
 body {
   font-family: var(--font-sans);

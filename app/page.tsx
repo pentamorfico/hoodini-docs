@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import GlowEffect from './components/GlowEffect'
+import { HoodiniDemo } from './components/HoodiniDemo'
 
 export default function HomePage() {
   return (
@@ -90,29 +91,25 @@ export default function HomePage() {
                   <span className="w-3 h-3 rounded-full bg-yellow-500"></span>
                   <span className="w-3 h-3 rounded-full bg-green-500"></span>
                 </div>
-                <span className="text-sm text-gray-500 font-mono">hoodini-visualization.html</span>
+                <span className="text-sm text-gray-500 font-mono">hoodini-visualization</span>
               </div>
-              <a 
-                href="https://storage.hoodini.bio/hoodini-demo.html"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link 
+                href="/docs/viz"
                 className="text-xs text-gray-400 hover:text-amber-500 transition-colors flex items-center gap-1"
               >
-                Open in new tab
+                View documentation
                 <svg className="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
                   <polyline points="15 3 21 3 21 9"/>
                   <line x1="10" y1="14" x2="21" y2="3"/>
                 </svg>
-              </a>
+              </Link>
             </div>
             <div className="relative w-full" style={{ height: '600px' }}>
-              <iframe
-                src="https://storage.hoodini.bio/hoodini-demo.html"
-                className="absolute inset-0 w-full h-full border-0"
-                title="Hoodini Live Demo"
-                loading="lazy"
-                allow="fullscreen"
+              <HoodiniDemo 
+                type="dashboard"
+                height="100%"
+                lazy={true}
               />
             </div>
           </div>

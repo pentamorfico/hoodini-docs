@@ -29,13 +29,13 @@ const logo = (
     <img 
       src="/images/hoodini_logo.svg" 
       alt="Hoodini" 
-      className="h-8 w-auto dark:hidden" 
+      className="h-8 w-auto logo-light" 
     />
     {/* Dark mode logo */}
     <img 
       src="/images/hoodini_logo_light.svg" 
       alt="Hoodini" 
-      className="h-8 w-auto hidden dark:block" 
+      className="h-8 w-auto logo-dark" 
     />
   </span>
 )
@@ -48,13 +48,7 @@ const navbar = (
     {/* Center navigation links */}
     <div className="navbar-center-nav hidden md:flex">
       <Link href="/docs">Docs</Link>
-      <a 
-        href="https://storage.hoodini.bio/hoodini-demo.html" 
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Live Demo
-      </a>
+      <Link href="/demo">Live Demo</Link>
       <Link href="/gallery">Gallery</Link>
       <a 
         href="https://colab.research.google.com/github/pentamorfico/hoodini-colab/blob/main/hoodini_colab.ipynb"
