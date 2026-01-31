@@ -1,23 +1,5 @@
 {
   "index": "Overview",
-  "-- Dashboard Examples": {
-    "type": "separator",
-    "title": "HoodiniDashboard"
-  },
-  "dashboard-basic": "Basic Dashboard",
-  "dashboard-custom": "Custom Palettes",
-  "dashboard-no-sidebar": "Without Sidebar",
-  "dashboard-links": "Protein & DNA Links",
-  "dashboard-domains": "Domain Architecture",
-  "-- HoodiniViz Examples": {
-    "type": "separator",
-    "title": "HoodiniViz (Incremental)"
-  },
-  "viz-1-genes": "1. Genes Only",
-  "viz-2-labels": "2. With Labels",
-  "viz-3-tree": "3. With Tree",
-  "viz-4-protein-links": "4. Protein Links",
-  "viz-5-nucleotide-links": "5. Nucleotide Links",
-  "viz-6-domains": "6. With Domains",
-  "viz-7-full": "7. Full Example"
+  "hoodini-viz": "Hoodini Viz",
+  "hoodini-dashboard": "Hoodini Dashboard"
 }

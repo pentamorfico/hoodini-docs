@@ -3,7 +3,7 @@ title: Hoodini-Viz
 description: WebGL visualization library for comparative genomics
 ---
 
-import { Callout, Steps, Tabs } from 'nextra/components'
+import { Callout, Steps, Tabs, Cards } from 'nextra/components'
 
 # What is Hoodini-Viz?
 
@@ -16,7 +16,118 @@ Hoodini-Viz is a high-performance React + WebGL visualization library for compar
 - **Protein homology links** — Curved Bézier connections showing relationships between proteins
 - **Nucleotide synteny** — Polygonal overlays displaying conserved genomic regions
 - **Domain annotations** — Protein domains from Pfam, InterPro, or custom sources
-- **ncRNA structures** — Secondary structure viewer for non-coding RNAs
+- **ncRNA & Regions** — Non-coding RNAs and genomic regions (CRISPR, prophages, etc.)
+
+## Two Components, One Library
+
+Hoodini-Viz exports **two main components** for different use cases:
+
+<Cards>
+  <Cards.Card 
+    title="⚡ HoodiniViz" 
+    href="/docs/hoodini-viz/playground/hoodiniviz/1-genes-only"
+  />
+  <Cards.Card 
+    title="🎛️ HoodiniDashboard" 
+    href="/docs/hoodini-viz/playground/hoodinidashboard/basic"
+  />
+</Cards>
+
+### HoodiniViz — Full Programmatic Control
+
+**Best for:** Advanced users, custom UIs, embedded visualizations
+
+HoodiniViz is the core rendering engine. You provide pre-parsed data in specific formats, and it renders the visualization. No UI, no data loading — just pure WebGL rendering.
+
+| Feature | Description |
+|---------|-------------|
+| ⚡ **Lightweight** | No UI overhead, smaller bundle when tree-shaken |
+| 🎯 **Full Control** | You manage data loading, state, and UI |
+| 🔌 **Embeddable** | Perfect for custom dashboards or documentation |
+| 📊 **Any Data Source** | Load from APIs, databases, or generate programmatically |
+| 🧩 **Composable** | Combine with your own React components |
+
+```tsx
+import { HoodiniViz } from 'hoodini-viz';
+
+// You control everything
+<HoodiniViz
+  newickStr="((A:0.1,B:0.2):0.3,C:0.4);"
+  gffFeatures={[
+    { seqid: 'A', start: 100, end: 500, strand: '+', attributes: { ID: 'gene1' } },
+    { seqid: 'A', start: 600, end: 1000, strand: '-', attributes: { ID: 'gene2' } },
+  ]}
+  hoods={[
+    { seqid: 'A', start: 0, end: 1500, hood_id: '1' },
+  ]}
+  proteinLinks={[
+    { gAId: 'gene1', gBId: 'gene3', similarity: 95.5 },
+  ]}
+  domainsByGene={{
+    gene1: [{ domainId: 'PF00001', start: 10, end: 100 }],
+  }}
+  showScrollbar={true}
+  showRuler={true}
+/>
+```
+
+### HoodiniDashboard — The Complete Solution
+
+**Best for:** Most users, standalone applications, quick prototyping
+
+HoodiniDashboard is a batteries-included component that wraps HoodiniViz with a complete UI and automatic data loading.
+
+| Feature | Description |
+|---------|-------------|
+| 🎨 **Full UI** | Sidebar with all visualization controls (colors, layers, filters) |
+| 📂 **Data Loading** | Automatic loading from Parquet or TSV files via URLs |
+| 🌗 **Theming** | Built-in light/dark mode with system preference detection |
+| 📤 **Export** | SVG and PNG export with format guides (A4, A3, PowerPoint) |
+| 🔍 **Data Browser** | Integrated table view for exploring gene/protein data |
+| ⚙️ **State Management** | All visualization state handled internally |
+
+```tsx
+import { HoodiniDashboard } from 'hoodini-viz';
+import 'hoodini-viz/style.css';
+
+// Just point to your data files — that's it!
+<HoodiniDashboard
+  dataPaths={{
+    newick: '/data/tree.nwk',
+    gffParquet: '/data/genes.parquet',
+    hoodsParquet: '/data/hoods.parquet',
+    proteinLinksParquet: '/data/links.parquet',
+    domainsParquet: '/data/domains.parquet',
+  }}
+/>
+```
+
+### When to Use Each
+
+<Tabs items={['Use HoodiniViz', 'Use HoodiniDashboard']}>
+  <Tabs.Tab>
+    ✅ You're building a custom UI around the visualization
+    
+    ✅ Your data comes from an API or is generated dynamically
+    
+    ✅ You need to embed in existing React applications
+    
+    ✅ You want to minimize bundle size
+    
+    ✅ You need programmatic control over every aspect
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ✅ You want a working visualization with minimal code
+    
+    ✅ Your data is in Parquet/TSV files accessible via URL
+    
+    ✅ You need the sidebar controls for interactive exploration
+    
+    ✅ You want built-in export functionality
+    
+    ✅ You're building a standalone genomics browser
+  </Tabs.Tab>
+</Tabs>
 
 ## Quick Start
 
@@ -34,14 +145,22 @@ The fastest way to get started — just HTML:
   <div id="root" style="width: 100vw; height: 100vh;"></div>
   <script src="https://unpkg.com/hoodini-viz/dist/hoodini-viz.umd.js"></script>
   <script>
-    HoodiniViz.createDashboard({
+    // HoodiniViz with inline data (full control)
+    HoodiniViz.createViz({
       container: 'root',
-      dataPaths: {
-        newick: 'https://example.com/tree.nwk',
-        gffParquet: 'https://example.com/genes.parquet',
-        hoodsParquet: 'https://example.com/hoods.parquet',
-      }
+      newickStr: '((A:0.1,B:0.2):0.3,C:0.4);',
+      gffFeatures: [...],
+      hoods: [...],
     });
+    
+    // Or HoodiniDashboard with automatic data loading
+    // HoodiniViz.createDashboard({
+    //   container: 'root',
+    //   dataPaths: {
+    //     newick: 'https://example.com/tree.nwk',
+    //     gffParquet: 'https://example.com/genes.parquet',
+    //   }
+    // });
   </script>
 </body>
 </html>
@@ -58,69 +177,51 @@ npm install hoodini-viz
 ```
 
 ```tsx
-import { HoodiniDashboard } from 'hoodini-viz';
+import { HoodiniViz, HoodiniDashboard } from 'hoodini-viz';
 import 'hoodini-viz/style.css';
 
-function App() {
-  return (
-    <HoodiniDashboard
-      dataPaths={{
-        newick: '/data/tree.nwk',
-        gffParquet: '/data/genes.parquet',
-        hoodsParquet: '/data/hoods.parquet',
-      }}
-    />
-  );
-}
-```
-
-## Data Formats
-
-Hoodini-Viz supports both **Parquet** (recommended, 3-10x faster) and **TSV** formats.
-
-| File | Keys | Description |
-|------|------|-------------|
-| Tree | `newick` | Newick format phylogenetic tree |
-| Genes | `gffParquet` / `gff` | GFF3-style gene annotations |
-| Hoods | `hoodsParquet` / `hoods` | Genomic windows to display |
-| Links | `proteinLinksParquet` / `proteinLinks` | Protein homology relationships |
-| Domains | `domainsParquet` / `domains` | Protein domain annotations |
-
-<Callout type="tip">
-  If you are using [Hoodini](/docs/hoodini), all these files are generated automatically in the output folder!
-</Callout>
-
-## Components
-
-### Full Dashboard
-
-`HoodiniDashboard` provides the complete experience:
-- Sidebar with all visualization controls
-- Automatic data loading (Parquet/TSV)
-- Theme toggle (light/dark)
-- Data table browser
-- SVG export
-
-### Core Visualization
-
-`HoodiniViz` is the rendering component for advanced users who want full control:
-- Bring your own UI
-- Pre-load and transform data yourself
-- Embed in custom layouts
-
-```tsx
-import { HoodiniViz } from 'hoodini-viz';
-
+// Use HoodiniViz for full control
 <HoodiniViz
   newickStr={newick}
   gffFeatures={genes}
   hoods={hoods}
-  proteinLinks={links}
-  showTreeLayer={true}
-  showGeneLayer={true}
-  showProteinLinkLayer={true}
+/>
+
+// Or HoodiniDashboard for the complete experience
+<HoodiniDashboard
+  dataPaths={{
+    newick: '/data/tree.nwk',
+    gffParquet: '/data/genes.parquet',
+    hoodsParquet: '/data/hoods.parquet',
+  }}
 />
 ```
+
+## Data Formats
+
+### For HoodiniViz (JavaScript objects)
+
+| Prop | Type | Description |
+|------|------|-------------|
+| `newickStr` | `string` | Newick tree as a string |
+| `gffFeatures` | `GFFFeatureData[]` | Array of gene features |
+| `hoods` | `HoodData[]` | Array of hood definitions |
+| `proteinLinks` | `ProteinLinkData[]` | Array of `{ gAId, gBId, similarity }` |
+| `domainsByGene` | `Record<string, Domain[]>` | Domains grouped by gene ID |
+
+### For HoodiniDashboard (URLs to files)
+
+| Data | Parquet Key | TSV Key | Description |
+|------|-------------|---------|-------------|
+| Tree | `newick` | `newick` | Newick format phylogenetic tree |
+| Genes | `gffParquet` | `gff` | GFF3-style gene annotations |
+| Hoods | `hoodsParquet` | `hoods` | Genomic windows to display |
+| Links | `proteinLinksParquet` | `proteinLinks` | Protein homology relationships |
+| Domains | `domainsParquet` | `domains` | Protein domain annotations |
+
+<Callout type="tip">
+  If you are using [Hoodini](/docs/hoodini), all data files are generated automatically in the output folder!
+</Callout>
 
 ## Browser Support
 
@@ -129,3 +230,11 @@ import { HoodiniViz } from 'hoodini-viz';
 - Safari 14+
 
 Requires WebGL 2.0 support.
+
+## Next Steps
+
+<Cards>
+  <Cards.Card title="📦 Installation" href="/docs/hoodini-viz/installation" />
+  <Cards.Card title="🎮 Interactive Playground" href="/docs/hoodini-viz/playground" />
+  <Cards.Card title="📚 API Reference" href="/docs/hoodini-viz/api" />
+</Cards>

@@ -3,11 +3,7 @@ import {
   HoodiniDemo,
   // Dashboard demos
   DashboardBasicDemo,
-  DashboardCustomPaletteDemo,
   DashboardNoSidebarDemo,
-  DashboardLinksDemo,
-  DashboardDomainsDemo,
-  DashboardTreeOnlyDemo,
   // HoodiniViz demos (incremental complexity)
   VizGenesOnlyDemo,
   VizGenesWithLabelsDemo,
@@ -31,11 +27,7 @@ export function useMDXComponents(components?: Record<string, React.ComponentType
     HoodiniDemo,
     // Dashboard demos
     DashboardBasicDemo,
-    DashboardCustomPaletteDemo,
     DashboardNoSidebarDemo,
-    DashboardLinksDemo,
-    DashboardDomainsDemo,
-    DashboardTreeOnlyDemo,
     // HoodiniViz demos (incremental)
     VizGenesOnlyDemo,
     VizGenesWithLabelsDemo,

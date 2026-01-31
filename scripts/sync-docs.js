@@ -55,12 +55,22 @@ fs.ensureDirSync(apiDownloadDir);
 
 /**
  * Escape special characters that MDX interprets as JSX
- * But preserve import statements and JSX component syntax
+ * But preserve import statements, JSX component syntax, and code blocks
  */
 function escapeMdxSpecialChars(content) {
-  // Process line by line to preserve imports and JSX
   const lines = content.split('\n');
+  let inCodeBlock = false;
+  
   const result = lines.map(line => {
+    // Track code block state
+    if (line.trim().startsWith('```')) {
+      inCodeBlock = !inCodeBlock;
+      return line;
+    }
+    
+    // Don't escape anything inside code blocks
+    if (inCodeBlock) return line;
+    
     // Don't escape import statements
     if (line.trim().startsWith('import ')) return line;
     
@@ -74,31 +84,24 @@ function escapeMdxSpecialChars(content) {
     // Don't escape lines that look like JSX (< followed by uppercase letter)
     if (/<[A-Z]/.test(line)) return line;
     
-    // Escape standalone tags like <output_dir> but not inside code blocks
+    // Escape standalone tags like <output_dir> but not inside inline code
     let escapedLine = line;
     
-    // Only escape if not inside a code block (simple heuristic: line doesn't start with spaces typical of code blocks in tabs)
-    if (!line.match(/^\s{4,}`/) && !line.match(/^```/)) {
-      // Escape tags like <output_dir> that aren't valid HTML/JSX
-      escapedLine = escapedLine.replace(/(<[a-z][a-z_]*>)/gi, (match) => {
-        const tagName = match.slice(1, -1).toLowerCase();
-        const htmlTags = ['div', 'span', 'p', 'a', 'img', 'ul', 'ol', 'li', 'table', 'tr', 'td', 'th', 'code', 'pre', 'br', 'hr', 'em', 'strong', 'b', 'i', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'blockquote', 'section', 'article', 'nav', 'header', 'footer', 'main', 'aside'];
-        if (htmlTags.includes(tagName)) return match;
-        return `\`${match}\``;
-      });
-    }
+    // Escape tags like <output_dir> that aren't valid HTML/JSX (but not in inline code)
+    escapedLine = escapedLine.replace(/(<[a-z][a-z_]*>)/gi, (match) => {
+      const tagName = match.slice(1, -1).toLowerCase();
+      const htmlTags = ['div', 'span', 'p', 'a', 'img', 'ul', 'ol', 'li', 'table', 'tr', 'td', 'th', 'code', 'pre', 'br', 'hr', 'em', 'strong', 'b', 'i', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'blockquote', 'section', 'article', 'nav', 'header', 'footer', 'main', 'aside'];
+      if (htmlTags.includes(tagName)) return match;
+      return `\`${match}\``;
+    });
     
-    // For other lines, escape {} outside of code blocks and inline code
-    const codeBlockRegex = /(```[\s\S]*?```|`[^`]+`)/g;
-    const parts = escapedLine.split(codeBlockRegex);
+    // For inline code, split and only escape outside of backticks
+    const inlineCodeRegex = /(`[^`]+`)/g;
+    const parts = escapedLine.split(inlineCodeRegex);
     
     return parts.map((part, i) => {
       if (i % 2 === 0) {
-        // Not in code block - but don't escape if it looks like JSX props
-        if (/{[^}]*}/.test(part) && /<[A-Z]/.test(line)) {
-          return part; // JSX props, don't escape
-        }
-        // Escape braces in regular text
+        // Not in inline code - escape braces in regular text
         return part.replace(/\{([^}]*)\}/g, (match, inner) => {
           // Don't escape if it's a JSX expression (contains quotes, function calls, etc)
           if (/['"\[\]()]/.test(inner)) return match;
