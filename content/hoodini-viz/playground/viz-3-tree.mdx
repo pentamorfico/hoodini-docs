@@ -1,0 +1,73 @@
+# 3. With Tree
+
+Add a phylogenetic tree to show evolutionary relationships.
+
+import { Callout } from 'nextra/components'
+
+<Callout type="info">
+  The tree links genomes to their neighborhoods, showing phylogenetic context.
+</Callout>
+
+## Live Demo
+
+<VizWithTreeDemo />
+
+## What's New
+
+- **Phylogenetic tree** on the left side
+- **Genome labels** at tree leaves
+- **Branch lengths** showing evolutionary distance
+- **Tree-genome alignment** - tree leaves match neighborhood rows
+
+## Added Data
+
+```ts
+// Newick format tree string
+const newickStr = '((genome_A:0.1,genome_B:0.15):0.05,genome_C:0.2);'
+```
+
+## Newick Format
+
+Standard phylogenetic tree format:
+
+```
+# Basic tree (just topology)
+(A,B,C);
+
+# With branch lengths
+(A:0.1,B:0.2,C:0.3);
+
+# Nested with internal nodes
+((A:0.1,B:0.2)AB:0.3,C:0.4)root;
+```
+
+## Code
+
+```tsx
+<HoodiniViz
+  newickStr={newickStr}  // Add tree
+  gffFeatures={gffFeatures}
+  hoods={hoods}
+  proteinLinks={[]}
+  nucleotideLinks={[]}
+  domains={[]}
+  showScrollbar={true}
+  showRuler={true}
+/>
+```
+
+## Tree Configuration
+
+| Property | Type | Default | Description |
+|----------|------|---------|-------------|
+| `phyloLabelSize` | number | 20 | Tree leaf label size |
+| `ultrametric` | boolean | false | Make all leaves equidistant |
+| `alignLabels` | boolean | true | Align leaf labels vertically |
+
+## Important
+
+Tree leaf names **must match** the `seqid` values in your GFF features and hoods!
+
+## Next Step
+
+Add **protein links** to show synteny → [4. Protein Links](./viz-4-protein-links)

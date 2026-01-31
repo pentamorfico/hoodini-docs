@@ -1,0 +1,66 @@
+# 1. Genes Only
+
+The simplest HoodiniViz visualization - just genes without tree, links, or domains.
+
+import { Callout } from 'nextra/components'
+
+<Callout type="info">
+  This is the minimal data required: GFF features and hood definitions.
+</Callout>
+
+## Live Demo
+
+<VizGenesOnlyDemo />
+
+## What You See
+
+- **Gene arrows** showing coding sequences (CDS)
+- **Direction** indicated by arrow orientation
+- **Three genomes** (genome_A, genome_B, genome_C)
+- **Aligned neighborhoods** centered on the anchor gene
+
+## Required Data
+
+Only two data inputs are needed:
+
+```ts
+// 1. GFF Features - Gene annotations
+const gffFeatures = [
+  { 
+    seqid: 'genome_A', 
+    type: 'CDS', 
+    start: 1000, 
+    end: 2500, 
+    strand: '+',
+    attributes: { ID: 'gene_A1', product: 'Hypothetical protein' }
+  },
+  // ... more genes
+]
+
+// 2. Hoods - Neighborhood windows
+const hoods = [
+  { hood_id: '1', seqid: 'genome_A', start: 0, end: 10000, align_gene: 'gene_A3' },
+  { hood_id: '2', seqid: 'genome_B', start: 0, end: 9500, align_gene: 'gene_B3' },
+  { hood_id: '3', seqid: 'genome_C', start: 0, end: 10000, align_gene: 'gene_C3' },
+]
+```
+
+## Code
+
+```tsx
+import { HoodiniViz } from 'hoodini-viz'
+
+<HoodiniViz
+  gffFeatures={gffFeatures}
+  hoods={hoods}
+  proteinLinks={[]}
+  nucleotideLinks={[]}
+  domains={[]}
+  showScrollbar={true}
+  showRuler={true}
+/>
+```
+
+## Next Step
+
+Add **protein metadata** for gene labels → [2. With Labels](./viz-2-labels)

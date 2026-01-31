@@ -1,0 +1,70 @@
+# 4. Protein Links
+
+Show synteny relationships between homologous genes.
+
+import { Callout } from 'nextra/components'
+
+<Callout type="default">
+  Protein links connect genes with sequence similarity across genomes.
+</Callout>
+
+## Live Demo
+
+<VizWithProteinLinksDemo />
+
+## What's New
+
+- **Curved links** connecting homologous genes
+- **Color by source gene** - links inherit color from origin
+- **Transparency by identity** - stronger similarity = more opaque
+- **Gene coloring** by cluster
+
+## Added Data
+
+```ts
+// Protein links - source, target, identity percentage
+const proteinLinks = [
+  { source: 'gene_A1', target: 'gene_B1', identity: 95.5 },
+  { source: 'gene_A1', target: 'gene_C1', identity: 85.2 },
+  { source: 'gene_B1', target: 'gene_C1', identity: 88.0 },
+  { source: 'gene_A2', target: 'gene_B2', identity: 92.3 },
+  // ... more links
+]
+```
+
+## Code
+
+```tsx
+<HoodiniViz
+  newickStr={newickStr}
+  gffFeatures={gffFeatures}
+  hoods={hoods}
+  proteinLinks={proteinLinks}  // Add links
+  nucleotideLinks={[]}
+  domains={[]}
+  proteinMetadata={proteinMetadata}
+  // Color genes by cluster
+  genePalette={{ type: 'qualitative', name: 'Set2', numColors: 8, enabled: true }}
+  geneColorBy="cluster"
+  // Link coloring config
+  proteinLinkConfig={{ 
+    colorBy: 'source_gene',  // or 'identity', 'target_gene'
+    useAlpha: true, 
+    minAlpha: 0.1, 
+    maxAlpha: 0.5 
+  }}
+/>
+```
+
+## Link Configuration
+
+| Property | Type | Options | Description |
+|----------|------|---------|-------------|
+| `colorBy` | string | `'source_gene'`, `'target_gene'`, `'identity'` | How to color links |
+| `useAlpha` | boolean | - | Vary transparency by identity |
+| `minAlpha` | number | 0-1 | Minimum transparency |
+| `maxAlpha` | number | 0-1 | Maximum transparency |
+
+## Next Step
+
+Add **nucleotide links** for DNA-level synteny → [5. Nucleotide Links](./viz-5-nucleotide-links)

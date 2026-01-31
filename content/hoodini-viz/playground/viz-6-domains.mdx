@@ -1,0 +1,87 @@
+# 6. With Domains
+
+Show protein domain annotations on genes.
+
+import { Callout } from 'nextra/components'
+
+<Callout type="default">
+  Domains show functional regions within proteins (Pfam, TIGRFAM, etc.)
+</Callout>
+
+## Live Demo
+
+<VizWithDomainsDemo />
+
+## What's New
+
+- **Domain boxes** inside gene arrows
+- **Color by domain ID** - same domain, same color
+- **Taller genes** to fit domain annotations
+- **Hover tooltips** with domain details
+
+## Added Data
+
+```ts
+// Domain annotations
+const domains = [
+  { 
+    gene_id: 'gene_A2', 
+    domain_id: 'PF00005',  // ABC_tran
+    start: 10,             // Position in protein
+    end: 200, 
+    source: 'pfam', 
+    evalue: 1e-50, 
+    coverage: 0.85 
+  },
+  { 
+    gene_id: 'gene_A2', 
+    domain_id: 'PF00664',  // ABC_membrane
+    start: 250, 
+    end: 400, 
+    source: 'pfam', 
+    evalue: 1e-30, 
+    coverage: 0.75 
+  },
+  // ... more domains
+]
+```
+
+## Code
+
+```tsx
+<HoodiniViz
+  newickStr={newickStr}
+  gffFeatures={gffFeatures}
+  hoods={hoods}
+  proteinLinks={[]}
+  nucleotideLinks={[]}
+  domains={domains}  // Add domains
+  proteinMetadata={proteinMetadata}
+  // Larger genes to fit domains
+  geneHeight={70}
+  // Domain coloring
+  domainPalette={{ type: 'qualitative', name: 'Prism', numColors: 10, enabled: true }}
+  domainColorBy="domainName"
+/>
+```
+
+## Domain Configuration
+
+| Property | Type | Options | Description |
+|----------|------|---------|-------------|
+| `domainPalette` | object | - | Color palette for domains |
+| `domainColorBy` | string | `'domainName'`, `'source'` | How to color domains |
+| `geneHeight` | number | 60 | Increase to fit domains |
+| `showDomainLayer` | boolean | true | Show/hide domain layer |
+
+## Domain Sources
+
+Common domain databases:
+- **Pfam** - Protein families
+- **TIGRFAM** - Functionally characterized proteins  
+- **CDD** - Conserved domain database
+- **InterPro** - Integrated resource
+
+## Next Step
+
+Combine everything → [7. Full Example](./viz-7-full)

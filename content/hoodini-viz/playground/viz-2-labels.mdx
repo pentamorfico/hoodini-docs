@@ -1,0 +1,60 @@
+# 2. With Labels
+
+Add protein metadata to display gene function labels.
+
+import { Callout } from 'nextra/components'
+
+<Callout type="default">
+  Protein metadata enables labels and clustering information.
+</Callout>
+
+## Live Demo
+
+<VizGenesWithLabelsDemo />
+
+## What's New
+
+- **Gene labels** showing product names (e.g., "ABC transporter")
+- **Cluster IDs** for grouping homologous genes
+- **Hover tooltips** with detailed information
+
+## Added Data
+
+```ts
+// Protein metadata - keyed by gene ID
+const proteinMetadata = {
+  gene_A1: { product: 'Hypothetical protein', cluster: '1' },
+  gene_A2: { product: 'ABC transporter', cluster: '2' },
+  gene_A3: { product: 'DNA helicase', cluster: '3' },
+  gene_A4: { product: 'Methyltransferase', cluster: '4' },
+  gene_A5: { product: 'Restriction enzyme', cluster: '5' },
+  // ... same for genome_B and genome_C
+}
+```
+
+## Code
+
+```tsx
+<HoodiniViz
+  gffFeatures={gffFeatures}
+  hoods={hoods}
+  proteinMetadata={proteinMetadata}
+  proteinLinks={[]}
+  nucleotideLinks={[]}
+  domains={[]}
+  showScrollbar={true}
+  showRuler={true}
+  geneLabelSize={14}  // Label font size
+/>
+```
+
+## Label Configuration
+
+| Property | Type | Default | Description |
+|----------|------|---------|-------------|
+| `geneLabelSize` | number | 12 | Font size for gene labels |
+| `showGeneLabels` | boolean | true | Show/hide gene labels |
+
+## Next Step
+
+Add a **phylogenetic tree** → [3. With Tree](./viz-3-tree)
