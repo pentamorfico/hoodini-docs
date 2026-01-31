@@ -654,7 +654,7 @@ export function HoodiniDemo({
 
         // Load UMD script (this goes in document, not shadow DOM)
         const script = document.createElement('script')
-        script.src = 'https://unpkg.com/hoodini-viz@0.2.10/dist/hoodini-viz.umd.js'
+        script.src = 'https://unpkg.com/hoodini-viz@0.2.11/dist/hoodini-viz.umd.js'
         script.async = true
         
         script.onload = () => {
