@@ -1,0 +1,38 @@
+# Compact View
+
+A more compact visualization with reduced spacing, useful for displaying many neighborhoods in limited space.
+
+import { Callout } from 'nextra/components'
+
+<Callout type="info">
+  Adjust `ySpacing`, `geneHeight`, and `arrowheadHeight` to control density.
+</Callout>
+
+## Live Demo
+
+<VizCompactDemo />
+
+## Features Shown
+
+- **Reduced Spacing**: `ySpacing: 100` (default is 150)
+- **Smaller Genes**: `geneHeight: 40` (default is 60)
+- **Smaller Arrows**: `arrowheadHeight: 15` (default is auto)
+- **More Visible**: Fit more tracks in the same vertical space
+
+## Configuration
+
+```tsx
+initialState: {
+  ySpacing: 100,         // Vertical distance between tracks
+  geneHeight: 40,        // Height of gene arrows
+  arrowheadHeight: 15,   // Height of arrowhead tip
+  showScrollbar: true,   // Keep scrollbar for navigation
+}
+```
+
+## Use Cases
+
+- **Large Datasets**: Many genomes to display
+- **Side-by-side Comparison**: Multiple views in one page
+- **Overview Mode**: Quick scan of many neighborhoods
+- **Print/Export**: Fit more data on a page

@@ -1,0 +1,52 @@
+# Protein & DNA Links
+
+Visualize synteny relationships between genomic neighborhoods using protein-level and nucleotide-level links.
+
+import { Callout } from 'nextra/components'
+
+<Callout type="info">
+  Links are colored by source gene cluster when using `colorBy: 'source_gene'`. Alpha transparency is based on sequence identity.
+</Callout>
+
+## Live Demo
+
+<DashboardLinksDemo />
+
+## Features Shown
+
+- **Protein Links**: Connect homologous genes across different genomes
+- **Nucleotide Links**: Show DNA-level conservation regions
+- **Color by Source**: Links inherit color from source gene's cluster
+- **Alpha Transparency**: Link opacity reflects sequence identity percentage
+
+## Configuration
+
+```tsx
+initialState: {
+  showProteinLinkLayer: true,
+  showNucleotideLinkLayer: true,
+  genePalette: { type: 'qualitative', name: 'Set2', numColors: 8, enabled: true },
+  geneColorBy: 'cluster',
+  proteinLinkConfig: { 
+    colorBy: 'source_gene', 
+    useAlpha: true, 
+    minAlpha: 0.1, 
+    maxAlpha: 0.6 
+  },
+}
+```
+
+## Data Format
+
+### Protein Links (TSV/Parquet)
+```
+gene_id_1    gene_id_2    identity
+gene_A1      gene_B1      95.5
+gene_A2      gene_C2      82.3
+```
+
+### Nucleotide Links (TSV/Parquet)
+```
+seqid_1    start_1    end_1    seqid_2    start_2    end_2    identity
+contig_A   1000       4200     contig_B   500        3700     92.5
+```

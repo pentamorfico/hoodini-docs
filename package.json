@@ -1,0 +1,36 @@
+{
+  "name": "hoodini-docs",
+  "version": "2.0.0",
+  "description": "Centralized documentation for the Hoodini Suite",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run sync && next dev",
+    "build": "npm run sync && next build",
+    "start": "next start",
+    "sync": "node scripts/sync-docs.js"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "hoodini-viz": "^0.2.0",
+    "next": "^15.1.0",
+    "nextra": "^4.6.1",
+    "nextra-theme-docs": "^4.6.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remark-mdx-disable-explicit-jsx": "^0.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "overrides": {
+    "react": "$react",
+    "react-dom": "$react-dom"
+  }
+}

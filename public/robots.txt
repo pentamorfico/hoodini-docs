@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pentamorfico.github.io/hoodini-docs/sitemap.xml

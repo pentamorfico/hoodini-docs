@@ -1,0 +1,35 @@
+# Without Sidebar
+
+The full visualization without the sidebar controls. Useful for embedding in presentations or publications.
+
+import { Callout } from 'nextra/components'
+
+<Callout type="info">
+  The toolbar with export and theme controls is still visible. Set `showToolbar: false` to hide it too.
+</Callout>
+
+## Live Demo
+
+<DashboardNoSidebarDemo />
+
+## Features Shown
+
+- **No Sidebar**: Clean visualization without control panel
+- **Toolbar Visible**: Export, zoom, and theme controls remain
+- **Full Width**: Visualization uses all available horizontal space
+
+## Configuration
+
+```tsx
+{
+  showSidebar: false,
+  showToolbar: true,
+}
+```
+
+## When to Use
+
+- **Presentations**: Clean view for slides
+- **Publications**: Export-ready visualization
+- **Embedding**: When controls are handled externally
+- **Read-only views**: Display-only dashboards

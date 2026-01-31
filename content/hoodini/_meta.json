@@ -1,0 +1,11 @@
+{
+  "index": "Hoodini",
+  "installation": "Installation",
+  "tutorial": "Tutorial",
+  "cli-reference": "CLI Reference",
+  "outputs": "Outputs",
+  "api": {
+    "title": "API",
+    "type": "page"
+  }
+}

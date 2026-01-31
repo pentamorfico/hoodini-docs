@@ -1,0 +1,15 @@
+{
+  "index": "Home",
+  "hoodini": {
+    "title": "Hoodini",
+    "type": "page"
+  },
+  "hoodini-colab": {
+    "title": "Hoodini-Colab",
+    "type": "page"
+  },
+  "hoodini-viz": {
+    "title": "Hoodini-Viz",
+    "type": "page"
+  }
+}

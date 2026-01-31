@@ -1,0 +1,130 @@
+---
+title: Hoodini
+description: Gene-centric comparative genomics toolkit
+---
+
+import { Callout, Steps, Tabs } from 'nextra/components'
+
+# What is Hoodini?
+
+Hoodini is a gene-centric comparative genomics toolkit for microbial genomes. It unleashes its full power when comparing **multiple genomic neighborhoods** around homologous genes or genetic elements.
+
+## What can you do with Hoodini?
+
+- **Explore protein context** — You found an interesting protein and want to see what genes surround it across different organisms
+- **Compare homolog neighborhoods** — You have a list of homologs from a BLAST search and want to compare their genomic contexts
+- **Visualize gene clusters** — You're studying a protein family and want to visualize conserved operons or gene clusters
+- **Analyze non-coding regions** — Compare CRISPR arrays, regulatory elements, or genomic islands
+- **Include custom genomes** — Work with newly sequenced genomes, MAGs, or proprietary data not in NCBI
+- **Annotate defense systems** — Automatically detect PADLOC, DefenseFinder, CRISPR-Cas, and mobile elements
+
+## Quick Start
+
+### 1. Install
+
+<Tabs items={['Mamba (recommended)', 'Pixi']}>
+  <Tabs.Tab>
+    ```bash
+    mamba create -n hoodini -c bioconda -c conda-forge hoodini
+    mamba activate hoodini
+    ```
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```bash
+    pixi global install hoodini
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+<Callout type="info">
+  See [Installation](/docs/hoodini/installation) for detailed instructions and alternative methods.
+</Callout>
+
+### 2. Run
+
+Choose the input mode that fits your data:
+
+**Single protein ID** — Hoodini runs remote BLAST to find homologs (NCBI or UniProt IDs):
+
+```bash
+hoodini run --input "WP_012345678.1" --output results/
+```
+
+**File with protein IDs** — Each ID is an independent query, no BLAST (NCBI or UniProt IDs):
+
+```bash
+hoodini run --input my_proteins.txt --output results/
+```
+
+**File with nucleotide IDs** — For (pro)phages, plasmids, genomic islands, CRISPR arrays (NCBI nucleotide IDs only):
+
+```bash
+hoodini run --input my_nucleotides.txt --output results/
+```
+
+**Local data** — For custom assemblies or data not in NCBI:
+
+```bash
+hoodini run --inputsheet my_data.tsv --output results/
+```
+
+<Callout type="warning">
+  For `--inputsheet`, provide a TSV with `protein_id` or `nucleotide_id` column plus genomic data paths (`gbf_path` or `faa_path` + `fna_path` + `gff_path`).
+</Callout>
+
+### 3. Add annotations (optional)
+
+```bash
+hoodini run --input proteins.txt --output results/ \
+  --padloc --deffinder --cctyper --genomad
+```
+
+## Default Tree Building
+
+Hoodini automatically builds a phylogenetic tree to organize your results:
+
+| Input type | Default tree method |
+|------------|---------------------|
+| Protein IDs | FAMSA alignment → VeryFastTree (fast ML) |
+| Nucleotide IDs | AAI (Average Amino Acid Identity) distance tree |
+
+You can customize the tree method with `--tree-mode`. See [CLI Reference](/docs/hoodini/cli-reference#tree-construction) for all options.
+
+## Pipeline Overview
+
+Hoodini performs these stages (optional steps enabled by flags):
+
+<Steps>
+### Initialize
+Parse inputs and create output folder
+
+### IPG parsing
+Resolve identical protein groups for candidate selection
+
+### Assembly download
+Fetch assemblies and extract neighborhoods
+
+### Protein comparisons *(optional)*
+All-vs-all similarity for AAI trees
+
+### Nucleotide comparisons *(optional)*
+ANI/nucleotide links
+
+### Protein clustering
+Group proteins by similarity for visualization
+
+### Tree construction
+Build phylogenetic tree
+
+### Annotations *(optional)*
+PADLOC, DefenseFinder, domains, etc.
+
+### Visualization
+Generate interactive HTML viewer and tables
+</Steps>
+
+## Learn More
+
+- **[CLI Reference](/docs/hoodini/cli-reference)** — Complete reference for all commands and options
+- **[Tutorial](/docs/hoodini/tutorial)** — Step-by-step walkthrough with real examples
+- **[API Reference](/docs/hoodini/api)** — Python API for programmatic access

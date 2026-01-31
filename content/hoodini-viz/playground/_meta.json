@@ -1,0 +1,20 @@
+{
+  "index": "Overview",
+  "-- Dashboard Examples": {
+    "type": "separator",
+    "title": "Dashboard Examples"
+  },
+  "dashboard-basic": "Basic Dashboard",
+  "dashboard-custom": "Custom Palettes",
+  "dashboard-links": "Protein & DNA Links",
+  "dashboard-domains": "Domain Architecture",
+  "dashboard-no-sidebar": "Without Sidebar",
+  "-- HoodiniViz Examples": {
+    "type": "separator",
+    "title": "HoodiniViz Examples"
+  },
+  "viz-standalone": "Standalone (No UI)",
+  "viz-minimal": "Minimal",
+  "viz-with-tree": "With Phylogenetic Tree",
+  "viz-compact": "Compact View"
+}
