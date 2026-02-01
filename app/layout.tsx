@@ -19,7 +19,7 @@ export const metadata = {
   },
   description: 'Gene Neighborhood Analysis at Scale - Documentation for the Hoodini Suite',
   icons: {
-    icon: '/favicon.ico'
+    icon: '/favicon.svg'
   }
 }
 
