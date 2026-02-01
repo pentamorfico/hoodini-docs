@@ -1,0 +1,156 @@
+# 8. With Regions
+
+Genomic regions displayed as rectangular overlays around genes. This example shows 
+CRISPR arrays, prophages, operons, and defense systems as colored rectangles highlighting 
+functional genomic units.
+
+<VizWithRegionsDemo />
+
+## Data
+
+### Region Features (from GFF)
+
+Regions are parsed from GFF features with types like `CRISPR_array`, `prophage`, `operon`, 
+`defense_system`, `mobile_element`, etc.
+
+```js
+const gffFeatures = [
+  // === CDS genes ===
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 500, end: 1800, strand: '+', 
+    attributes: { ID: 'KPN_MGH_001', Name: 'repA', product: 'Replication protein', cluster: 1 } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 2000, end: 3500, strand: '+', 
+    attributes: { ID: 'KPN_MGH_002', Name: 'parA', product: 'Partition protein A', cluster: 2 } },
+  
+  // CRISPR-Cas genes
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 8000, end: 9200, strand: '-', 
+    attributes: { ID: 'KPN_MGH_006', Name: 'cas3', product: 'CRISPR-associated helicase Cas3', cluster: 6 } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 9300, end: 10200, strand: '-', 
+    attributes: { ID: 'KPN_MGH_007', Name: 'cas5', product: 'CRISPR-associated protein Cas5', cluster: 7 } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 10300, end: 11000, strand: '-', 
+    attributes: { ID: 'KPN_MGH_008', Name: 'cas6', product: 'CRISPR-associated endoribonuclease Cas6', cluster: 8 } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 11100, end: 12000, strand: '-', 
+    attributes: { ID: 'KPN_MGH_009', Name: 'cas1', product: 'CRISPR-associated endonuclease Cas1', cluster: 9 } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 12100, end: 12400, strand: '-', 
+    attributes: { ID: 'KPN_MGH_010', Name: 'cas2', product: 'CRISPR-associated endoribonuclease Cas2', cluster: 10 } },
+  
+  // Defense system genes (RM Type I)
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 18000, end: 21000, strand: '+', 
+    attributes: { ID: 'KPN_MGH_015', Name: 'hsdR', product: 'Type I restriction enzyme R protein', cluster: 15 } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 21100, end: 22600, strand: '+', 
+    attributes: { ID: 'KPN_MGH_016', Name: 'hsdM', product: 'Type I restriction enzyme M protein', cluster: 16 } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 22700, end: 24000, strand: '+', 
+    attributes: { ID: 'KPN_MGH_017', Name: 'hsdS', product: 'Type I restriction enzyme S protein', cluster: 17 } },
+  
+  // Prophage genes
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 35000, end: 36200, strand: '+', 
+    attributes: { ID: 'KPN_MGH_025', Name: 'int', product: 'Phage integrase', cluster: 25 } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 36300, end: 37500, strand: '+', 
+    attributes: { ID: 'KPN_MGH_026', Name: 'xis', product: 'Phage excisionase', cluster: 26 } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 37600, end: 39000, strand: '+', 
+    attributes: { ID: 'KPN_MGH_027', Name: 'repA', product: 'Phage replication protein', cluster: 27 } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 42000, end: 43500, strand: '+', 
+    attributes: { ID: 'KPN_MGH_030', Name: 'portal', product: 'Phage portal protein', cluster: 30 } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 43600, end: 45000, strand: '+', 
+    attributes: { ID: 'KPN_MGH_031', Name: 'capsid', product: 'Phage major capsid protein', cluster: 31 } },
+  
+  // === REGION FEATURES ===
+  // CRISPR array region (detected by CCTyper)
+  { seqid: 'KPN_MGH', source: 'CCTyper', type: 'region', start: 7500, end: 13000, strand: '.', 
+    attributes: { 
+      ID: 'crispr_1', 
+      Name: 'CRISPR-I-E', 
+      region_type: 'CRISPR',
+      subtype: 'I-E',
+      num_spacers: 12
+    } 
+  },
+  
+  // Defense system region (detected by PADLOC)
+  { seqid: 'KPN_MGH', source: 'PADLOC', type: 'region', start: 17500, end: 24500, strand: '.', 
+    attributes: { 
+      ID: 'defense_1', 
+      Name: 'RM_Type_I', 
+      region_type: 'defense',
+      system_type: 'Restriction-Modification',
+      subtype: 'Type_I'
+    } 
+  },
+  
+  // Prophage region (detected by geNomad)
+  { seqid: 'KPN_MGH', source: 'geNomad', type: 'region', start: 34000, end: 48000, strand: '.', 
+    attributes: { 
+      ID: 'prophage_1', 
+      Name: 'Prophage_1', 
+      region_type: 'prophage',
+      completeness: 'complete',
+      length: 14000
+    } 
+  },
+  
+  // Operon region (custom annotation)
+  { seqid: 'KPN_MGH', source: 'custom', type: 'region', start: 400, end: 3800, strand: '+', 
+    attributes: { 
+      ID: 'operon_1', 
+      Name: 'replication_operon', 
+      region_type: 'operon',
+      num_genes: 2
+    } 
+  },
+  
+  // Second genome with similar regions
+  { seqid: 'KPN_HS11', source: 'CCTyper', type: 'CRISPR_array', start: 6800, end: 11500, strand: '.', 
+    attributes: { ID: 'crispr_2', Name: 'CRISPR-I-E', region_type: 'CRISPR', subtype: 'I-E' } },
+  { seqid: 'KPN_HS11', source: 'geNomad', type: 'prophage', start: 32000, end: 45000, strand: '.', 
+    attributes: { ID: 'prophage_2', Name: 'Prophage_2', region_type: 'prophage' } },
+];
+```
+
+## Code
+
+```jsx
+import { HoodiniViz } from 'hoodini-viz';
+
+<HoodiniViz
+  newickStr={newickStr}
+  gffFeatures={gffFeatures}
+  hoods={hoods}
+  geneHeight={70}
+  genePalette={{ type: 'qualitative', name: 'Bold', numColors: 15, enabled: true }}
+  regionPalette={{ type: 'qualitative', name: 'Prism', numColors: 8, enabled: true }}
+  showRegionsLayer={true}
+  showScrollbar={true}
+/>
+```
+
+## Key Features Shown
+
+- **CRISPR Arrays**: Blue rectangles around cas genes and repeat regions
+- **Prophages**: Green rectangles highlighting integrated phage DNA
+- **Defense Systems**: Orange rectangles around restriction-modification systems
+- **Operons**: Gray rectangles grouping functionally related genes
+
+## Region Types and Typical Sources
+
+| Region Type | Source Tool | Description |
+|-------------|-------------|-------------|
+| `CRISPR_array` | CCTyper | CRISPR repeat arrays with cas genes |
+| `prophage` | geNomad, PHASTER | Integrated bacteriophage DNA |
+| `defense_system` | PADLOC, DefenseFinder | Immune system components |
+| `mobile_element` | geNomad | Transposons, integrons, ICEs |
+| `operon` | Custom | Co-transcribed gene clusters |
+| `genomic_island` | IslandViewer | Horizontally transferred regions |
+
+## Region Visualization Options
+
+```jsx
+// Show/hide region layer
+showRegionsLayer={true}
+
+// Color regions by type
+regionPalette={{ 
+  type: 'qualitative', 
+  name: 'Prism', 
+  numColors: 8, 
+  enabled: true 
+}}
+```

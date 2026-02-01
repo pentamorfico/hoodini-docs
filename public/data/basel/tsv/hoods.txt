@@ -1,0 +1,116 @@
+hood_id	seqid	start	end	align_gene	Bas##	morphotype	ICTV family	ICTV subfamily	ICTV genus	ICTV species	phage name
+0	MZ501054.1	0	137623		Bas48	myovirus		Vequintavirinae	Vequintavirus	unclassified (with pangalan)	Escherichia phage CarlMeissner
+1	MZ501092.1	0	50192		Bas13	siphovirus	Drexlerviridae	Tunavirinae	Tunavirus	unclassified	Escherichia phage LeonhardEuler
+2	MZ501106.1	0	166115		Bas43	myovirus	Straboviridae	Tevenvirinae	Tequatrovirus	unclassified	Escherichia phage TadeuszReichstein
+3	MZ501051.1	0	50126		Bas01	siphovirus	Drexlerviridae	Braunvirinae	Rtpvirus	unclassified	Escherichia phage AugustePiccard
+10	MZ501075.1	0	112239		Bas32	siphovirus	Demerecviridae	Markadamsvirinae	Tequintavirus	unclassified	Escherichia phage IrisVonRoten
+11	MZ501104.1	0	60068		Bas24	siphovirus		Queuovirinae	Seuratvirus	unclassified	Escherichia phage SeppeHuegi
+13	MZ501081.1	0	39842		Bas64	podovirus	Autographiviridae	Studiervirinae	Teseptimavirus	unclassified	Escherichia phage JeanTinguely
+14	MZ501055.1	0	39466		Bas68	podovirus	Autographiviridae	Studiervirinae	Berlinvirus	unclassified	Escherichia phage CarlSpitteler
+12	MZ501050.1	0	168255		Bas42	myovirus	Straboviridae	Tevenvirinae	Tequatrovirus	unclassified (with Sf23)	Escherichia phage AndreasVesalius
+16	PQ850597.1	0	47021		Bas80	siphovirus			Skatevirus	unclassified	Escherichia phage ChristineMuster
+17	MZ501083.1	0	135602		Bas53	myovirus		Vequintavirinae	Vequintavirus	unclassified (with bov10K2)	Escherichia phage JohannBauhin
+18	MZ501080.1	0	47149		Bas02	siphovirus	Drexlerviridae	Braunvirinae	Guelphvirus	unclassified	Escherichia phage JeanPiccard
+15	MZ501065.1	0	164714		Bas40	myovirus	Straboviridae	Tevenvirinae	Tequatrovirus	unclassified	Escherichia phage FelixPlatter
+21	MZ501064.1	0	39315		Bas67	podovirus	Autographiviridae	Studiervirinae	Berlinvirus	unclassified	Escherichia phage ErnstBeyeler
+19	MZ501102.1	0	137380		Bas52	myovirus		Vequintavirinae	Vequintavirus	unclassified (with bov10K2)	Escherichia phage RudolfGeigy
+20	PQ850620.1	0	39651		Bas102	podovirus	Autographiviridae	Studiervirinae	Teseptimavirus	unclassified	Escherichia phage MeretOppenheim
+22	PQ850596.1	0	43870		Bas75	siphovirus		Guernseyvirinae	Kagunavirus	unclassified	Escherichia phage AnnaReinhart
+23	PQ850602.1	0	40176		Bas103	podovirus	Autographiviridae	Studiervirinae	Teseptimavirus	unclassified	Escherichia phage EmilieLinder
+7	MZ501093.1	0	136346		Bas54	myovirus		Vequintavirinae	Vequintavirus	unclassified (with bov10K2)	Escherichia phage MaxBurger
+24	MZ501046.1	0	166773		Bas44	myovirus	Straboviridae	Tevenvirinae	Tequatrovirus	unclassified (with R5505)	Escherichia phage AdolfPortmann
+4	PQ850595.1	0	40334		Bas104	podovirus	Autographiviridae	Studiervirinae	Teseptimavirus	unclassified	Escherichia phage AnnaIndermaur
+5	PQ850632.1	0	43821		Bas76	siphovirus		Guernseyvirinae	Kagunavirus	unclassified	Escherichia phage VerenaMeyer
+6	MZ501111.1	0	140659		Bas51	myovirus		Vequintavirinae	Vequintavirus	unclassified	Escherichia phage WalterGehring
+8	MZ501082.1	0	135630		Bas55	myovirus		Vequintavirinae	Vequintavirus	unclassified (with nomine)	Escherichia phage JeffSchatz
+9	PQ850604.1	0	44876		Bas83	siphovirus			Dhillonvirus	unclassified	Escherichia phage Haito
+26	PQ850625.1	0	46496		Bas78	siphovirus			Skatevirus	unclassified	Escherichia phage SandraMuster
+29	MZ501063.1	0	146666		Bas61	myovirus		Stephanstirmvirinae	Justusliebigvirus	unclassified	Escherichia phage EmilieFrey
+32	MZ501049.1	0	70849		Bas69	podovirus	Schitoviridae	Enquatrovirinae	Enquatrovirus	unclassified (with PMBT57)	Escherichia phage AlfredRasser
+25	PQ850601.1	0	39718		Bas105	podovirus	Autographiviridae	Studiervirinae	Kayfunavirus	unclassified	Escherichia phage ElsieAttenhofer
+28	MZ501071.1	0	56589		Bas21	siphovirus		Queuovirinae	Seuratvirus	unclassified	Escherichia phage GottfriedDienst
+27	PQ850593.1	0	68851		Bas93	podovirus		Gordonclarkvirinae	Kuravirus	unclassified	Escherichia phage AidaStucki
+31	MZ501076.1	0	115446		Bas28	siphovirus	Demerecviridae	Markadamsvirinae	Epseptimavirus	unclassified	Escherichia phage IrmaTschudi
+34	MZ501070.1	0	44295		Bas16	siphovirus			Dhillonvirus	Dhillonvirus	Escherichia phage GeorgBuechner
+33	MZ501067.1	0	165574		Bas41	myovirus	Straboviridae	Tevenvirinae	Tequatrovirus	unclassified (with teqhad)	Escherichia phage FriedrichZschokke
+36	MZ501079.1	0	51129		Bas07	siphovirus	Drexlerviridae	Tempevirinae	Hanrivervirus	unclassified	Escherichia phage JakobBernoulli
+30	PQ850610.1	0	67748		Bas92	podovirus		Gordonclarkvirinae	Kuravirus	unclassified	Escherichia phage JacquesWildberger
+35	NC_005859.1	0	121750		n.a.	siphovirus	Demerecviridae	Markadamsvirinae	Tequintavirus	Escherichia virus T5	Escherichia phage T5 (reference)
+38	PQ850630.1	0	47623		Bas81	siphovirus			Skatevirus	unclassified	Escherichia phage TanjaMuster
+39	MZ501069.1	0	51777		Bas04	siphovirus	Drexlerviridae	Tempevirinae	Warwickvirus	unclassified (with tonnikala)	Escherichia phage FritzSarasin
+40	MZ501074.1	0	111607		Bas33	siphovirus	Demerecviridae	Markadamsvirinae	Tequintavirus	unclassified	Escherichia phage HildyBeyeler
+41	MZ501061.1	0	131526		Bas59	myovirus		Vequintavirinae	Vequintavirus	unclassified	Escherichia phage EduardKellenberger
+37	NC_001416.1	0	48502		n.a.	siphovirus			Lambdavirus	Escherichia virus lambda	Escherichia phage lambda PaPa
+42	MZ501072.1	0	114196		Bas26	siphovirus	Demerecviridae	Markadamsvirinae	Epseptimavirus	unclassified	Escherichia phage GreteKellenberger
+46	PQ850618.1	0	68355		Bas99	myovirus			Wifcevirus	unclassified	Escherichia phage ManiWeber
+45	MZ501103.1	0	107080		Bas34	siphovirus	Demerecviridae	Markadamsvirinae	Tequintavirus	unclassified	Escherichia phage SelmaRatti
+43	PQ850611.1	0	44189		Bas84	siphovirus			Dhillonvirus	unclassified	Escherichia phage JohannBuxtorf
+44	PQ850617.1	0	69824		Bas94	podovirus		Gordonclarkvirinae	Kuravirus	unclassified	Escherichia phage ManiMatter
+47	PQ850622.1	0	76140		Bas86	podovirus		Gordonclarkvirinae	Suseptimavirus	unclassified	Escherichia phage OliverMaurmann
+48	MZ501109.1	0	114488		Bas30	siphovirus	Demerecviridae	Markadamsvirinae	Epseptimavirus	unclassified	Escherichia phage TrudiRoth
+50	MZ501062.1	0	139980		Bas49	myovirus		Vequintavirinae	Vequintavirus	unclassified	Escherichia phage EmilHeitz
+49	MZ501094.1	0	135061		Bas57	myovirus		Vequintavirinae	Vequintavirus	unclassified (with isim)	Escherichia phage MaxTheCat
+53	MZ501107.1	0	43627		Bas14	siphovirus			Dhillonvirus	Dhillonvirus	Escherichia phage TheodorHerzl
+51	MZ501108.1	0	114179		Bas27	siphovirus	Demerecviridae	Markadamsvirinae	Epseptimavirus	unclassified	Escherichia phage TrudiGerster
+54	MZ501110.1	0	58342		Bas25	siphovirus		Queuovirinae	Seuratvirus	unclassified	Escherichia phage VogelGryff
+52	PQ850613.1	0	76768		Bas89	podovirus		Gordonclarkvirinae	Nieuwekanaalvirus	unclassified	Escherichia phage KarlSchell
+59	MZ501087.1	0	47731		Bas03	siphovirus	Drexlerviridae	Braunvirinae	Guelphvirus	unclassified	Escherichia phage JulesPiccard
+55	MZ501052.1	0	167411		Bas38	myovirus	Straboviridae	Tevenvirinae	Tequatrovirus	unclassified	Escherichia phage AugustSocin
+58	MH550421.1	0	168706		n.a.	myovirus	Straboviridae	Tevenvirinae	Tequatrovirus	unclassified	Escherichia phage T6 (reference)
+56	PQ850598.1	0	46037		Bas77	siphovirus			Skatevirus	unclassified	Escherichia phage ClaudiaMuster
+62	PQ850605.1	0	68486		Bas100	myovirus			Wifcevirus	unclassified	Escherichia phage HansTraber
+64	MZ501078.1	0	39451		Bas65	podovirus	Autographiviridae	Studiervirinae	Teseptimavirus	unclassified	Escherichia phage JacobBurckhardt
+61	MZ501112.1	0	60090		Bas23	siphovirus		Queuovirinae	Seuratvirus	unclassified	Escherichia phage WildeMaa
+63	MZ501088.1	0	43104		Bas17	siphovirus			Dhillonvirus	Dhillonvirus	Escherichia phage KarlBarth
+60	PQ850627.1	0	43096		Bas74	siphovirus		Guernseyvirinae	Kagunavirus	unclassified	Escherichia phage SonjaBuckley
+57	PQ850612.1	0	58508		Bas82	siphovirus			Nonanavirus	unclassified	Escherichia phage KarinMuster
+65	MZ501060.1	0	138240		Bas50	myovirus		Vequintavirinae	Vequintavirus	unclassified	Escherichia phage DrSchubert
+66	MZ501090.1	0	51474		Bas06	siphovirus	Drexlerviridae	Tempevirinae	Hanrivervirus	unclassified	Escherichia phage KarlJaspers
+70	PQ850628.1	0	76606		Bas88	podovirus		Gordonclarkvirinae	Suseptimavirus	unclassified	Escherichia phage StefiGeyer
+67	PQ850621.1	0	43746		Bas72	siphovirus		Guernseyvirinae	Kagunavirus	unclassified	Escherichia phage NicoleGrasset
+68	MZ501089.1	0	167832		Bas37	myovirus	Straboviridae	Tevenvirinae	Tequatrovirus	unclassified	Escherichia phage KarlGJung
+72	PQ850599.1	0	39042		Bas106	podovirus			Lederbergvirus	unclassified	Escherichia phage CurroJimenez
+75	PQ850624.1	0	44889		Bas85	siphovirus			Dhillonvirus	unclassified	Escherichia phage RuthEpting
+73	PQ850607.1	0	56332		Bas95	podovirus				unclassified	Escherichia phage HelliStehle
+71	MH751506.1	0	163832		n.a.	myovirus	Straboviridae	Tevenvirinae	Tequatrovirus	unclassified	Escherichia phage T2 (reference)
+74	MZ501056.1	0	169031		Bas46	myovirus	Straboviridae	Tevenvirinae	Mosigvirus	unclassified	Escherichia phage ChristianSchoenbein
+76	MZ501113.1	0	166861		Bas35	myovirus	Straboviridae	Tevenvirinae	Tequatrovirus	unclassified (with G29-2)	Escherichia phage WilhelmHis
+78	MZ501077.1	0	49911		Bas10	siphovirus	Drexlerviridae	Tempevirinae	unclassified	unclassified	Escherichia phage IsaakIselin
+69	PQ850619.1	0	43265		Bas70	siphovirus		Guernseyvirinae	Kagunavirus	unclassified	Escherichia phage MarieHeimVoegtlin
+77	MZ501105.1	0	110821		Bas29	siphovirus	Demerecviridae	Markadamsvirinae	Epseptimavirus	unclassified	Escherichia phage SuperGirl
+79	PQ850629.1	0	46874		Bas79	siphovirus			Skatevirus	unclassified	Escherichia phage SusanneMuster
+80	PQ850623.1	0	71918		Bas96	podovirus	Schitoviridae	Enquatrovirinae	Gamaleyavirus	unclassified	Escherichia phage RudolfBernhard
+86	MZ501048.1	0	135345		Bas56	myovirus		Vequintavirinae	Vequintavirus	unclassified (with isim)	Escherichia phage AlexBoehm
+82	NC_005856.1	0	94800		n.a.	myovirus			Punavirus	Escherichia virus P1	Escherichia phage P1vir (reference)
+84	PQ850606.1	0	41040		Bas97	myovirus		Iiscvirinae	Jilinvirus	unclassified	Escherichia phage HeidiAbel
+85	PQ850608.1	0	68382		Bas98	myovirus			Wifcevirus	unclassified	Escherichia phage HermannAdler
+81	PQ850603.1	0	43856		Bas73	siphovirus		Guernseyvirinae	Kagunavirus	unclassified	Escherichia phage GertrudWoker
+87	PQ850594.1	0	77516		Bas87	podovirus		Gordonclarkvirinae	Suseptimavirus	unclassified	Escherichia phage AnnaHegner
+88	MZ501066.1	0	169509		Bas39	myovirus	Straboviridae	Tevenvirinae	Tequatrovirus	unclassified	Escherichia phage FriedrichMiescher
+83	NC_008720.1	0	70153		n.a.	podovirus	Schitoviridae	Enquatrovirinae	Enquatrovirus	Escherichia virus N4	Escherichia phage N4 (reference)
+91	MZ501097.1	0	44550		Bas15	siphovirus			Dhillonvirus	Dhillonvirus	Escherichia phage PaulFeyerabend
+89	MZ501068.1	0	59834		Bas20	siphovirus		Queuovirinae	Nonagvirus	unclassified	Escherichia phage FritzHoffmann
+90	MZ501084.1	0	144831		Bas62	myovirus		Stephanstirmvirinae	Justusliebigvirus	unclassified	Escherichia phage JohannJBalmer
+92	NC_001895.1	0	33593		n.a.	myovirus	Peduoviridae		Peduovirus	Escherichia virus P2	Escherichia phage P2vir (reference)
+96	MZ501091.1	0	58567		Bas22	siphovirus		Queuovirinae	Seuratvirus	unclassified	Escherichia phage KurtStettler
+93	PQ850614.1	0	76436		Bas91	podovirus		Gordonclarkvirinae	Kuravirus	Kuravirus SU10	Escherichia phage LorandFenyves
+95	NC_001416.1	0	48502		n.a.	siphovirus			Lambdavirus	Escherichia virus lambda	Escherichia phage lambdavir (reference)
+98	PQ850631.1	0	68694		Bas101	myovirus			Wifcevirus	unclassified	Escherichia phage VerenaGrendelmeier
+97	MZ501100.1	0	150425		Bas60	myovirus		Stephanstirmvirinae	Justusliebigvirus	unclassified	Escherichia phage PaulScherrer
+94	NC_000866.4	0	168903		n.a.	myovirus	Straboviridae	Tevenvirinae	Tequatrovirus	Escherichia virus T4	Escherichia phage T4D (reference)
+101	MZ501101.1	0	47775		Bas05	siphovirus	Drexlerviridae	Tempevirinae	Warwickvirus	unclassified	Escherichia phage PeterMerian
+99	MZ501047.1	0	168968		Bas47	myovirus	Straboviridae	Tevenvirinae	Mosigvirus	Shigella virus UTAM	Escherichia phage AlbertHofmann
+100	MZ501059.1	0	50731		Bas08	siphovirus	Drexlerviridae	Tempevirinae	Tlsvirus	unclassified	Escherichia phage DanielBernoulli
+104	MZ501099.1	0	51285		Bas09	siphovirus	Drexlerviridae	Tempevirinae	Changchunvirus	unclassified	Escherichia phage PaulSarasin
+102	PQ850626.1	0	77534		Bas90	podovirus		Gordonclarkvirinae	Kuravirus	unclassified	Escherichia phage SkaterBoy
+108	MZ501095.1	0	44882		Bas18	siphovirus			Dhillonvirus	Dhillonvirus	Escherichia phage Oekolampad
+103	MZ501086.1	0	87100		Bas63	myovirus		Ounavirinae	Felixounavirus	unclassified	Escherichia phage JohannRWettstein
+107	MZ501058.1	0	113532		Bas31	siphovirus	Demerecviridae	Markadamsvirinae	Tequintavirus	unclassified	Escherichia phage DaisyDussoix
+105	NC_001604.1	0	39937		n.a.	podovirus	Autographiviridae	Studiervirinae	Teseptimavirus	Escherichia virus T7	Escherichia phage T7 (reference)
+106	MZ501096.1	0	167732		Bas36	myovirus	Straboviridae	Tevenvirinae	Tequatrovirus	unclassified	Escherichia phage Paracelsus
+109	PQ850615.1	0	42712		Bas71	siphovirus		Guernseyvirinae	Kagunavirus	unclassified	Escherichia phage LotteLoewe
+111	MZ501053.1	0	49298		Bas12	siphovirus	Drexlerviridae	Tunavirinae	Sertoctavirus	unclassified	Escherichia phage BrunoManser
+110	MZ501073.1	0	136906		Bas58	myovirus		Vequintavirinae	Vequintavirus	unclassified (with CM1)	Escherichia phage HeinrichReichert
+112	MZ501085.1	0	49715		Bas11	siphovirus	Drexlerviridae	Tempevirinae	unclassified	unclassified	Escherichia phage JohannLBurckhardt
+113	MZ501057.1	0	58073		Bas19	siphovirus		Queuovirinae	Nonagvirus	unclassified	Escherichia phage ChristophMerian
+114	MZ501098.1	0	170053		Bas45	myovirus	Straboviridae	Tevenvirinae	Tequatrovirus	unclassified	Escherichia phage PaulHMueller

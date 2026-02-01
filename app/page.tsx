@@ -116,51 +116,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Info Cards */}
-      <section className="px-6 pb-24">
-        <div className="max-w-3xl mx-auto space-y-4">
-          <div className="glow-card flex items-center gap-4 p-5 bg-white dark:bg-[#111] border border-gray-200 dark:border-[#222] rounded-xl transition-colors">
-            <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-amber-100 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400">
-              <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <circle cx="12" cy="12" r="3"/>
-                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
-              </svg>
-            </div>
-            <div className="flex items-center gap-3">
-              <span className="badge badge-yellow">Settings</span>
-              <span className="text-gray-600 dark:text-gray-400">Configure tree and gene display</span>
-            </div>
-          </div>
-          <div className="glow-card flex items-center gap-4 p-5 bg-white dark:bg-[#111] border border-gray-200 dark:border-[#222] rounded-xl transition-colors">
-            <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400">
-              <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
-              </svg>
-            </div>
-            <div className="flex items-center gap-3">
-              <span className="badge badge-green">Palette</span>
-              <span className="text-gray-600 dark:text-gray-400">Customize colors and styling</span>
-            </div>
-          </div>
-          <div className="glow-card flex items-center gap-4 p-5 bg-white dark:bg-[#111] border border-gray-200 dark:border-[#222] rounded-xl transition-colors">
-            <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400">
-              <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <line x1="8" y1="6" x2="21" y2="6"/>
-                <line x1="8" y1="12" x2="21" y2="12"/>
-                <line x1="8" y1="18" x2="21" y2="18"/>
-                <line x1="3" y1="6" x2="3.01" y2="6"/>
-                <line x1="3" y1="12" x2="3.01" y2="12"/>
-                <line x1="3" y1="18" x2="3.01" y2="18"/>
-              </svg>
-            </div>
-            <div className="flex items-center gap-3">
-              <span className="badge badge-red">Legend</span>
-              <span className="text-gray-600 dark:text-gray-400">Understand visualization elements</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Features */}
       <section className="px-6 py-24 bg-gray-50 dark:bg-[#0a0a0a]">
         <div className="max-w-6xl mx-auto">

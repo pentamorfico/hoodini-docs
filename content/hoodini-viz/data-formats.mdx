@@ -152,6 +152,83 @@ Synteny blocks between genomic regions (shown as polygonal overlays).
 
 ---
 
+## ncRNA Metadata (Optional)
+
+**Files:** `ncrna_metadata.parquet` or `ncrna_metadata.txt`
+
+Non-coding RNA annotations with sequence and secondary structure information.
+
+<Callout type="warning">
+  In the GFF file, ncRNA features must have a `type` that **contains "ncRNA"** (e.g., `ncRNA`, `ncRNA_gene`). 
+  Use the `ncrna_type` attribute to specify the subtype (tRNA, rRNA, sRNA, tmRNA, etc.).
+</Callout>
+
+| Column | Type | Required | Description |
+|--------|------|----------|-------------|
+| `seqid` | string | ✓ | Genome/contig identifier |
+| `start` | int | ✓ | Start position (1-based) |
+| `end` | int | ✓ | End position |
+| `type` | string | | ncRNA type (tRNA, rRNA, tmRNA, etc.) |
+| `sequence` | string | | Nucleotide sequence |
+| `structure` | string | | Secondary structure in dot-bracket notation |
+| `name` | string | | Display name |
+| `product` | string | | Description |
+
+<Callout type="info">
+  The `sequence` and `structure` fields enable the secondary structure viewer in the sidebar panel when clicking on ncRNA features.
+</Callout>
+
+**GFF Example (type must contain "ncRNA"):**
+```gff
+##gff-version 3
+genome1	Infernal	ncRNA	5000	5075	.	+	.	ID=tRNA_Ala_1;Name=tRNA-Ala;ncrna_type=tRNA
+genome1	Infernal	ncRNA	12000	12120	.	+	.	ID=tmRNA_1;Name=ssrA;ncrna_type=tmRNA
+genome1	Infernal	ncRNA	8500	10000	.	+	.	ID=16S_rRNA;Name=16S rRNA;ncrna_type=rRNA
+```
+
+**TSV Metadata Example:**
+```tsv
+seqid	start	end	type	sequence	structure	name
+genome1	5000	5075	tRNA	GCGGAUUUAGCUCAGUUGGGAGAGCGCCAGAC...	(((((((..((((........)))).(((((.......	tRNA-Ala
+genome1	12000	12120	tmRNA	GGGGCUGAUUCUGGAUUCGACGGGAUUUGCGA...	(((((((((....)))....((((......))))...	tmRNA
+genome2	8500	10000	rRNA	AUUGAACGCUGGCGGCAGGCCUAACACAUGCA...	...((((((....))))))...((((...))))...	16S rRNA
+```
+
+---
+
+## Regions (Optional)
+
+Regions are genomic features displayed as rectangular overlays around genes. They are defined in the GFF file with `type: 'region'` and use the `region_type` attribute to specify what kind of region they represent.
+
+### How to Define Regions
+
+All region features must have `type` set to `region` in the GFF. The actual region type (CRISPR, prophage, etc.) is specified in the `region_type` attribute.
+
+| `region_type` Value | Description | Example Source |
+|---------------------|-------------|----------------|
+| `operon` | Operon boundaries | Custom annotation |
+| `CRISPR` | CRISPR repeat arrays | CCTyper |
+| `prophage` | Prophage regions | geNomad, PHASTER |
+| `genomic_island` | Genomic islands | IslandViewer |
+| `mobile_element` | Mobile genetic elements | geNomad |
+| `defense` | Defense system regions | PADLOC, DefenseFinder |
+
+### GFF Region Example
+
+Regions are included directly in the GFF file with `type=region`:
+
+```gff
+genome1	CCTyper	region	15000	16500	.	+	.	ID=crispr_1;Name=CRISPR-I-E;region_type=CRISPR
+genome1	geNomad	region	45000	68000	.	+	.	ID=prophage_1;Name=Prophage_region_1;region_type=prophage
+genome1	PADLOC	region	22000	25000	.	+	.	ID=defense_1;Name=RM_Type_I;region_type=defense
+```
+
+<Callout type="warning">
+  The GFF `type` column must be `region` for HoodiniViz to recognize it. Use `region_type` in attributes to specify CRISPR, prophage, etc.
+</Callout>
+
+---
+
 ## Converting to Parquet
 
 Use the provided Python script:

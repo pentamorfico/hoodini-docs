@@ -1,0 +1,1 @@
+seqid	start	end	type	sequence	structure	score	evalue	accession	strand

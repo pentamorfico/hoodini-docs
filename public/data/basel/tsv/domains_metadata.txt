@@ -1,0 +1,2848 @@
+domain_id	Accession_pfam	Clan_pfam	EC_phrog	Function_pfam	Function_phrog	L1_phrog	alignment_length	bit_score
+Anti-RecBCD_p2	PF11043			Bacteriophage P22, anti-RecBCD protein 2			98.0	183.34
+phrog_196					baseplate hub	tail	334.0	259.16
+phrog_8628					hypothetical	unknown function	60.0	25.41
+PhdYeFM_antitox	PF02604	CL0871		Antitoxin Phd_YefM, type II toxin-antitoxin system			67.0	49.89
+DUF2514	PF10721	CL0331		Protein of unknown function (DUF2514)			149.0	43.29
+phrog_3595					hypothetical	unknown function	46.0	89.67
+phrog_9085					hypothetical	unknown function	69.0	129.88
+FNIII-A_GpJ	PF24801	CL0202		Tip attachment protein J,FNIII-A domain			125.0	139.56
+phrog_4889					polynucleotide kinase/phosphorylase	other	297.0	182.26
+phrog_12715					nucleotidyltransferase	DNA, RNA and nucleotide metabolism	423.0	649.43
+phrog_1036					tail sheath	tail	529.0	824.95
+phrog_5724					hypothetical	unknown function	62.0	102.54
+DNA_ligase_OB_2	PF14743	CL0021		DNA ligase OB-like domain			66.0	30.94
+phrog_3359					NAD-dependent DNA ligase	DNA, RNA and nucleotide metabolism	323.0	586.26
+Phage_P22_gp16	PF26808			Bacteriophage P22 ejection protein gp16			738.0	859.2
+phrog_37456					hypothetical	unknown function	202.0	479.16
+Phage_lysozyme	PF00959	CL0037		Phage lysozyme			145.0	51.11
+phrog_1043					unknown function	unknown function	55.0	111.01
+Gp54	PF25180	CL0918		Phage antiviral trigger protein Gp54			66.0	111.5
+AsiA	PF09010			Anti-Sigma Factor A			83.0	77.69
+Nuclease_act	PF08133			Anticodon nuclease activator family			26.0	53.49
+phrog_25570					hypothetical	unknown function	36.0	94.93
+phrog_15711					hypothetical	unknown function	136.0	297.67
+Soc	PF16855			Small outer capsid protein			74.0	185.24
+phrog_8789					hypothetical	unknown function	61.0	112.23
+Peptidase_S78	PF04586	CL0201		Caudovirus prohead serine protease			165.0	68.05
+phrog_146					portal protein	head and packaging	420.0	403.78
+phrog_999					head vertex assembly chaperone	head and packaging	114.0	151.69
+Phage_T4_Y16C	PF26819			Bacteriophage T4 Y16C protein			97.0	143.96
+DUF7570	PF24454			Family of unknown function (DUF7570)			94.0	145.47
+phrog_27185					hypothetical	unknown function	68.0	65.58
+phrog_3345					hypothetical	unknown function	59.0	147.63
+Toprim_2	PF13155	CL0413		Toprim-like			89.0	45.51
+phrog_12029					hypothetical	unknown function	96.0	191.01
+phrog_4499					hypothetical	unknown function	46.0	33.56
+phrog_1774					hypothetical	unknown function	97.0	163.37
+phrog_5116					hypothetical	unknown function	57.0	98.85
+phrog_24369					tail fiber protein	tail	1396.0	3172.92
+phrog_1715					virion structural protein	head and packaging	78.0	143.1
+phrog_16474					hypothetical	unknown function	95.0	191.08
+phrog_920					holin	lysis	67.0	102.73
+phrog_4984					hypothetical	unknown function	93.0	165.1
+DUF7540	PF24386			Domain of unknown function (DUF7540)			60.0	112.39
+phrog_27827					hypothetical	unknown function	256.0	548.22
+RecT	PF03837			RecT family			165.0	100.53
+phrog_850					RNA-binding protein	DNA, RNA and nucleotide metabolism	471.0	629.93
+SU10_adaptor	PF24175			SU10 adaptor protein			218.0	31.06
+phrog_12507					transglycosylase	other	260.0	567.03
+GATase_7	PF13537	CL0052		Glutamine amidotransferase domain			128.0	26.5
+Phage_T4_Y04M	PF26914			Bacteriophage T4 protein Y04M			80.0	107.34
+phrog_3118					HNH endonuclease	DNA, RNA and nucleotide metabolism	325.0	348.97
+phrog_2138					hypothetical	unknown function	65.0	88.84
+phrog_4469					hypothetical	unknown function	66.0	146.33
+gp6_C-domII	PF21472			Baseplate structural protein gp6, C-terminal domain II			124.0	177.13
+Dmd	PF17587			Discriminator of mRNA degradation			60.0	156.77
+phrog_6570					hypothetical	unknown function	79.0	72.7
+DnaB_C	PF03796	CL0023		DnaB-like helicase C terminal domain			253.0	61.95
+NinB	PF05772			NinB protein			127.0	183.1
+phrog_5045					phospho-2-dehydro-3-deoxyheptonate aldolase	moron, auxiliary metabolic gene and host takeover	330.0	608.85
+phrog_23946					hypothetical	unknown function	56.0	127.91
+RNA_ligase	PF09414	CL0179		RNA ligase			200.0	80.63
+phrog_27401					hypothetical	unknown function	114.0	189.38
+Phage_tube	PF04985	CL0504		Phage tail tube protein FII			168.0	205.87
+phrog_4135					hypothetical	unknown function	36.0	87.16
+phrog_3474					hypothetical	unknown function	66.0	100.23
+DUF5496	PF17600			Family of unknown function (DUF5496)			87.0	191.61
+phrog_24254					hypothetical	unknown function	64.0	170.43
+Big_2	PF02368	CL0159		Bacterial Ig-like domain (group 2)			82.0	70.14
+phrog_35919					hypothetical	unknown function	58.0	152.25
+phrog_188					tail fiber assembly protein	tail	143.0	179.23
+phrog_23528					hypothetical	unknown function	86.0	176.27
+phrog_21931					hypothetical	unknown function	78.0	162.24
+phrog_12847					hypothetical	unknown function	90.0	216.96
+phrog_16385					hypothetical	unknown function	163.0	314.48
+phrog_24805					hypothetical	unknown function	35.0	91.64
+phrog_13350					hypothetical	unknown function	287.0	476.1
+Linr3	PF27932			Lysis inhibition accessory protein rIII			81.0	157.7
+phrog_30162					hypothetical	unknown function	201.0	481.1
+phrog_945					endonuclease	DNA, RNA and nucleotide metabolism	149.0	228.42
+Ig_GpJ_C	PF12421	CL0159		Tip attachment protein J, C-terminal receptor binding domain			132.0	246.23
+phrog_3259					hypothetical	unknown function	281.0	207.07
+Terminase-T7_RNaseH-like	PF22530	CL0219		Terminase Bacteriophage T7, Ribonuclease H-like domain			108.0	135.51
+phrog_5020					hypothetical	unknown function	107.0	160.7
+Phage_T7_kinase	PF27024	CL0016		Bacteriophage T7 protein kinase 0.7			359.0	485.36
+DUF8377	PF28254			Domain of unknown function (DUF8377)			215.0	326.65
+phrog_6318					hypothetical	unknown function	125.0	174.57
+gpW	PF02831			gpW			67.0	128.83
+phrog_1930					hypothetical	unknown function	70.0	122.82
+phrog_30800					hypothetical	unknown function	65.0	136.73
+Phage_endo_I	PF05367	CL0236		Phage endonuclease I			149.0	283.46
+phrog_22099					hypothetical	unknown function	82.0	139.49
+phrog_100					SbcD-like subunit of palindrome specific endonuclease	DNA, RNA and nucleotide metabolism	339.0	416.04
+Phage_T5_Nicking_endo	PF26848			Nicking endonuclease family			138.0	196.21
+phrog_676					hypothetical	unknown function	55.0	134.88
+AAA_33	PF13671	CL0023		AAA domain			147.0	80.04
+CLP_protease	PF00574	CL0127		Clp protease			152.0	47.17
+phrog_69					exonuclease	DNA, RNA and nucleotide metabolism	477.0	330.19
+DUF4884	PF16225			Domain of unknown function (DUF4884)			59.0	63.22
+Lambda_Kil	PF06301			Bacteriophage lambda Kil protein			31.0	61.08
+phrog_261					baseplate wedge subunit	tail	132.0	182.61
+Phage_T4_End_IV	PF26887			Bacteriophage T4 endonuclease IV			158.0	239.89
+phrog_17875					hypothetical	unknown function	109.0	241.91
+phrog_91					nicking at origin of replication	DNA, RNA and nucleotide metabolism	759.0	1037.53
+phrog_11					baseplate spike	tail	211.0	224.86
+phrog_16602					hypothetical	unknown function	117.0	236.27
+phrog_3127					hypothetical	unknown function	172.0	161.78
+DNA_pol_B	PF00136	CL0194		DNA polymerase family B			143.0	55.29
+OB_DNA_ligase	PF03120	CL0021		NAD-dependent DNA ligase OB-fold domain			73.0	76.31
+DnaB	PF00772	CL0929		DnaB-like helicase N terminal domain			103.0	119.61
+phrog_5944					hypothetical	unknown function	138.0	273.92
+phrog_13090					hypothetical	unknown function	123.0	277.21
+Fibritin_C	PF07921			Fibritin C-terminal region			112.0	112.52
+Thioredoxin	PF00085	CL0172		Thioredoxin			86.0	27.7
+phrog_147					transcriptional regulator	transcription regulation	99.0	141.86
+phrog_308					internal virion protein	head and packaging	138.0	149.07
+phrog_13467					hypothetical	unknown function	174.0	370.94
+phrog_931					head morphogenesis	head and packaging	111.0	166.61
+phrog_4069					Hoc-like head decoration	head and packaging	116.0	192.15
+phrog_7352					hypothetical	unknown function	126.0	233.31
+phrog_2050					virion structural protein	head and packaging	299.0	324.12
+phrog_30617					hypothetical	unknown function	62.0	139.74
+phrog_12232					hypothetical	unknown function	188.0	447.26
+phrog_12401					hypothetical	unknown function	79.0	119.64
+phrog_2418					hypothetical	unknown function	281.0	508.9
+phrog_25697					hypothetical	unknown function	67.0	163.59
+phrog_12900					hypothetical	unknown function	160.0	372.7
+T4_MRH	PF24070			T4 MRH-like protein family			144.0	67.55
+COOH-NH2_lig	PF14395			Phage phiEco32-like COOH.NH2 ligase-type 2			114.0	33.75
+phrog_2456					glycosyltransferase	moron, auxiliary metabolic gene and host takeover	220.0	259.06
+DNA_topoisoIV	PF00521			DNA gyrase/topoisomerase IV, subunit A			413.0	258.75
+phrog_9871					hypothetical	unknown function	173.0	368.06
+phrog_5676					hypothetical	unknown function	80.0	144.14
+T4_UVSX_C	PF21134			Bacteriophage T4, Recombination and repair protein, C-terminal domain			65.0	131.14
+phrog_1154					long tail fiber protein proximal connector	tail	371.0	559.52
+phrog_15437					tail fiber protein	tail	653.0	1349.99
+phrog_8601					hypothetical	unknown function	79.0	168.91
+phrog_1426					hypothetical	unknown function	73.0	163.21
+Phage_head_fibr	PF11133			Head fiber protein			132.0	17.59
+phrog_3933					hypothetical	unknown function	43.0	84.89
+DUF7022	PF22887			Family of unknown function (DUF7022)			94.0	109.33
+phrog_2042					hypothetical	unknown function	68.0	123.15
+phrog_16605					hypothetical	unknown function	184.0	386.93
+phrog_2681					hypothetical	unknown function	54.0	123.84
+phrog_31					central tail fiber J	tail	1121.0	1502.35
+phrog_5768					hypothetical	unknown function	66.0	137.73
+Phage_TAC_2	PF06894	CL0567		Bacteriophage lambda tail assembly chaperone, TAC, protein G			127.0	142.66
+phrog_11701					hypothetical	unknown function	87.0	183.69
+Phage-Gp8	PF09215	CL0187		Bacteriophage T4, Gp8			325.0	655.7
+phrog_5021					hypothetical	unknown function	115.0	235.94
+phrog_8591					hypothetical	unknown function	61.0	131.47
+phrog_82					head closure Hc1	connector	117.0	168.65
+phrog_6515					dGTPase inhibitor	other	83.0	130.93
+phrog_4718					hypothetical	unknown function	67.0	137.33
+phrog_12324					intron-like DNA endonuclease	DNA, RNA and nucleotide metabolism	229.0	542.12
+phrog_13804					hypothetical	unknown function	61.0	119.78
+Phage_DEC_PhiTE	PF26074			Bacteriophage PhiTE minor capsid decoration protein			129.0	164.61
+phrog_9625					hypothetical	unknown function	133.0	25.72
+phrog_1801					tail fiber protein	tail	339.0	612.61
+phrog_20928					hypothetical	unknown function	45.0	57.66
+phrog_15453					hypothetical	unknown function	108.0	243.02
+phrog_13301					hypothetical	unknown function	68.0	160.38
+phrog_7894					hypothetical	unknown function	139.0	217.49
+phrog_11345					hypothetical	unknown function	37.0	99.81
+T4_neck-protein	PF11649			Virus neck protein			254.0	461.18
+phrog_3566					hypothetical	unknown function	114.0	154.34
+DUF7235	PF23882			Family of unknown function (DUF7235)			315.0	61.0
+Gp44_lid	PF21328	CL0671		Sliding-clamp-loader large subunit, AAA+ ATPase lid domain			63.0	114.59
+phrog_518					Rha-like transcriptional regulator	transcription regulation	175.0	244.42
+GP67	PF17634			Gene product 67			85.0	144.26
+phrog_1967					DNA helicase	DNA, RNA and nucleotide metabolism	514.0	472.83
+phrog_1254					hypothetical	unknown function	80.0	135.37
+phrog_13367					hypothetical	unknown function	77.0	41.13
+Gp138_N	PF18352	CL0021		Phage protein Gp138 N-terminal domain			81.0	36.57
+RNA_pol_inhib	PF16857			RNA polymerase inhibitor			47.0	97.33
+phrog_8103					hypothetical	unknown function	185.0	198.11
+Phage_cap_E	PF03864	CL0373		Phage major capsid protein E			336.0	243.13
+NTP_transferase	PF00483	CL0110		Nucleotidyl transferase			109.0	38.19
+Phage-tail_1	PF09097	CL0504		Baseplate structural protein, domain 1			196.0	309.76
+phrog_7961					hypothetical	unknown function	101.0	103.28
+phrog_1998					hypothetical	unknown function	52.0	114.14
+phrog_37174					hypothetical	unknown function	58.0	36.44
+Phage_T4_Y04L	PF26871			Phage T4 Y04L protein			99.0	156.17
+N6_Mtase	PF02384	CL0063		N-6 DNA Methylase			231.0	27.53
+phrog_10541					hypothetical	unknown function	88.0	83.61
+phrog_2430					hypothetical	unknown function	65.0	126.2
+phrog_2364					hypothetical	unknown function	100.0	173.28
+phrog_23906					hypothetical	unknown function	90.0	138.59
+phrog_1497					portal protein	head and packaging	569.0	884.38
+NfeD1b_N	PF25145	CL0127		NfeD1b, N-terminal domain			94.0	4.93
+SAP	PF02037	CL0306		SAP domain			37.0	25.15
+phrog_171					NinG/ Rap DNA junction specific endonuclease	DNA, RNA and nucleotide metabolism	204.0	330.21
+phrog_35072					hypothetical	unknown function	79.0	193.03
+phrog_8					transcriptional regulator	transcription regulation	62.0	32.28
+Ral	PF11058			Antirestriction protein Ral			66.0	162.42
+T4_Cef	PF24050			Phage T4 Cef protein family			70.0	112.51
+phrog_4366					head fiber protein	head and packaging	99.0	129.43
+DUF5486	PF17588			Family of unknown function (DUF5486)			53.0	133.34
+InPase	PF18823			Inorganic Pyrophosphatase			131.0	157.56
+phrog_1102					Ndd-like nucleoid disruption protein	DNA, RNA and nucleotide metabolism	151.0	218.41
+phrog_2468					head morphogenesis	head and packaging	319.0	227.26
+phrog_200					lipoprotein	other	278.0	306.11
+phrog_18601					hypothetical	unknown function	69.0	31.41
+phrog_14815					hypothetical	unknown function	69.0	159.46
+phrog_4330					hypothetical	unknown function	182.0	356.92
+Prok-JAB	PF14464	CL0366		Prokaryotic homologs of the JAB domain			113.0	52.18
+phrog_560					hypothetical	unknown function	204.0	224.99
+DUF7325	PF24011			Family of unknown function (DUF7325)			96.0	82.23
+phrog_25149					hypothetical	unknown function	156.0	366.67
+phrog_32204					tail protein	tail	628.0	1172.97
+phrog_1320					host range and adsorption protein	moron, auxiliary metabolic gene and host takeover	99.0	102.16
+phrog_1972					hypothetical	unknown function	83.0	71.84
+DUF1382	PF07131			Protein of unknown function (DUF1382)			60.0	96.41
+phrog_19205					hypothetical	unknown function	178.0	364.65
+phrog_15056					hypothetical	unknown function	88.0	168.14
+phrog_13018					hypothetical	unknown function	299.0	666.34
+GP38	PF05268	CL0762		Phage tail fibre adhesin Gp38			215.0	144.81
+phrog_10558					hypothetical	unknown function	191.0	400.81
+phrog_30988					hypothetical	unknown function	66.0	161.43
+phrog_1351					terminase small subunit	head and packaging	88.0	137.51
+DUF7248	PF23906			Family of unknown function (DUF7248)			63.0	76.08
+phrog_910					tail collar fiber protein	tail	527.0	673.42
+phrog_12861					hypothetical	unknown function	87.0	206.31
+phrog_14557					hypothetical	unknown function	38.0	88.96
+phrog_4424					hypothetical	unknown function	49.0	120.45
+phrog_1039					immunity to superinfection	moron, auxiliary metabolic gene and host takeover	83.0	118.8
+phrog_6447					membrane protein	moron, auxiliary metabolic gene and host takeover	81.0	158.66
+DUF7217	PF23854			Domain of unknown function (DUF7217)			236.0	264.6
+DUF7416	PF24188			Family of unknown function (DUF7416)			67.0	121.06
+phrog_8267					hypothetical	unknown function	64.0	143.98
+phrog_24303					hypothetical	unknown function	58.0	151.55
+phrog_2056					tail fiber protein; host specificity	tail	261.0	369.43
+phrog_2290					hypothetical	unknown function	171.0	211.66
+phrog_2900					hypothetical	unknown function	78.0	126.56
+phrog_16623					hypothetical	unknown function	149.0	157.21
+Ogr_Delta	PF04606	CL0167		Ogr/Delta-like zinc finger			47.0	77.86
+phrog_8235					anti-repressor	transcription regulation	167.0	84.84
+Glycos_transf_1	PF00534	CL0113		Glycosyl transferases group 1			94.0	24.44
+phrog_12633					hypothetical	unknown function	78.0	137.48
+phrog_9384					hypothetical	unknown function	54.0	60.13
+phrog_12277					hypothetical	unknown function	139.0	317.53
+phrog_2144					MazG-like pyrophosphatase	other	251.0	337.04
+phrog_3281					endonuclease VII	DNA, RNA and nucleotide metabolism	98.0	69.91
+phrog_16039					hypothetical	unknown function	72.0	155.62
+phrog_4548					hypothetical	unknown function	52.0	105.02
+phrog_8967					hypothetical	unknown function	138.0	305.96
+phrog_17459					hypothetical	unknown function	80.0	131.77
+phrog_15951					hypothetical	unknown function	61.0	86.99
+T5_p143	PF25747			Bacteriophage T5 tail completion protein p143			255.0	421.42
+VRR_NUC	PF08774	CL0236		VRR-NUC domain			107.0	32.42
+Phage_GPA	PF05840	CL0169		Bacteriophage replication gene A protein (GPA)			330.0	415.06
+phrog_1256					valyl tRNA synthetase modifier	DNA, RNA and nucleotide metabolism	115.0	133.01
+Phage_HCP	PF05521	CL0504		Phage head completion protein			124.0	34.38
+phrog_4227					endonuclease nicking abasic sites generated by host uracil glycosylase Ung	moron, auxiliary metabolic gene and host takeover	70.0	167.75
+phrog_1591					tail fiber protein	tail	195.0	270.45
+phrog_316					dihydrofolate reductase	DNA, RNA and nucleotide metabolism	193.0	193.65
+phrog_3611					helicase	DNA, RNA and nucleotide metabolism	231.0	427.62
+phrog_3500					hypothetical	unknown function	171.0	243.87
+phrog_3228					replicative helicase-primase	DNA, RNA and nucleotide metabolism	753.0	1152.82
+phrog_4116					hypothetical	unknown function	119.0	237.21
+DUF2732	PF10809			Protein of unknown function (DUF2732)			70.0	71.3
+phrog_5104					hypothetical	unknown function	201.0	270.51
+phrog_3880					hypothetical	unknown function	91.0	143.62
+DUF5490	PF17593			Family of unknown function (DUF5490)			62.0	161.53
+ValRS_modifier	PF26829			Valyl--tRNA ligase modifier family			114.0	98.24
+phrog_3272					hypothetical	unknown function	58.0	117.28
+phrog_4877					hypothetical	unknown function	201.0	247.56
+phrog_25811					hypothetical	unknown function	55.0	37.48
+phrog_5967					hypothetical	unknown function	66.0	142.42
+phrog_24607					tail protein	tail	112.0	31.12
+phrog_2375					hypothetical	unknown function	70.0	131.88
+phrog_65					tail terminator	connector	155.0	227.79
+Terminase_6C	PF17289	CL0219		Terminase RNaseH-like domain			176.0	112.33
+Phage_tail_terminator_7	PF23818	CL0691		Bacteriophage Tail Tube Terminator Protein			161.0	268.74
+phrog_17947					hypothetical	unknown function	86.0	162.39
+phrog_3142					FabG-like 3-oxoacyl-(acyl-carrier-protein) reductase	moron, auxiliary metabolic gene and host takeover	225.0	170.51
+phrog_19316					hypothetical	unknown function	88.0	198.3
+phrog_7832					hypothetical	unknown function	84.0	82.64
+phrog_15078					hypothetical	unknown function	142.0	278.25
+phrog_29567					hypothetical	unknown function	54.0	130.37
+phrog_12090					hypothetical	unknown function	63.0	116.94
+Phage_T5_A2	PF26822			Phage T5 A2 protein family			135.0	202.91
+phrog_7065					hypothetical	unknown function	76.0	122.34
+phrog_16768					hypothetical	unknown function	54.0	53.86
+Phage_lipoprotein	PF24052			Phage lipoprotein family			75.0	136.11
+T4_y05I_C	PF24448	CL0609		y05I-like putative transcription factor C-terminal domain			71.0	44.13
+phrog_1302					distal tail protein	tail	195.0	166.45
+phrog_19031					hypothetical	unknown function	58.0	148.66
+ADPrib_exo_Tox	PF03496	CL0084		ADP-ribosyltransferase exoenzyme			222.0	68.37
+phrog_34195					hypothetical	unknown function	29.0	74.91
+phrog_388					nucleotidyltransferase	DNA, RNA and nucleotide metabolism	336.0	353.15
+phrog_18528					hypothetical	unknown function	71.0	160.97
+phrog_10820					HNH endonuclease	DNA, RNA and nucleotide metabolism	192.0	312.77
+Phage_TAC_18	PF23812	CL0567		Phage tail assembly chaperone			75.0	47.49
+phrog_12654					RexA-like exclusion protein	moron, auxiliary metabolic gene and host takeover	279.0	534.43
+phrog_4114					hypothetical	unknown function	123.0	252.03
+phrog_11621					Rz-like spanin	lysis	84.0	73.02
+zf-His_Me_endon	PF05551	CL0263		Zinc-binding loop region of homing endonuclease			83.0	22.43
+phrog_7393					hypothetical	unknown function	63.0	104.58
+phrog_16230					replication protein	DNA, RNA and nucleotide metabolism	154.0	364.83
+phrog_15930					ribonucleotide reductase	DNA, RNA and nucleotide metabolism	316.0	618.56
+phrog_26823					hypothetical	unknown function	68.0	171.23
+DUF2828	PF11443	CL0020		Domain of unknown function (DUF2828)			123.0	68.59
+phrog_671					nucleotide pyrophosphohydrolase	other	237.0	77.29
+phrog_22313					hypothetical	unknown function	204.0	473.16
+phrog_1265					membrane protein	moron, auxiliary metabolic gene and host takeover	311.0	316.26
+phrog_9160					hypothetical	unknown function	121.0	159.61
+DUF5491	PF17595			Family of unknown function (DUF5491)			68.0	167.86
+phrog_958					baseplate wedge subunit	tail	602.0	1021.8
+phrog_2531					hypothetical	unknown function	107.0	112.93
+phrog_323					transcriptional regulator, D5-like	transcription regulation	281.0	68.74
+phrog_15964					hypothetical	unknown function	57.0	119.46
+DUF3383	PF11863			Protein of unknown function (DUF3383)			459.0	69.39
+phrog_8649					hypothetical	unknown function	641.0	539.37
+phrog_7798					hypothetical	unknown function	202.0	216.08
+phrog_774					hypothetical	unknown function	64.0	85.93
+phrog_2378					hypothetical	unknown function	181.0	201.2
+phrog_10316					tail fiber protein	tail	84.0	44.93
+phrog_3024					hypothetical	unknown function	62.0	148.49
+DUF7176	PF23800			Family of unknown function (DUF7176)			94.0	167.09
+phrog_44					single strand DNA binding protein	DNA, RNA and nucleotide metabolism	135.0	85.22
+phrog_13745					Ig domain containing protein	other	146.0	269.59
+phrog_5909					terminase large subunit	head and packaging	314.0	461.2
+phrog_7857					internal virion protein	head and packaging	98.0	178.76
+phrog_2855					hypothetical	unknown function	91.0	108.74
+phrog_120					baseplate wedge subunit	tail	139.0	89.44
+phrog_6246					hypothetical	unknown function	121.0	177.04
+DNA_ligase_A_M	PF01068	CL0179		ATP dependent DNA ligase domain			233.0	114.56
+phrog_13					Rz-like spanin	lysis	153.0	272.7
+phrog_1360					DenB-like DNA endonuclease IV	DNA, RNA and nucleotide metabolism	158.0	291.33
+phrog_16862					hypothetical	unknown function	50.0	46.09
+phrog_3723					hypothetical	unknown function	79.0	128.02
+phrog_41					major tail protein	tail	246.0	422.45
+phrog_315					endolysin	lysis	208.0	208.49
+ERF	PF04404			ERF superfamily			137.0	92.6
+phrog_2321					Ref-like RecA filament endonuclease	DNA, RNA and nucleotide metabolism	186.0	387.44
+motB	PF17613			Modifier of transcription			163.0	320.88
+phrog_8932					hypothetical	unknown function	93.0	144.97
+phrog_27099					hypothetical	unknown function	57.0	96.55
+phrog_4660					minor head protein	head and packaging	781.0	1256.02
+phrog_2350					hypothetical	unknown function	51.0	128.82
+phrog_9919					hypothetical	unknown function	94.0	192.57
+phrog_7042					hypothetical	unknown function	62.0	105.48
+phrog_14613					hypothetical	unknown function	68.0	93.53
+phrog_4736					L-glutamine-D-fructose-6-phosphate aminotransferase	other	687.0	469.31
+phrog_18901					hypothetical	unknown function	137.0	187.26
+phrog_1687					MarR family transcrition regulator	transcription regulation	162.0	130.87
+phrog_5236					hypothetical	unknown function	67.0	156.9
+phrog_2520					gamma-glutamyl cyclotransferase	moron, auxiliary metabolic gene and host takeover	139.0	152.14
+phrog_21365					hypothetical	unknown function	214.0	387.26
+DUF4379	PF14311	CL0839		Probable Treble clef zinc finger domain			44.0	11.33
+phrog_26739					hypothetical	unknown function	61.0	85.81
+phrog_1143					DNA helicase	DNA, RNA and nucleotide metabolism	75.0	133.52
+phrog_18312					hypothetical	unknown function	101.0	230.89
+phrog_22730					hypothetical	unknown function	68.0	168.55
+phrog_29955					appendage	connector	556.0	1298.2
+phrog_2037					hypothetical	unknown function	72.0	137.95
+phrog_457					tail protein	tail	794.0	1042.3
+phrog_4258					hypothetical	unknown function	94.0	164.75
+phrog_24939					hypothetical	unknown function	97.0	152.77
+phrog_15231					hypothetical	unknown function	232.0	35.12
+phrog_2652					hypothetical	unknown function	89.0	128.1
+phrog_4185					minor head protein	head and packaging	140.0	186.71
+DUF4326	PF14216	CL0031		Domain of unknown function (DUF4326)			82.0	70.64
+phrog_1048					hypothetical	unknown function	88.0	83.59
+phrog_617					major head protein	head and packaging	680.0	724.58
+phrog_25234					hypothetical	unknown function	56.0	49.48
+phrog_4903					hypothetical	unknown function	66.0	116.41
+Gp7_5th	PF21427			Baseplate wedge protein gp7, domain V			96.0	157.62
+Lambda_tail_I	PF06805	CL0072		Bacteriophage lambda tail assembly protein I			85.0	99.08
+phrog_283					major head protein	head and packaging	429.0	394.6
+Phage_T4_rIIB	PF26926			Bacteriophage T4 protein rIIB			279.0	151.28
+phrog_1695					hypothetical	unknown function	91.0	139.8
+phrog_761					thymidylate kinase	other	182.0	145.81
+phrog_947					DNA polymerase processivity factor	DNA, RNA and nucleotide metabolism	330.0	274.5
+DUF7355	PF24051			Domain of unknown function (DUF7355)			91.0	101.24
+phrog_643					transcriptional regulator	transcription regulation	78.0	79.5
+phrog_27223					hypothetical	unknown function	238.0	177.79
+DUF7238	PF23885			Family of unknown function (DUF7238)			92.0	31.42
+phrog_16298					hypothetical	unknown function	57.0	140.18
+phrog_23152					hypothetical	unknown function	35.0	94.76
+phrog_1739					hypothetical	unknown function	96.0	153.57
+DUF8272	PF26839			Family of unknown function (DUF8272)			41.0	66.53
+phrog_268					hypothetical	unknown function	68.0	112.25
+DUF5856	PF19174			Family of unknown function (DUF5856)			93.0	108.06
+phrog_2120					tail length tape measure protein	tail	403.0	486.06
+phrog_5086					hypothetical	unknown function	108.0	114.15
+phrog_1566					hypothetical	unknown function	61.0	106.5
+phrog_4841					hypothetical	unknown function	159.0	168.94
+phrog_4713					hypothetical	unknown function	154.0	277.08
+phrog_6040					hypothetical	unknown function	690.0	1266.72
+DUF5477	PF17571			Family of unknown function (DUF5477)			77.0	177.68
+phrog_14379					hypothetical	unknown function	64.0	152.34
+Ferritin	PF00210	CL0044		Ferritin-like domain			102.0	29.8
+Peptidase_S77	PF03420	CL0201		Prohead core protein serine protease			185.0	370.76
+phrog_7716					hypothetical	unknown function	55.0	143.85
+phrog_1950					hypothetical	unknown function	70.0	107.62
+phrog_3					transcriptional repressor	transcription regulation	71.0	51.75
+phrog_2079					hypothetical	unknown function	69.0	164.28
+phrog_899					hypothetical	unknown function	90.0	85.7
+phrog_10380					hypothetical	unknown function	53.0	85.06
+phrog_1411					hypothetical	unknown function	133.0	176.13
+Phage_tail_T	PF06223			Minor tail protein T			76.0	54.48
+phrog_24969					hypothetical	unknown function	53.0	135.67
+phrog_3330					hypothetical	unknown function	112.0	155.07
+phrog_18783					hypothetical	unknown function	92.0	219.71
+phrog_105					tail fiber assembly	tail	194.0	319.29
+phrog_1647					hypothetical	unknown function	60.0	113.89
+phrog_4281					hypothetical	unknown function	75.0	115.6
+T4_gp9_10_C	PF23618	CL0840		Bacteriophage T4 gp9/10-like protein, C-terminal			104.0	144.69
+phrog_9477					hypothetical	unknown function	72.0	147.63
+phrog_812					Rz-like spanin	lysis	99.0	150.14
+phrog_2160					hypothetical	unknown function	82.0	190.16
+S-AdoMet_lyase	PF23780			S-Adenosylmethionine lyase family			140.0	140.83
+Phage_sheath_1C	PF17482	CL0763		Phage tail sheath C-terminal domain			103.0	78.86
+Phage_holin_3_1	PF05106	CL0564		Phage holin family (Lysis protein S)			97.0	105.13
+phrog_4308					hypothetical	unknown function	80.0	81.65
+phrog_12851					hypothetical	unknown function	83.0	192.85
+phrog_1354					cef modifier of supressor tRNAs	moron, auxiliary metabolic gene and host takeover	70.0	128.41
+phrog_16556					hypothetical	unknown function	53.0	98.74
+phrog_758					head morphogenesis	head and packaging	317.0	374.68
+phrog_4146					tail protease	other	125.0	253.07
+phrog_11083					hypothetical	unknown function	186.0	41.68
+phrog_2580					tail fiber protein	tail	176.0	199.96
+phrog_11869					hypothetical	unknown function	113.0	260.62
+phrog_1120					tail tube protein	tail	169.0	268.03
+phrog_111					DNA methyltransferase	other	220.0	224.1
+phrog_155					Erf-like ssDNA annealing protein	DNA, RNA and nucleotide metabolism	216.0	151.59
+phrog_3487					hypothetical	unknown function	49.0	101.88
+phrog_1954					virion structural protein	head and packaging	209.0	13.49
+Lambda_Bor	PF06291			Bor protein			77.0	107.12
+Phage_T4_Y04K	PF26835			Phage T4 Y04K protein			106.0	102.89
+phrog_2407					hypothetical	unknown function	261.0	492.36
+DUF7200	PF23830			Domain of unknown function (DUF7200)			89.0	124.17
+phrog_22345					hypothetical	unknown function	79.0	191.07
+phrog_5468					hypothetical	unknown function	114.0	226.83
+phrog_2856					transcriptional regulator	transcription regulation	163.0	280.4
+phrog_1527					holin	lysis	109.0	162.36
+phrog_6672					terminase large subunit	head and packaging	137.0	113.38
+phrog_4475					head protein	head and packaging	128.0	191.54
+phrog_5717					tail protein	tail	595.0	276.29
+DUF7174	PF23796			Family of unknown function (DUF7174)			159.0	147.68
+phrog_13305					hypothetical	unknown function	46.0	119.79
+vWA-TerF-like	PF10138	CL0128		vWA found in TerF C terminus			242.0	64.94
+phrog_11929					membrane protein	moron, auxiliary metabolic gene and host takeover	66.0	160.01
+phrog_38282					hypothetical	unknown function	93.0	204.93
+phrog_7827					hypothetical	unknown function	104.0	187.64
+phrog_4576					hypothetical	unknown function	130.0	274.61
+phrog_7922					beta-glucosyltransferase	moron, auxiliary metabolic gene and host takeover	351.0	622.52
+LysC	PF23793			Rz1-like lysis system protein LysC			69.0	62.29
+phrog_13157					hypothetical	unknown function	57.0	98.42
+phrog_5488					hypothetical	unknown function	76.0	140.0
+phrog_11161					holin	lysis	72.0	158.03
+Phage_T4_Y07C	PF26894			Bacteriophage T4 protein Y07C			63.0	93.1
+phrog_2390					hypothetical	unknown function	87.0	158.72
+phrog_12338					hypothetical	unknown function	299.0	705.18
+phrog_15485					hypothetical	unknown function	129.0	249.68
+Helicase_C	PF00271	CL0023		Helicase conserved C-terminal domain			113.0	28.12
+phrog_22491					hypothetical	unknown function	77.0	62.25
+phrog_1369					baseplate protein	tail	477.0	730.96
+phrog_15683					hypothetical	unknown function	65.0	142.55
+phrog_17772					hypothetical	unknown function	159.0	357.71
+phrog_8706					hypothetical	unknown function	181.0	374.84
+phrog_4774					hypothetical	unknown function	172.0	247.68
+Phage_T7_4_7	PF26857			Phage T7 protein 4.7			135.0	206.17
+phrog_181					endolysin	lysis	214.0	241.41
+phrog_11967					hypothetical	unknown function	64.0	77.83
+Ig_J	PF24421	CL0159		Tip attachment protein J, Ig-like domain			105.0	140.49
+P22_gp7	PF25688			Bacteriophage P22 DNA ejection protein gp7			231.0	436.81
+phrog_4783					hypothetical	unknown function	157.0	252.04
+phrog_6369					hypothetical	unknown function	35.0	84.57
+DUF3800	PF12686			Protein of unknown function (DUF3800)			183.0	51.4
+DUF7337	PF24026			Family of unknown function (DUF7337)			61.0	126.5
+phrog_10642					hypothetical	unknown function	148.0	201.1
+phrog_17838					hypothetical	unknown function	121.0	265.05
+phrog_15291					hypothetical	unknown function	61.0	33.76
+phrog_24875					hypothetical	unknown function	83.0	203.58
+phrog_16624					hypothetical	unknown function	102.0	216.48
+phrog_35253					hypothetical	unknown function	56.0	150.5
+Vut_1	PF02592	CL0315		Putative vitamin uptake transporter			126.0	24.24
+ILEI	PF15711			Interleukin-like EMT inducer			87.0	33.82
+phrog_4385					hypothetical	unknown function	97.0	203.8
+phrog_3355					hypothetical	unknown function	116.0	170.05
+phrog_215					structural protein with Ig domain	head and packaging	129.0	65.12
+phrog_1704					Lpa-like transcriptional activator	transcription regulation	150.0	287.08
+Phage_FRD3	PF05798			Bacteriophage FRD3 protein			75.0	116.77
+Phage_T7_0_6	PF26851			Phage T7 protein 0.6			39.0	91.55
+phrog_4653					hypothetical	unknown function	50.0	80.52
+phrog_5822					hypothetical	unknown function	114.0	97.92
+phrog_22208					hypothetical	unknown function	51.0	52.47
+DUF7230	PF23876			Family of unknown function (DUF7230)			39.0	45.55
+phrog_1359					hypothetical	unknown function	39.0	82.29
+phrog_6933					hypothetical	unknown function	67.0	146.41
+REGB_T4	PF10715	CL0136		T4-page Endoribonuclease RegB			149.0	233.44
+phrog_1767					baseplate protein	tail	259.0	428.11
+phrog_1361					hypothetical	unknown function	110.0	85.94
+phrog_24032					hypothetical	unknown function	107.0	238.18
+Phage_RpbA	PF10789			Phage RNA polymerase binding, RpbA			111.0	142.24
+phrog_1837					hypothetical	unknown function	213.0	369.57
+phrog_7526					hypothetical	unknown function	79.0	111.2
+Phage_P1_tail_fiber_R	PF26881			Bacteriophage P1 tail fiber protein R			144.0	278.49
+N4_GP8	PF25713			Bacteriophage N4 DNA replication inhibitor			66.0	29.57
+phrog_7482					hypothetical	unknown function	40.0	33.45
+phrog_3609					hypothetical	unknown function	71.0	133.65
+phrog_3720					hypothetical	unknown function	89.0	154.63
+phrog_8982					hypothetical	unknown function	77.0	146.79
+phrog_12072					hypothetical	unknown function	99.0	231.3
+phrog_2502					hypothetical	unknown function	130.0	192.62
+phrog_7508					hypothetical	unknown function	62.0	93.07
+phrog_2130					hypothetical	unknown function	208.0	271.93
+phrog_14369					hypothetical	unknown function	61.0	136.29
+phrog_10819					hypothetical	unknown function	67.0	143.1
+Phage_T4_Y13C	PF26895			Bacteriophage T4 protein Y13C			78.0	151.38
+phrog_13063					hypothetical	unknown function	398.0	807.15
+phrog_12503					hypothetical	unknown function	29.0	36.11
+gp12-short_mid	PF09089	CL0606		Phage short tail fibre protein gp12, middle domain			115.0	99.39
+phrog_2326					hypothetical	unknown function	262.0	502.4
+ParB	PF08775			ParB family			126.0	156.22
+phrog_12499					tail fiber protein	tail	103.0	24.94
+HTH_Tnp_IS1	PF12759	CL0123		InsA C-terminal domain			46.0	104.23
+DUF7448	PF24240			Domain of unknown function (DUF7448)			106.0	86.34
+phrog_12340					hypothetical	unknown function	93.0	201.86
+phrog_3064					terminase	head and packaging	179.0	256.25
+phrog_73					head scaffolding protein	head and packaging	284.0	423.72
+phrog_1785					hypothetical	unknown function	70.0	82.71
+dCMP_cyt_deam_1	PF00383	CL0109		Cytidine and deoxycytidylate deaminase zinc-binding region			151.0	89.49
+phrog_17446					hypothetical	unknown function	26.0	30.64
+phrog_13124					hypothetical	unknown function	85.0	196.12
+DUF7206	PF23836			Family of unknown function (DUF7206)			108.0	54.34
+Inj_translocase	PF16928			DNA/protein translocase of phage P22 injectosome			217.0	261.69
+Phage_GPL	PF05926			Phage head completion protein (GPL)			139.0	188.31
+phrog_1076					FmdB-like transcriptional regulator	transcription regulation	58.0	91.43
+DHFR_1	PF00186	CL0387		Dihydrofolate reductase			172.0	64.29
+phrog_456					Rz-like spanin	lysis	96.0	116.37
+phrog_86					ribonucleoside diphosphate reductase small subunit	DNA, RNA and nucleotide metabolism	388.0	488.44
+phrog_4007					hypothetical	unknown function	107.0	217.8
+phrog_28576					hypothetical	unknown function	195.0	442.42
+phrog_2490					hypothetical	unknown function	42.0	74.76
+HAD_PNKP	PF25109	CL0137		Polynucleotide kinase PNKP phosphatase domain			143.0	193.19
+phrog_4266					hypothetical	unknown function	132.0	259.04
+phrog_2758					hypothetical	unknown function	57.0	123.25
+phrog_2166					N4-like RNA polymerase	DNA, RNA and nucleotide metabolism	269.0	377.76
+phrog_12530					hypothetical	unknown function	60.0	128.58
+phrog_2072					hypothetical	unknown function	128.0	195.14
+phrog_14778					hypothetical	unknown function	90.0	171.97
+E217_Gp32	PF22764			Tail fiber protein gp32			144.0	201.81
+DUF7336	PF24024			Domain of unknown function (DUF7336)			50.0	42.65
+phrog_29660					hypothetical	unknown function	34.0	86.66
+phrog_853					major tail protein	tail	238.0	270.26
+phrog_16051					tail length tape measure protein	tail	659.0	1337.41
+phrog_7180					membrane protein	moron, auxiliary metabolic gene and host takeover	323.0	318.63
+phrog_1051					minor head protein inhibitor of protease	head and packaging	226.0	340.63
+Phage_T5_dNMPase	PF26880			Bacteriophage T5 5'-deoxynucleotidase			244.0	386.29
+Collagen	PF01391			Collagen triple helix repeat (20 copies)			117.0	33.65
+phrog_3725					tail completion or Neck1 protein	connector	255.0	473.56
+DNA_Packaging	PF11053			Terminase DNA packaging enzyme			149.0	291.19
+Phage_T4_Y07E	PF26906			Bacteriophage T4 protein Y07E			164.0	199.94
+phrog_16865					hypothetical	unknown function	62.0	104.08
+Phage_T4_Y05J	PF26864			Phage T4 Y05J protein			34.0	71.25
+phrog_12158					hypothetical	unknown function	94.0	216.04
+phrog_26260					hypothetical	unknown function	46.0	129.69
+phrog_5064					hypothetical	unknown function	77.0	186.81
+phrog_414					RNA polymerase	DNA, RNA and nucleotide metabolism	858.0	1138.8
+phrog_990					metal-dependent phosphohydrolase	other	187.0	121.53
+phrog_632					tellurite resistance	moron, auxiliary metabolic gene and host takeover	141.0	210.6
+phrog_629					excisionase	integration and excision	72.0	78.64
+phrog_6088					DNA primase	DNA, RNA and nucleotide metabolism	606.0	194.74
+phrog_96					HNH endonuclease	DNA, RNA and nucleotide metabolism	340.0	425.36
+phrog_5032					hypothetical	unknown function	168.0	215.24
+phrog_2646					hypothetical	unknown function	146.0	175.98
+phrog_8091					hypothetical	unknown function	57.0	135.27
+phrog_12099					hypothetical	unknown function	105.0	187.24
+phrog_222					tail completion or Neck1 protein	connector	154.0	123.59
+phrog_45					tail tube	tail	176.0	146.66
+phrog_5974					hypothetical	unknown function	112.0	138.31
+GDP_Man_Dehyd	PF16363	CL0063		GDP-mannose 4,6 dehydratase			311.0	274.98
+phrog_1222					hypothetical	unknown function	63.0	117.48
+phrog_1842					tail tube protein	tail	202.0	359.27
+phrog_312					Rz-like spanin	lysis	163.0	134.4
+phrog_1844					unknown function	unknown function	98.0	173.14
+phrog_10955					hypothetical	unknown function	75.0	163.78
+phrog_1146					ParB-like partition protein	DNA, RNA and nucleotide metabolism	331.0	491.1
+PhoH	PF02562	CL0023		PhoH-like protein			209.0	160.74
+phrog_2680					head decoration	head and packaging	129.0	139.46
+phrog_811					UmuD-like protein	DNA, RNA and nucleotide metabolism	124.0	187.23
+Phage_T4_Y16H	PF26886			Bacteriophage T4 protein Y16H			49.0	87.1
+phrog_396					minor tail protein	tail	163.0	178.6
+phrog_14587					anti-restriction protein	moron, auxiliary metabolic gene and host takeover	86.0	153.18
+phrog_1135					baseplate hub	tail	384.0	696.24
+phrog_19242					hypothetical	unknown function	117.0	236.86
+DUF5405	PF17399			Domain of unknown function (DUF5405)			86.0	119.27
+T4_baseplate	PF12322			T4 bacteriophage base plate protein			206.0	211.88
+phrog_14973					hypothetical	unknown function	108.0	114.45
+phrog_7229					DNA topoisomerase II	DNA, RNA and nucleotide metabolism	160.0	271.28
+phrog_34180					hypothetical	unknown function	88.0	88.61
+Phage_T4_Y10B	PF26862			Phage T4 Y10B protein			90.0	52.35
+PAPS_reduct	PF01507	CL0039		Phosphoadenosine phosphosulfate reductase domain			161.0	32.48
+phrog_4287					DNA ejection protein	DNA, RNA and nucleotide metabolism	350.0	371.45
+phrog_22					thioredoxin domain	DNA, RNA and nucleotide metabolism	102.0	48.83
+phrog_18076					hol-like chemotaxis	other	106.0	173.07
+phrog_5975					hypothetical	unknown function	158.0	194.86
+Ribosomal_S30AE	PF02482	CL0219		Sigma 54 modulation protein / S30EA ribosomal protein			90.0	47.96
+phrog_156					portal protein	head and packaging	721.0	670.08
+phrog_5140					hypothetical	unknown function	110.0	157.96
+Phage_TAC_7	PF10109	CL0567		Phage tail assembly chaperone proteins, E, or 41 or 14			81.0	46.23
+Phage_T4_Y05Q	PF26904			Bacteriophage T4 protein Y05Q			70.0	110.09
+phrog_16944					hypothetical	unknown function	89.0	185.09
+phrog_19202					hypothetical	unknown function	58.0	111.97
+phrog_1267					Rz-like spanin	lysis	95.0	75.95
+UvrD-helicase	PF00580	CL0023		UvrD/REP helicase N-terminal domain			262.0	66.22
+phrog_9347					hypothetical	unknown function	53.0	86.98
+phrog_236					nucleotide kinase	other	112.0	39.11
+phrog_23361					hypothetical	unknown function	196.0	342.22
+phrog_23083					hypothetical	unknown function	74.0	187.39
+phrog_2299					hypothetical	unknown function	995.0	2145.08
+phrog_3826					hypothetical	unknown function	78.0	116.49
+phrog_5089					hypothetical	unknown function	85.0	166.95
+phrog_5456					hypothetical	unknown function	103.0	136.25
+phrog_2871					tail protein	tail	864.0	1086.49
+Thioredoxin_3	PF13192	CL0172		Thioredoxin domain			87.0	27.89
+MethyltransfD12	PF02086	CL0063		D12 class N6 adenine-specific DNA methyltransferase			237.0	175.31
+phrog_4391					hypothetical	unknown function	89.0	200.53
+phrog_4725					hypothetical	unknown function	176.0	305.07
+phrog_1586					spackle periplasmic	other	97.0	150.67
+WYL_2	PF10902	CL0654		WYL_2, Sm-like SH3 beta-barrel fold			75.0	77.07
+TerD	PF02342			TerD domain			188.0	96.93
+phrog_5876					hypothetical	unknown function	90.0	209.15
+phrog_5558					Lar-like restriction alleviation protein	moron, auxiliary metabolic gene and host takeover	57.0	62.42
+phrog_2165					DNA helicase	DNA, RNA and nucleotide metabolism	136.0	124.84
+Glyco_trans_1_2	PF13524	CL0113		Glycosyl transferase-like			141.0	26.23
+phrog_2031					hypothetical	unknown function	108.0	106.73
+phrog_2024					hypothetical	unknown function	61.0	102.64
+Gp13-like	PF20036	CL0373		Major capsid protein 13-like			195.0	23.2
+phrog_191					CII-like transcriptional activator	transcription regulation	97.0	140.0
+phrog_25627					hypothetical	unknown function	142.0	336.32
+phrog_7011					Gp2.5-like ssDNA binding protein and ssDNA annealing protein	DNA, RNA and nucleotide metabolism	315.0	171.69
+phrog_9227					hypothetical	unknown function	77.0	175.38
+phrog_14110					hypothetical	unknown function	65.0	165.29
+phrog_7696					hypothetical	unknown function	64.0	72.32
+Gp23	PF07068	CL0373		Major capsid protein Gp23			431.0	404.96
+DUF6246	PF19759			Family of unknown function (DUF6246)			186.0	244.36
+phrog_80					head maturation protease	head and packaging	208.0	150.31
+dTDP_sugar_isom	PF00908	CL0029		dTDP-4-dehydrorhamnose 3,5-epimerase			178.0	241.29
+DUF7189	PF23819			Family of unknown function (DUF7189)			68.0	69.48
+Phage_tail_X	PF05489	CL0187		Phage Tail Protein X			60.0	109.77
+phrog_1097					Erf-like ssDNA annealing protein	DNA, RNA and nucleotide metabolism	235.0	450.03
+phrog_36337					hypothetical	unknown function	46.0	84.38
+DNA_pol_A	PF00476			DNA polymerase family A			386.0	165.16
+Amidase_2	PF01510			N-acetylmuramoyl-L-alanine amidase			127.0	63.51
+phrog_679					head closure Hc2	connector	230.0	367.15
+Tn7_TnsA-like_N	PF08722	CL0236		TnsA-like endonuclease N terminal			101.0	75.65
+phrog_972					tail fiber protein proximal subunit	tail	1289.0	1945.87
+phrog_43					baseplate wedge subunit	tail	115.0	181.72
+phrog_27617					hypothetical	unknown function	61.0	145.57
+phrog_5265					hypothetical	unknown function	94.0	184.94
+phrog_223					DNA polymerase processivity factor	DNA, RNA and nucleotide metabolism	227.0	290.4
+phrog_1402					hypothetical	unknown function	61.0	81.09
+gp37_trimer	PF20744	CL0606		Tail fibre protein gp37 trimerization region			94.0	136.03
+Rz1	PF06085			Lipoprotein Rz1 precursor			41.0	71.82
+phrog_1425					hinge connector of long tail fiber protein distal connector	tail	216.0	293.96
+Endonuc-dimeris	PF09124	CL0306		T4 recombination endonuclease VII, dimerisation			54.0	114.06
+E217_gp29	PF22756	CL0691		E217 gateway protein gp29			173.0	119.41
+phrog_10102					hypothetical	unknown function	56.0	144.06
+phrog_4864					hypothetical	unknown function	63.0	116.77
+phrog_48					tail protein	tail	176.0	301.23
+phrog_14037					hypothetical	unknown function	74.0	146.55
+phrog_2280					hypothetical	unknown function	154.0	185.17
+phrog_1470					TciB-like inhibition of cell division or resistance to colicin	moron, auxiliary metabolic gene and host takeover	54.0	79.27
+DUF7301	PF23975			Family of unknown function (DUF7301)			69.0	83.34
+phrog_57					terminase small subunit	head and packaging	181.0	239.39
+Phage_VG64	PF25682			Mycobacterium phage VG64			122.0	154.23
+phrog_14878					RexB-like exclusion protein	moron, auxiliary metabolic gene and host takeover	143.0	261.98
+Phage_T4_Y16N	PF26889			Bacteriophage T4 protein Y16N			37.0	78.79
+phrog_13270					hypothetical	unknown function	89.0	205.27
+phrog_2385					hypothetical	unknown function	65.0	104.03
+phrog_1671					MotB-like transcriptional regulator	transcription regulation	163.0	252.55
+phrog_1823					hypothetical	unknown function	56.0	111.22
+phrog_625					hypothetical	unknown function	101.0	147.19
+phrog_4815					receptor binding tail protein	tail	585.0	925.14
+phrog_13158					hypothetical	unknown function	62.0	108.83
+NADAR	PF08719	CL0787		NADAR domain			166.0	125.27
+phrog_1678					hypothetical	unknown function	282.0	481.42
+phrog_4397					hypothetical	unknown function	66.0	139.28
+Rv2179c-like	PF16473	CL0219		3'-5' exoribonuclease Rv2179c-like domain			201.0	76.96
+phrog_9955					hypothetical	unknown function	84.0	120.1
+phrog_12242					tail protein	tail	487.0	848.68
+phrog_239					DNA primase/helicase	DNA, RNA and nucleotide metabolism	566.0	743.05
+Phage_tudor	PF24144	CL0010		Phage tudor domain			88.0	136.12
+DNA_ligase_aden	PF01653	CL0179		NAD-dependent DNA ligase adenylation domain			210.0	55.72
+phrog_77					SbcC-like subunit of palindrome specific endonuclease	DNA, RNA and nucleotide metabolism	560.0	633.11
+phrog_42					minor tail protein	tail	137.0	191.88
+phrog_652					hypothetical	unknown function	152.0	189.77
+RexA	PF15969			Intracellular sensor of Lambda phage, Abi component			228.0	326.57
+phrog_639					transcriptional regulator	transcription regulation	89.0	134.02
+phrog_4109					hypothetical	unknown function	193.0	349.03
+phrog_27558					hypothetical	unknown function	72.0	145.46
+phrog_36680					hypothetical	unknown function	103.0	166.43
+Phage_T4_Y07A	PF26879			Bacteriophage T4 protein Y07A			87.0	210.17
+DNA_Packaging_2	PF11123			DNA packaging protein			80.0	54.34
+phrog_21152					hypothetical	unknown function	112.0	258.08
+phrog_11370					hypothetical	unknown function	120.0	250.44
+phrog_288					hypothetical	unknown function	60.0	91.23
+phrog_4524					hypothetical	unknown function	216.0	271.5
+phrog_154					replication initiation protein	DNA, RNA and nucleotide metabolism	91.0	141.07
+phrog_4230					hypothetical	unknown function	70.0	137.27
+DnaT_2	PF20557			Putative DnaT-like ssDNA binding protein			165.0	125.98
+phrog_17168					hypothetical	unknown function	81.0	55.74
+Phage-scaffold	PF09306			Bacteriophage, scaffolding protein			302.0	564.95
+phrog_3126					hypothetical	unknown function	105.0	205.17
+PIF1	PF05970	CL0023		PIF1-like helicase			209.0	113.07
+phrog_85					thymidylate synthase	DNA, RNA and nucleotide metabolism	310.0	208.43
+AAA_30	PF13604	CL0023		AAA domain			203.0	83.37
+DUF7418	PF24193			Domain of unknown function (DUF7418)			109.0	91.64
+phrog_36910					hypothetical	unknown function	115.0	269.36
+phrog_1711					terminase	head and packaging	397.0	695.63
+phrog_17780					hypothetical	unknown function	63.0	133.85
+phrog_26149					deoxynucleoside monophosphate kinase	other	175.0	279.45
+phrog_2086					hypothetical	unknown function	155.0	251.56
+phrog_14981					hypothetical	unknown function	47.0	122.05
+Fn3-I_PB4	PF24169	CL0159		Straight fiber protein PB4 first Fn3-like domain			88.0	133.45
+Lipase_GDSL_2	PF13472	CL0264		GDSL-like Lipase/Acylhydrolase family			178.0	47.93
+Phage_T7_55	PF11247			Bacteriophage T7, gene 5.5			99.0	130.5
+phrog_6126					virion structural protein	head and packaging	644.0	921.74
+phrog_4967					hypothetical	unknown function	86.0	196.85
+LydB	PF16084			LydA-holin antagonist			147.0	348.23
+phrog_7583					hypothetical	unknown function	110.0	187.06
+phrog_454					tail fiber protein	tail	994.0	285.11
+phrog_37091					hypothetical	unknown function	65.0	155.06
+phrog_7310					hypothetical	unknown function	118.0	191.13
+phrog_547					phosphoesterase	other	182.0	167.52
+phrog_1663					dCTP deaminase	DNA, RNA and nucleotide metabolism	168.0	188.09
+phrog_1072					hypothetical	unknown function	189.0	187.51
+phrog_11642					hypothetical	unknown function	76.0	141.54
+phrog_11314					hypothetical	unknown function	79.0	160.69
+DUF4031	PF13223			Protein of unknown function (DUF4031)			84.0	77.56
+phrog_2013					lytic tail protein	tail	726.0	487.85
+phrog_29113					hypothetical	unknown function	37.0	49.29
+phrog_6763					activator of host PrrC lysyl-tRNA endonuclease	moron, auxiliary metabolic gene and host takeover	26.0	64.77
+phrog_19105					hypothetical	unknown function	45.0	128.01
+phrog_5598					hypothetical	unknown function	77.0	149.44
+DUF2528	PF10800			Protein of unknown function (DUF2528)			104.0	160.61
+phrog_20882					hypothetical	unknown function	51.0	27.41
+phrog_1002					tail fiber chaperone	tail	80.0	101.36
+HTH_ParB	PF17762	CL0123		ParB HTH domain			100.0	43.15
+phrog_3762					hypothetical	unknown function	50.0	127.81
+phrog_272					Cox-like excisionase and repressor	integration and excision	87.0	155.07
+phrog_9023					hypothetical	unknown function	83.0	86.99
+Phage_tail_terminator_9	PF23961	CL0691		Phage neck terminator protein			162.0	77.25
+phrog_2051					RNA polymerase	DNA, RNA and nucleotide metabolism	404.0	575.76
+phrog_3732					hypothetical	unknown function	234.0	295.27
+phrog_5851					hypothetical	unknown function	63.0	118.01
+phrog_30084					hypothetical	unknown function	69.0	166.48
+phrog_1447					hypothetical	unknown function	82.0	132.02
+Phage_T4_Y16F	PF26821			Bacteriophage T4 Y16F protein			109.0	145.52
+Pam3_Gp34	PF23977			Pam3 phage gp34-like protein			250.0	284.06
+phrog_3483					hypothetical	unknown function	131.0	75.31
+phrog_505					polynucleotide kinase	other	302.0	424.94
+phrog_4731					hypothetical	unknown function	108.0	193.39
+phrog_192					DNA polymerase exonuclease subunit	DNA, RNA and nucleotide metabolism	174.0	122.16
+gp32	PF08804	CL0021		gp32 DNA binding protein like			201.0	254.69
+phrog_1491					tail fiber protein	tail	212.0	271.5
+phrog_3106					HNH endonuclease	DNA, RNA and nucleotide metabolism	133.0	121.65
+phrog_5321					hypothetical	unknown function	89.0	108.65
+phrog_19463					hypothetical	unknown function	419.0	878.49
+PDDEXK_5	PF11645	CL0236		PD-(D/E)XK endonuclease			114.0	41.92
+phrog_12128					hypothetical	unknown function	29.0	80.88
+Gp44_C	PF21429			Sliding-clamp-loader large subunit, C-terminal domain			58.0	115.56
+phrog_2508					holin	lysis	81.0	95.79
+DUF7696	PF24751			Family of unknown function (DUF7696)			56.0	61.45
+phrog_5016					hypothetical	unknown function	74.0	127.66
+phrog_12176					ABC transporter	moron, auxiliary metabolic gene and host takeover	133.0	278.24
+phrog_76					tail protein	tail	159.0	259.3
+DUF1317	PF07026			Protein of unknown function (DUF1317)			60.0	136.85
+phrog_6197					Rz-like spanin	lysis	167.0	220.96
+phrog_218					head closure	connector	150.0	212.33
+phrog_10305					tail fiber protein	tail	877.0	812.1
+phrog_548					RNA ligase	DNA, RNA and nucleotide metabolism	334.0	458.67
+Metallophos	PF00149	CL0163		Calcineurin-like phosphoesterase			189.0	32.86
+phrog_14773					hypothetical	unknown function	56.0	142.23
+phrog_10243					hypothetical	unknown function	184.0	307.45
+DUF3927	PF13064			Protein of unknown function (DUF3927)			53.0	86.14
+phrog_1166					anti-sigma factor	moron, auxiliary metabolic gene and host takeover	89.0	141.68
+phrog_655					homing endonuclease	DNA, RNA and nucleotide metabolism	254.0	108.51
+phrog_2306					hypothetical	unknown function	68.0	126.68
+phrog_5077					hypothetical	unknown function	56.0	138.4
+phrog_4190					hypothetical	unknown function	170.0	313.12
+phrog_4603					alpha-2;3-sialyltransferase	other	179.0	247.07
+phrog_4820					membrane protein	moron, auxiliary metabolic gene and host takeover	65.0	111.11
+Phage_HK97_TLTM	PF06120			Tail length tape measure protein			155.0	32.48
+OLD-like_TOPRIM	PF20469	CL0413		Overcoming lysogenization defect protein-like, TOPRIM domain			67.0	62.65
+phrog_15991					hypothetical	unknown function	85.0	176.81
+phrog_9565					hypothetical	unknown function	64.0	104.36
+phrog_2381					hypothetical	unknown function	61.0	77.48
+phrog_232					baseplate wedge subunit	tail	196.0	236.47
+phrog_5672					Rz-like spanin	lysis	45.0	84.25
+Rho_N	PF07498	CL0306		Rho termination factor, N-terminal domain			43.0	34.41
+phrog_13629					hypothetical	unknown function	39.0	109.71
+phrog_16976					hypothetical	unknown function	85.0	56.07
+vRNAP_plug	PF21624			Virion DNA-directed RNA polymerase, plug insertion			84.0	99.51
+phrog_3279					tail fiber protein	tail	376.0	456.92
+phrog_1479					hypothetical	unknown function	116.0	116.57
+phrog_6798					hypothetical	unknown function	106.0	209.25
+phrog_5197					hypothetical	unknown function	294.0	453.16
+phrog_944					membrane protein	moron, auxiliary metabolic gene and host takeover	153.0	189.26
+DUF5487	PF17589			Family of unknown function (DUF5487)			66.0	162.82
+phrog_4806					histidyl tRNA synthetase	DNA, RNA and nucleotide metabolism	183.0	235.07
+phrog_2420					tail fiber protein	tail	155.0	225.68
+phrog_11068					hypothetical	unknown function	55.0	132.37
+Band_7	PF01145	CL0433		SPFH domain / Band 7 family			211.0	87.6
+DUF7293	PF23965			Family of unknown function (DUF7293)			54.0	125.41
+phrog_1040					peptidase HslV family	other	164.0	133.09
+phrog_12155					hypothetical	unknown function	116.0	253.07
+phrog_33188					hypothetical	unknown function	40.0	29.52
+Phage_CII	PF05269	CL0123		Bacteriophage CII protein			91.0	163.61
+phrog_5592					hypothetical	unknown function	90.0	117.36
+phrog_2676					hypothetical	unknown function	73.0	100.82
+phrog_25729					hypothetical	unknown function	110.0	99.93
+phrog_302					virion structural protein	head and packaging	132.0	115.99
+DarA_C	PF18789			Defence against restriction A C-terminal			65.0	61.31
+Phage_holin_2_2	PF10746	CL0563		Phage holin T7 family, holin superfamily II			61.0	128.33
+Gp10_D3	PF22670			Baseplate wedge protein gp10 domain 3			122.0	168.71
+phrog_11995					hypothetical	unknown function	131.0	298.71
+phrog_3358					hypothetical	unknown function	79.0	91.15
+phrog_27059					hypothetical	unknown function	194.0	459.72
+DUF7237	PF23884			Family of unknown function (DUF7237)			77.0	150.04
+phrog_14731					hypothetical	unknown function	76.0	152.6
+phrog_4189					hypothetical	unknown function	78.0	107.21
+phrog_4473					hypothetical	unknown function	70.0	153.47
+phrog_30284					Rz-like spanin	lysis	110.0	261.95
+phrog_314					homing endonuclease	DNA, RNA and nucleotide metabolism	312.0	106.55
+phrog_9709					hypothetical	unknown function	117.0	143.21
+NinF	PF05810	CL0167		NinF protein			25.0	47.18
+phrog_22634					hypothetical	unknown function	131.0	300.25
+phrog_1460					tRNA amidotransferase	DNA, RNA and nucleotide metabolism	146.0	157.52
+phrog_577					Doc-like toxin	moron, auxiliary metabolic gene and host takeover	126.0	166.77
+phrog_16293					hypothetical	unknown function	60.0	125.6
+phrog_14011					hypothetical	unknown function	62.0	37.73
+SIR2	PF02146	CL0063		Sir2 family			175.0	97.86
+phrog_1345					MotA-like activator of middle period transcription	transcription regulation	211.0	329.71
+Exc	PF07825	CL0123		Excisionase-like protein			72.0	140.9
+phrog_20137					ribonucleotide reductase	DNA, RNA and nucleotide metabolism	38.0	104.26
+phrog_5670					arabinose 5-phosphate isomerase	moron, auxiliary metabolic gene and host takeover	211.0	387.25
+phrog_20923					hypothetical	unknown function	158.0	321.35
+phrog_99					HNH endonuclease	DNA, RNA and nucleotide metabolism	131.0	174.31
+phrog_986					RNA-binding protein	DNA, RNA and nucleotide metabolism	109.0	121.31
+phrog_720					transposase	integration and excision	125.0	264.61
+Phage_T7_GP04	PF26807			Phage T7 gene product 0.4			47.0	67.91
+phrog_18443					hypothetical	unknown function	252.0	527.12
+phrog_2470					membrane protein	moron, auxiliary metabolic gene and host takeover	117.0	115.66
+phrog_10668					hypothetical	unknown function	124.0	280.95
+phrog_2243					hypothetical	unknown function	93.0	125.92
+phrog_2183					unknown function	unknown function	71.0	131.87
+phrog_11938					hypothetical	unknown function	95.0	210.66
+DUF7170	PF23776			Protein of unknown function (DUF7170)			51.0	68.9
+QueC	PF06508	CL0039		Queuosine biosynthesis protein QueC			208.0	187.9
+phrog_14944					hypothetical	unknown function	153.0	320.35
+phrog_9122					hypothetical	unknown function	64.0	121.97
+Amidoligase_2	PF12224	CL0286		Putative amidoligase enzyme			169.0	30.76
+PDDEXK_15	PF24608	CL0236		Phage putative PDDEXK endonuclease			145.0	51.97
+phrog_5293					hypothetical	unknown function	68.0	118.9
+phrog_22841					hypothetical	unknown function	61.0	152.4
+phrog_791					hypothetical	unknown function	225.0	279.55
+phrog_24953					hypothetical	unknown function	43.0	107.78
+phrog_22517					lipoprotein	other	65.0	160.74
+phrog_9934					hypothetical	unknown function	62.0	111.36
+Trans_coact	PF16805			Phage late-transcription coactivator			77.0	91.91
+phrog_5407					hypothetical	unknown function	58.0	83.15
+IstB_IS21	PF01695	CL0023		IstB-like ATP binding protein			222.0	62.16
+phrog_1578					hypothetical	unknown function	80.0	110.78
+phrog_943					anti-termination protein Q-like	transcription regulation	166.0	310.17
+phrog_1327					Rz-like spanin	lysis	143.0	218.25
+DUF7768	PF24963	CL0498		Domain of unknown function (DUF7768)			107.0	33.85
+phrog_9814					hypothetical	unknown function	68.0	147.77
+phrog_24402					holin	lysis	107.0	188.49
+phrog_15268					hypothetical	unknown function	56.0	139.78
+Head-tail_con	PF12236	CL0838		Bacteriophage head to tail connecting protein			473.0	381.9
+phrog_4804					hypothetical	unknown function	81.0	152.55
+phrog_4446					hypothetical	unknown function	80.0	61.34
+Phage_T4_Y06O	PF26873			Phage T4 Y06O protein			130.0	241.95
+AP2	PF00847	CL0081		AP2 domain			50.0	29.71
+NrS1-1_pol-like_HBD	PF22763			NrS-1  polymerase HBD domain			46.0	27.21
+phrog_8173					hypothetical	unknown function	42.0	92.54
+Phage_P2_GpE	PF06528			Phage P2 GpE			37.0	76.26
+Baseplate_Tube_p140	PF23779			Bacteriophage Baseplate Tube Protein Family			298.0	444.69
+DUF3310	PF11753			Protein of unknwon function (DUF3310)			64.0	82.38
+PRTase_3	PF15610	CL0533		PRTase ComF-like			259.0	142.73
+phrog_14025					hypothetical	unknown function	91.0	72.89
+phrog_11641					hypothetical	unknown function	147.0	326.62
+phrog_1400					Srd anti-sigma factor	moron, auxiliary metabolic gene and host takeover	246.0	365.02
+phrog_1168					hypothetical	unknown function	164.0	228.7
+Phage_TAC_15	PF21822	CL0567		Phage tail assembly chaperone protein, TAC			120.0	85.95
+Phage_P22_NinX	PF10765			Bacteriophage P22, NinX			114.0	37.3
+phrog_444					hypothetical	unknown function	123.0	83.52
+phrog_2213					nucleoside triphosphate pyrophosphohydrolase	other	94.0	213.06
+phrog_14393					hydrolase	other	218.0	396.44
+phrog_770					DNA transfer protein	other	714.0	732.29
+DUF7421	PF24196			Family of unknown function (DUF7421)			61.0	142.35
+DUF7577	PF24463	CL0167		Domain of unknown function (DUF7577)			21.0	22.76
+phrog_6693					hypothetical	unknown function	46.0	109.06
+phrog_477					head-tail adaptor Ad1	connector	167.0	156.78
+phrog_27666					hypothetical	unknown function	263.0	623.26
+phrog_14176					polymerase	DNA, RNA and nucleotide metabolism	83.0	142.4
+phrog_6662					hypothetical	unknown function	77.0	145.24
+phrog_17775					hypothetical	unknown function	133.0	123.88
+phrog_3712					replication origin binding	DNA, RNA and nucleotide metabolism	926.0	1817.72
+phrog_9922					minor tail protein	tail	199.0	464.43
+Phage_ProQ_C_like	PF24203	CL0010		Phage ProQ C-terminal-like domain			113.0	27.33
+phrog_384					virion structural protein	head and packaging	164.0	87.9
+phrog_3462					nicotinamide-nucleotide adenylyltransferase	moron, auxiliary metabolic gene and host takeover	350.0	507.08
+phrog_6254					HNH endonuclease	DNA, RNA and nucleotide metabolism	148.0	191.69
+phrog_1183					endonuclease V N-glycosylase UV repair enzyme	DNA, RNA and nucleotide metabolism	138.0	213.32
+phrog_6973					hypothetical	unknown function	64.0	145.22
+SprB	PF13573	CL0159		SprB repeat			21.0	24.56
+DUF2644	PF10841			Protein of unknown function (DUF2644)			59.0	72.39
+phrog_20244					hypothetical	unknown function	143.0	279.26
+DUF5417	PF17438			Family of unknown function (DUF5417)			79.0	105.89
+phrog_1550					QueC-like queuosine biosynthesis	moron, auxiliary metabolic gene and host takeover	234.0	243.33
+Phage_T4_Y12K	PF26902			Bacteriophage T4 protein Y12K			95.0	97.16
+Zn_ribbon_InsA	PF03811	CL0167		InsA N-terminal domain			36.0	75.28
+phrog_34563					hypothetical	unknown function	42.0	117.71
+phrog_17655					hypothetical	unknown function	51.0	119.14
+phrog_12698					hypothetical	unknown function	73.0	135.44
+phrog_6399					SieB superinfection exclusion	moron, auxiliary metabolic gene and host takeover	183.0	379.63
+Inhibitor_I24	PF10465			PinA peptidase inhibitor			140.0	143.94
+phrog_2973					Hoc-like head decoration	head and packaging	279.0	224.57
+phrog_2180					hypothetical	unknown function	41.0	72.81
+phrog_2373					DNA helicase	DNA, RNA and nucleotide metabolism	527.0	856.43
+phrog_924					hypothetical	unknown function	64.0	51.65
+phrog_38795					hypothetical	unknown function	68.0	129.54
+phrog_5165					hypothetical	unknown function	69.0	35.29
+phrog_1530					DNA methyltransferase	other	139.0	191.5
+phrog_9481					hypothetical	unknown function	46.0	80.13
+phrog_14248					hypothetical	unknown function	55.0	121.44
+DTP-pb9_A-dom_C	PF21424	CL0504		Distal tail protein pb9, A domain C-terminal			32.0	71.54
+Arm-DNA-bind_3	PF13356	CL0081		Arm DNA-binding domain			86.0	88.03
+phrog_11449					hypothetical	unknown function	75.0	131.9
+phrog_5305					hypothetical	unknown function	68.0	104.6
+phrog_8583					hypothetical	unknown function	290.0	418.86
+phrog_150					baseplate hub	tail	208.0	240.94
+phrog_626					anaerobic ribonucleotide reductase small subunit	DNA, RNA and nucleotide metabolism	156.0	239.48
+phrog_289					GTP-binding domain	other	130.0	114.79
+phrog_16521					hypothetical	unknown function	131.0	151.02
+phrog_22146					hypothetical	unknown function	60.0	150.41
+GGACT	PF06094	CL0278		Gamma-glutamyl cyclotransferase, AIG2-like			127.0	64.78
+TK	PF00265	CL0023		Thymidine kinase			184.0	205.55
+DUF7338	PF24027			Family of unknown function (DUF7338)			185.0	203.35
+phrog_1175					hypothetical	unknown function	76.0	118.62
+DUF7438	PF24219			Family of unknown function (DUF7438)			58.0	63.17
+phrog_25602					hypothetical	unknown function	29.0	75.03
+Toprim_3	PF13362	CL0413		Toprim domain			105.0	42.09
+phrog_540					nucleotide-sugar epimerase	DNA, RNA and nucleotide metabolism	276.0	202.1
+phrog_4968					hypothetical	unknown function	82.0	128.57
+phrog_13127					hypothetical	unknown function	137.0	179.78
+phrog_2633					endonuclease VII	DNA, RNA and nucleotide metabolism	195.0	73.43
+phrog_6015					single strand DNA binding protein	DNA, RNA and nucleotide metabolism	299.0	292.07
+phrog_12359					hypothetical	unknown function	85.0	188.69
+phrog_2604					unknown function	unknown function	130.0	238.35
+phrog_7421					hypothetical	unknown function	66.0	135.78
+phrog_1055					restriction alleviation ral	DNA, RNA and nucleotide metabolism	66.0	166.56
+DUF5498	PF17602			Family of unknown function (DUF5498)			96.0	213.07
+phrog_18933					hypothetical	unknown function	33.0	85.61
+phrog_1896					hypothetical	unknown function	118.0	190.56
+AdfA	PF23813			Anti-DarT factor A			208.0	486.3
+phrog_4427					hypothetical	unknown function	68.0	154.34
+DUF5906	PF19263	CL0023		Family of unknown function (DUF5906)			115.0	53.58
+phrog_681					endonuclease	DNA, RNA and nucleotide metabolism	322.0	252.63
+phrog_2518					hypothetical	unknown function	332.0	796.1
+DUF7390	PF24116			Domain of unknown function (DUF7390)			82.0	51.37
+phrog_8176					hypothetical	unknown function	65.0	120.91
+phrog_15739					hypothetical	unknown function	72.0	166.94
+phrog_1049					head scaffolding protein	head and packaging	140.0	239.02
+Phage_T4_Y13G	PF26883			Bacteriophage T4 protein Y13G			65.0	109.27
+PG_binding_3	PF09374	CL0244		Predicted Peptidoglycan domain			82.0	35.62
+DTP-pb9_B-dom	PF21430	CL0021		Distal tail protein pb9, B domain			85.0	141.44
+phrog_8157					hypothetical	unknown function	121.0	235.52
+phrog_7354					major head protein	head and packaging	81.0	180.76
+phrog_26834					hypothetical	unknown function	94.0	216.29
+Phage_T4_Y16B	PF26827			Phage Y16B protein			43.0	94.74
+phrog_255					exonuclease	DNA, RNA and nucleotide metabolism	227.0	294.31
+Phage_term_smal	PF05944			Phage small terminase subunit			130.0	161.43
+Phage_head_chap	PF11113			Head assembly gene product			56.0	90.09
+Phage_tail_S	PF05069	CL0348		Phage virion morphogenesis family			148.0	149.92
+phrog_4141					hypothetical	unknown function	100.0	209.12
+Gp53-like_C	PF21882	CL0840		Putative tail fiber protein gp53-like, C-terminal			88.0	27.72
+phrog_19851					hypothetical	unknown function	59.0	131.86
+Phage_T7_Capsid	PF05396			Phage T7 capsid assembly protein			183.0	254.72
+vRNAP_dom	PF21769			Virion DNA-directed RNA polymerase domain			145.0	178.17
+phrog_4233					hypothetical	unknown function	205.0	331.58
+DUF7177	PF23801			Family of unknown function (DUF7177)			83.0	142.74
+DUF5495	PF17599			Family of unknown function (DUF5495)			71.0	155.35
+DUF1398	PF07166			Protein of unknown function (DUF1398)			119.0	156.68
+phrog_1683					hypothetical	unknown function	67.0	129.59
+phrog_2949					dGTPase inhibitor; target for F exclusion	other	85.0	135.55
+phrog_8284					hypothetical	unknown function	122.0	189.09
+phrog_10					major head protein	head and packaging	455.0	145.1
+phrog_254					late promoter transcriptional regulator	transcription regulation	112.0	110.69
+phrog_8382					hypothetical	unknown function	104.0	134.13
+phrog_1829					DNA primase	DNA, RNA and nucleotide metabolism	774.0	744.12
+phrog_59					HNH endonuclease	DNA, RNA and nucleotide metabolism	138.0	105.95
+phrog_3614					hypothetical	unknown function	204.0	369.48
+phrog_1843					hypothetical	unknown function	228.0	323.15
+Phage_30_3	PF08010	CL0787		Bacteriophage protein GP30.3			140.0	233.41
+Phage_YdaY	PF27119			YdaY prophage protein			108.0	25.45
+phrog_160					thymidylate synthase	DNA, RNA and nucleotide metabolism	245.0	223.4
+phrog_17368					tail length tape measure protein	tail	102.0	134.42
+phrog_23					tail sheath	tail	658.0	404.76
+phrog_766					head decoration	head and packaging	152.0	163.97
+phrog_612					RIIA lysis inhibitor	lysis	725.0	880.54
+phrog_11097					hypothetical	unknown function	85.0	161.13
+Gp34_2nd	PF21560			Long-tail fiber proximal subunit, C-terminal, second			99.0	126.24
+phrog_5200					HNH endonuclease	DNA, RNA and nucleotide metabolism	145.0	243.94
+Gp0_5	PF26813			Bacteriophage T7 protein 0.5			42.0	84.55
+phrog_17458					hypothetical	unknown function	111.0	207.24
+phrog_5757					peptidase	other	389.0	886.64
+phrog_1191					transposase	integration and excision	91.0	186.62
+ALC	PF17527			Phage ALC protein			167.0	236.61
+phrog_30487					hypothetical	unknown function	153.0	138.97
+phrog_1357					major head protein	head and packaging	401.0	521.4
+Phage_lambda_Ea47	PF26900			Bacteriophage lambda protein ea47			383.0	100.98
+Phage_fiber	PF03335			Phage tail fibre repeat			53.0	10.51
+phrog_4439					hypothetical	unknown function	57.0	80.16
+phrog_1538					tail length tape measure protein	tail	768.0	739.35
+phrog_2794					hypothetical	unknown function	111.0	185.62
+phrog_4234					HNH endonuclease	DNA, RNA and nucleotide metabolism	125.0	81.04
+MTES_1575	PF18741	CL0236		REase_MTES_1575			91.0	29.15
+phrog_273					hypothetical	unknown function	56.0	140.67
+phrog_14548					hypothetical	unknown function	179.0	321.89
+phrog_3497					hypothetical	unknown function	145.0	242.05
+phrog_15322					hypothetical	unknown function	70.0	85.47
+phrog_14963					hypothetical	unknown function	64.0	148.16
+phrog_7900					hypothetical	unknown function	75.0	107.11
+phrog_10996					hypothetical	unknown function	70.0	107.2
+phrog_2970					hypothetical	unknown function	325.0	367.77
+phrog_1453					hypothetical	unknown function	130.0	206.28
+phrog_1307					RNA polymerase inhibitor	DNA, RNA and nucleotide metabolism	64.0	102.94
+phrog_34767					hypothetical	unknown function	39.0	91.74
+phrog_4459					hypothetical	unknown function	72.0	151.44
+phrog_16586					tail fiber protein	tail	349.0	218.79
+phrog_231					UvsY-like recombination mediator	DNA, RNA and nucleotide metabolism	137.0	174.6
+phrog_15301					hypothetical	unknown function	106.0	187.77
+phrog_2360					hypothetical	unknown function	66.0	141.38
+phrog_2914					endonuclease VII	DNA, RNA and nucleotide metabolism	189.0	79.33
+DUF4014	PF13198			Protein of unknown function (DUF4014)			54.0	64.22
+phrog_6921					tail fiber protein	tail	747.0	403.18
+Phage_T4_Y07D	PF26870			Phage T4 Y07D protein			61.0	97.75
+phrog_13681					hypothetical	unknown function	103.0	199.7
+phrog_11166					hypothetical	unknown function	61.0	149.57
+phrog_21410					hypothetical	unknown function	162.0	317.92
+Fer4_12	PF13353	CL0344		4Fe-4S single cluster domain			135.0	162.87
+phrog_7					endolysin	lysis	163.0	98.47
+phrog_6741					hypothetical	unknown function	164.0	285.21
+phrog_12675					hypothetical	unknown function	72.0	166.75
+Phage_tail_terminator_3	PF23842	CL0691		Phage tail termination protein			124.0	141.13
+phrog_6360					hypothetical	unknown function	86.0	48.33
+phrog_12623					hypothetical	unknown function	75.0	176.37
+phrog_6080					hypothetical	unknown function	72.0	49.84
+phrog_873					endolysin	head and packaging	144.0	210.45
+DUF5499	PF17603			Family of unknown function (DUF5499)			97.0	215.62
+phrog_12838					replication initiation protein	DNA, RNA and nucleotide metabolism	116.0	265.16
+phrog_16667					DNA polymerase I	DNA, RNA and nucleotide metabolism	224.0	267.53
+DUF4054	PF13262			Protein of unknown function (DUF4054)			105.0	76.37
+Phage_rep_O	PF04492	CL0123		Bacteriophage replication protein O			95.0	122.65
+Gp10_C	PF21939	CL0779		Baseplate structural protein Gp10, C-terminal domain			153.0	185.33
+phrog_24511					hypothetical	unknown function	55.0	142.85
+phrog_1992					MazG-like pyrophosphatase	other	197.0	210.82
+phrog_2197					GTP cyclohydrolase	other	199.0	251.75
+phrog_15130					hypothetical	unknown function	116.0	248.83
+phrog_569					tail length tape measure protein	tail	104.0	116.54
+phrog_227					tail sheath stabilizer	tail	272.0	364.36
+phrog_3970					polynucleotide kinase	other	231.0	448.96
+phrog_12266					hypothetical	unknown function	71.0	153.07
+phrog_12226					hypothetical	unknown function	192.0	446.54
+Phage_T4_Y05C	PF26908			Bacteriophage T4 protein Y05C			133.0	172.58
+phrog_1149					Hoc-like head decoration	head and packaging	376.0	642.09
+phrog_6053					hypothetical	unknown function	105.0	147.42
+phrog_8393					hypothetical	unknown function	111.0	209.62
+phrog_28969					hypothetical	unknown function	120.0	219.07
+phrog_4640					hypothetical	unknown function	77.0	157.2
+phrog_6906					hypothetical	unknown function	67.0	65.07
+phrog_446					tail protein	tail	196.0	265.31
+Phage_attach	PF05354	CL0504		Phage Head-Tail Attachment protein			107.0	71.54
+phrog_10643					hypothetical	unknown function	59.0	131.7
+Minor_tail_Z	PF06763	CL0504		Prophage minor tail protein Z (GPZ)			190.0	274.39
+phrog_4263					hypothetical	unknown function	336.0	561.29
+phrog_16005					hypothetical	unknown function	44.0	92.71
+Phage_P22_Y8K6	PF27050			Salmonella phage P22 protein Y8K6			47.0	26.56
+phrog_363					DNA methyltransferase	other	261.0	97.72
+Gad2	PF26128	CL0260		Gabija anti-defense 2 family protein			145.0	36.57
+zf-dskA_traR	PF01258	CL0839		Prokaryotic dksA/traR C4-type zinc finger			37.0	43.05
+phrog_13048					hypothetical	unknown function	50.0	135.8
+phrog_37795					hypothetical	unknown function	46.0	108.62
+phrog_7287					hypothetical	unknown function	86.0	160.05
+N6_N4_Mtase	PF01555	CL0063		DNA methylase			331.0	139.78
+phrog_4098					hypothetical	unknown function	561.0	987.85
+Peptidase_S74	PF13884			Chaperone of endosialidase			60.0	38.59
+phrog_10378					HNH endonuclease	DNA, RNA and nucleotide metabolism	296.0	500.78
+phrog_250					hypothetical	unknown function	182.0	204.25
+phrog_2877					holin	lysis	71.0	127.45
+phrog_4262					hypothetical	unknown function	111.0	224.45
+phrog_12922					hypothetical	unknown function	94.0	221.81
+phrog_3002					hypothetical	unknown function	50.0	44.63
+phrog_614					hypothetical	unknown function	193.0	273.87
+Rad52_Rad22	PF04098	CL0196		Rad52/22 family double-strand break repair protein			134.0	88.87
+phrog_9703					head decoration	head and packaging	358.0	364.08
+phrog_2071					ATPase	other	136.0	189.4
+phrog_6212					unknown function	unknown function	43.0	124.67
+Phage_portal_3	PF06381	CL0838		Phage portal protein			342.0	232.02
+ocr	PF08684			DNA mimic ocr			101.0	173.3
+Sequestin	PF21825			Sequestin			61.0	68.93
+DUF1391	PF07151			Protein of unknown function (DUF1391)			49.0	93.68
+phrog_768					DprA-like DNA recombination-mediator protein	DNA, RNA and nucleotide metabolism	191.0	203.74
+phrog_21957					hypothetical	unknown function	41.0	49.23
+phrog_1898					lysis determining protein	lysis	147.0	280.04
+DUF7444	PF24231			Family of unknown function (DUF7444)			80.0	70.21
+phrog_902					hypothetical	unknown function	86.0	98.27
+phrog_179					tail terminator	connector	133.0	110.3
+phrog_11192					hypothetical	unknown function	110.0	172.71
+phrog_1607					single strand DNA binding protein	DNA, RNA and nucleotide metabolism	257.0	365.18
+phrog_2828					serine-threonine kinase	other	359.0	570.98
+phrog_71					head-tail adaptor Ad1	connector	169.0	246.92
+phrog_963					baseplate wedge subunit	tail	219.0	294.18
+phrog_23692					hypothetical	unknown function	64.0	164.45
+phrog_6957					hypothetical	unknown function	63.0	145.66
+phrog_7471					hypothetical	unknown function	63.0	102.34
+phrog_4306					Rz-like spanin	lysis	83.0	135.93
+phrog_673					head scaffolding protein	head and packaging	136.0	72.66
+Phage_T4_Y02C	PF26865			Phage T4 Y02C protein			47.0	86.13
+T7-like_Y65	PF10911			Bacteriophage T7-like gene 6.5			77.0	142.89
+Int_N	PF24624	CL0469		Phage integrase, N-terminal domain			100.0	85.99
+phrog_412					exonuclease VIII	DNA, RNA and nucleotide metabolism	321.0	281.56
+NUMOD3	PF07460			NUMOD3 motif			36.0	23.89
+phrog_244					RusA-like Holliday junction resolvase	DNA, RNA and nucleotide metabolism	153.0	109.16
+phrog_9004					hypothetical	unknown function	108.0	200.98
+phrog_1660					PmgS-like head morphogenesis	head and packaging	420.0	658.88
+phrog_13164					ATPase	other	89.0	202.18
+phrog_4963					tail assembly chaperone	tail	79.0	185.44
+phrog_4403					hypothetical	unknown function	120.0	259.79
+phrog_402					hypothetical	unknown function	58.0	77.21
+phrog_136					tail fiber assembly protein	tail	175.0	269.91
+phrog_964					baseplate wedge subunit	tail	1032.0	1867.26
+phrog_13462					hypothetical	unknown function	65.0	100.04
+phrog_403					DNA polymerase exonuclease subunit	DNA, RNA and nucleotide metabolism	280.0	304.7
+Phage_Inh_C	PF26098			Phage inhibitor of prohead protease C-terminal domain			62.0	112.36
+phrog_22503					hypothetical	unknown function	61.0	123.41
+Nlig-Ia	PF22745			DNA ligase-like, N-terminal NAD+-binding domain			54.0	28.05
+phrog_637					head-tail adaptor Ad3	connector	166.0	223.21
+phrog_21710					hypothetical	unknown function	485.0	73.03
+phrog_14049					hypothetical	unknown function	83.0	25.41
+phrog_5058					hypothetical	unknown function	49.0	91.0
+phrog_21849					hypothetical	unknown function	40.0	87.29
+phrog_23941					hypothetical	unknown function	93.0	33.6
+phrog_7162					glycosyltransferase	moron, auxiliary metabolic gene and host takeover	314.0	503.54
+phrog_4947					hypothetical	unknown function	106.0	137.67
+Fn3-III_PB4	PF24171	CL0159		Straight fiber protein PB4 third Fn3-like domain			125.0	207.02
+AAA_31	PF13614	CL0023		AAA domain			200.0	86.56
+Phage_sheath_1	PF04984			Phage tail sheath protein subtilisin-like domain			194.0	122.78
+FlgM	PF04316			Anti-sigma-28 factor, FlgM			48.0	25.23
+phrog_16959					hypothetical	unknown function	105.0	91.19
+phrog_4790					host RecBCD nuclease inhibitor	moron, auxiliary metabolic gene and host takeover	59.0	106.88
+phrog_13039					hypothetical	unknown function	42.0	97.89
+Collar	PF07484	CL0779		Phage Tail Collar Domain			57.0	53.38
+phrog_4605					hypothetical	unknown function	148.0	288.92
+phrog_13365					hypothetical	unknown function	69.0	145.37
+phrog_27467					hypothetical	unknown function	87.0	170.42
+vRNAP_dom_2	PF21867			Virion DNA-directed RNA polymerase domain			117.0	158.39
+DUF6950	PF22262	CL0125		Domain of unknown function (DUF6950)			137.0	108.23
+phrog_6147					hypothetical	unknown function	91.0	137.61
+T4_tail_cap	PF11091	CL0504		Tail-tube assembly protein			356.0	553.45
+Terminase_3	PF04466	CL0023		Phage terminase large subunit			202.0	120.25
+phrog_3972					hypothetical	unknown function	115.0	152.66
+phrog_3890					straight fibre tail protein	tail	686.0	1352.57
+phrog_33631					hypothetical	unknown function	71.0	166.48
+Herpes_ori_bp	PF02399	CL0023		Origin of replication binding protein			172.0	24.01
+phrog_619					ribose-phosphate pyrophosphokinase	other	290.0	311.39
+phrog_14736					HNH endonuclease	DNA, RNA and nucleotide metabolism	205.0	408.97
+phrog_1620					Hdf-like antirestriction	moron, auxiliary metabolic gene and host takeover	203.0	295.93
+phrog_139					deoxynucleoside monophosphate kinase	other	241.0	206.18
+phrog_3802					terminase small subunit	head and packaging	159.0	302.58
+DUF7249	PF23907			Family of unknown function (DUF7249)			79.0	52.04
+phrog_14417					tail fiber protein; host specificity	tail	1005.0	2329.39
+phrog_8826					hypothetical	unknown function	74.0	108.45
+Pam3_gp18	PF22479			Cyanophage baseplate Pam3 plug gp18			106.0	66.66
+phrog_2143					hypothetical	unknown function	185.0	272.61
+phrog_4327					hypothetical	unknown function	134.0	285.24
+phrog_17591					hypothetical	unknown function	68.0	154.03
+Gp18_dom_I	PF22639			Tail sheath protein Gp18-like domain I			92.0	128.74
+Translat_reg	PF01818			Bacteriophage translational regulator			121.0	248.25
+phrog_24					tail length tape measure protein	tail	869.0	1132.44
+phrog_25285					hypothetical	unknown function	82.0	168.67
+phrog_775					replication helicase	DNA, RNA and nucleotide metabolism	286.0	454.77
+phrog_290					minor tail protein	tail	392.0	331.5
+phrog_20001					tail fiber protein	tail	162.0	107.57
+phrog_246					NinI-like serine-threonine phosphatase	other	221.0	344.64
+phrog_1507					hypothetical	unknown function	110.0	166.1
+DDE_Tnp_IS1	PF03400	CL0219		IS1 transposase			131.0	261.06
+phrog_4844					hypothetical	unknown function	68.0	131.08
+phrog_4760					hypothetical	unknown function	96.0	184.27
+phrog_12006					hypothetical	unknown function	56.0	142.3
+phrog_16688					hypothetical	unknown function	78.0	170.5
+phrog_7033					hypothetical	unknown function	91.0	128.6
+phrog_3909					hypothetical	unknown function	69.0	58.11
+phrog_13426					hypothetical	unknown function	69.0	130.78
+phrog_16755					hypothetical	unknown function	46.0	123.86
+Phage_phiTE_211	PF26210			Phage phiTE_211 family			316.0	318.91
+Gp6_C-III	PF21871			Baseplate structural protein gp6, C-terminal domain III			76.0	147.47
+phrog_5009					hypothetical	unknown function	84.0	114.16
+phrog_16924					hypothetical	unknown function	60.0	137.06
+phrog_21					portal protein	head and packaging	533.0	699.57
+phrog_32312					replication initiation protein	DNA, RNA and nucleotide metabolism	44.0	109.49
+phrog_1986					hypothetical	unknown function	73.0	145.92
+phrog_4318					hypothetical	unknown function	113.0	239.09
+Ribonuc_red_sm	PF00268	CL0044		Ribonucleotide reductase, small chain			311.0	127.33
+Phage_T4_Ndd	PF06591			T4-like phage nuclear disruption protein (Ndd)			151.0	203.54
+phrog_343					hypothetical	unknown function	132.0	62.54
+phrog_66					excisionase and transcriptional regulator	integration and excision	60.0	55.55
+phrog_5790					hypothetical	unknown function	54.0	82.48
+phrog_26					tail completion or Neck1 protein	connector	150.0	176.36
+phrog_1764					unknown function	unknown function	75.0	117.54
+GP11	PF08677			GP11 baseplate wedge protein			217.0	253.06
+phrog_12612					hypothetical	unknown function	84.0	98.31
+DUF7334	PF24022			Family of unknown function (DUF7334)			57.0	131.03
+phrog_5169					hypothetical	unknown function	77.0	139.46
+phrog_15618					hypothetical	unknown function	116.0	248.78
+phrog_5748					hypothetical	unknown function	116.0	131.43
+phrog_14510					hypothetical	unknown function	136.0	238.37
+PRA-PH	PF01503	CL0231		Phosphoribosyl-ATP pyrophosphohydrolase			69.0	29.35
+phrog_4684					hypothetical	unknown function	51.0	112.38
+phrog_4747					hypothetical	unknown function	584.0	698.93
+DUF7320	PF24005			Domain of unknown function (DUF7320)			78.0	121.13
+phrog_1323					endoribonuclease	DNA, RNA and nucleotide metabolism	153.0	266.81
+phrog_23919					hypothetical	unknown function	68.0	157.37
+phrog_8784					dTDP-4-dehydrorhamnose 3,5-epimerase	moron, auxiliary metabolic gene and host takeover	183.0	314.73
+Terminase_6N	PF03237	CL0023		Terminase large subunit, T4likevirus-type, N-terminal			215.0	191.39
+Phage_T4_Y05B	PF26899			Bacteriophage T4 protein Y05B			295.0	439.07
+phrog_6666					hypothetical	unknown function	49.0	99.78
+phrog_23012					hypothetical	unknown function	80.0	191.53
+phrog_4180					hypothetical	unknown function	89.0	170.23
+P22_portal	PF16510	CL0838		Phage P22-like portal protein			613.0	534.41
+phrog_4879					hypothetical	unknown function	63.0	152.73
+phrog_571					hypothetical	unknown function	117.0	45.18
+phrog_34921					hypothetical	unknown function	46.0	74.36
+DNA_methylase	PF00145	CL0063		C-5 cytosine-specific DNA methylase			138.0	68.23
+phrog_802					Alt-like RNA polymerase ADP-ribosyltransferase	moron, auxiliary metabolic gene and host takeover	685.0	846.28
+phrog_1451					hypothetical	unknown function	99.0	80.04
+phrog_4828					hypothetical	unknown function	329.0	488.44
+phrog_13245					hypothetical	unknown function	131.0	295.47
+phrog_4463					hypothetical	unknown function	123.0	258.4
+phrog_5291					hypothetical	unknown function	77.0	137.0
+phrog_5658					pyrophosphatase	other	205.0	62.7
+phrog_5919					hypothetical	unknown function	54.0	131.17
+phrog_3778					head maturation protease	head and packaging	473.0	578.7
+phrog_1474					unknown function	unknown function	98.0	129.48
+phrog_4881					hypothetical	unknown function	175.0	228.95
+Terminase_3C	PF17288	CL0219		Terminase RNAseH like domain			149.0	43.6
+phrog_622					unknown function	unknown function	123.0	110.94
+phrog_74					terminase small subunit	head and packaging	247.0	379.17
+phrog_271					anti-termination protein N-like	transcription regulation	119.0	129.72
+phrog_3054					hypothetical	unknown function	134.0	145.35
+Phage_sheath_domII	PF17481			Phage tail sheath protein beta-sandwich domain			149.0	53.23
+phrog_1989					hypothetical	unknown function	168.0	173.11
+phrog_953					HNH endonuclease	DNA, RNA and nucleotide metabolism	198.0	208.67
+phrog_22569					hypothetical	unknown function	52.0	106.1
+phrog_17303					hypothetical	unknown function	31.0	43.69
+phrog_24346					hypothetical	unknown function	62.0	163.66
+phrog_7641					hypothetical	unknown function	143.0	150.45
+phrog_14089					hypothetical	unknown function	59.0	98.93
+phrog_25921					hypothetical	unknown function	107.0	244.47
+phrog_6465					tail protein	tail	267.0	389.46
+phrog_5245					hypothetical	unknown function	53.0	101.61
+phrog_8138					hypothetical	unknown function	53.0	140.55
+phrog_6021					hypothetical	unknown function	77.0	154.67
+phrog_14					minor tail protein	tail	109.0	159.19
+phrog_8758					hypothetical	unknown function	81.0	130.42
+phrog_17200					hypothetical	unknown function	27.0	80.72
+phrog_1926					released from the phage upon host infection	other	639.0	1177.71
+DUF7396	PF24129			Family of unknown function (DUF7396)			46.0	49.48
+phrog_18659					hypothetical	unknown function	69.0	129.96
+Phage_T4_Y04OP	PF26897			Bacteriophage T4 Y04O/Y04P family			307.0	379.42
+phrog_11298					hypothetical	unknown function	274.0	443.74
+phrog_562					RNA ligase and tail fiber protein attachment catalyst	tail	374.0	528.71
+phrog_3303					hypothetical	unknown function	180.0	305.79
+phrog_15592					hypothetical	unknown function	71.0	122.13
+phrog_15247					hypothetical	unknown function	67.0	167.56
+phrog_7431					hypothetical	unknown function	69.0	92.83
+phrog_5684					hypothetical	unknown function	70.0	99.69
+phrog_2292					hypothetical	unknown function	102.0	199.17
+phrog_2993					hypothetical	unknown function	99.0	98.94
+GIY-YIG	PF01541	CL0418		GIY-YIG catalytic domain			75.0	26.15
+phrog_26050					hypothetical	unknown function	71.0	163.17
+phrog_36964					terminase large subunit	head and packaging	259.0	70.65
+Ribonuc_red_lgC	PF02867	CL0339		Ribonucleotide reductase, barrel domain			509.0	456.47
+phrog_4730					hypothetical	unknown function	208.0	276.7
+TOPRIM_C	PF16898			C-terminal associated domain of TOPRIM			88.0	28.4
+phrog_4017					baseplate protein	tail	285.0	586.96
+Zn_ribbon_8	PF09723	CL0167		Zinc ribbon domain			42.0	42.09
+phrog_16560					hypothetical	unknown function	132.0	252.66
+phrog_12351					hypothetical	unknown function	79.0	194.91
+phrog_16585					hypothetical	unknown function	97.0	46.71
+phrog_648					head scaffolding protein	head and packaging	300.0	345.22
+HCP	PF24163	CL0643		Head completion protein			169.0	216.9
+PKD	PF00801	CL0159		PKD domain			172.0	19.88
+phrog_4344					hypothetical	unknown function	74.0	119.59
+DUF7195	PF23825			Family of unknown function (DUF7195)			69.0	57.77
+phrog_1754					hypothetical	unknown function	126.0	160.77
+phrog_3840					tail assembly chaperone	tail	157.0	224.16
+Peptidase_U32	PF01136			Peptidase family U32			166.0	25.51
+phrog_4919					hypothetical	unknown function	135.0	184.61
+phrog_9903					hypothetical	unknown function	65.0	156.31
+T4_gp9_10_N	PF07880			Bacteriophage T4 gp9/10-like protein, N-terminal			162.0	244.87
+ANT	PF03374			Phage antirepressor protein KilAC domain			105.0	106.56
+phrog_32165					minor tail protein	tail	144.0	234.88
+phrog_7469					amidoligase enzyme	other	367.0	432.88
+phrog_260					Bor-like outer membrane protein	other	97.0	195.97
+phrog_9016					hypothetical	unknown function	96.0	112.85
+YqaJ	PF09588	CL0236		YqaJ-like viral recombinase domain			146.0	104.05
+phrog_24889					hypothetical	unknown function	79.0	186.56
+phrog_52					tail protein	tail	387.0	552.64
+DCD	PF22769	CL0153		dCTP deaminase-like			126.0	58.6
+Ig_J_second	PF24489	CL0159		Tip attachment protein J second Ig-like domain			105.0	135.3
+phrog_7717					hypothetical	unknown function	61.0	147.79
+phrog_1079					hypothetical	unknown function	99.0	122.43
+phrog_29107					hypothetical	unknown function	97.0	162.43
+DUF7202	PF23832			Domain of unknown function (DUF7202)			70.0	118.18
+phrog_5698					hypothetical	unknown function	195.0	210.68
+phrog_2536					Rz-like spanin	lysis	102.0	123.01
+phrog_26831					hypothetical	unknown function	75.0	57.5
+phrog_14390					hypothetical	unknown function	119.0	236.8
+phrog_70					major head protein	head and packaging	348.0	583.36
+phrog_3891					hypothetical	unknown function	299.0	517.11
+phrog_34807					collar tail protein for L-shaped tail fibre attachment	tail	61.0	124.52
+Cpn10	PF00166	CL0296		Chaperonin 10 Kd subunit			103.0	30.47
+phrog_18174					hypothetical	unknown function	52.0	113.03
+phrog_4099					hypothetical	unknown function	128.0	169.71
+DUF7173	PF23791			Family of unknown function (DUF7173)			140.0	111.15
+phrog_9887					hypothetical	unknown function	96.0	194.35
+phrog_600					unknown function	unknown function	181.0	236.36
+phrog_277					replication initiation O-like	DNA, RNA and nucleotide metabolism	299.0	520.88
+Peptidase_S49	PF01343	CL0127		Peptidase family S49			153.0	151.17
+DUF1737	PF08410			Domain of unknown function (DUF1737)			42.0	14.98
+YAcAr	PF10686	CL0349		YspA, cpYpsA-related SLOG family			65.0	66.47
+phrog_164					ParA-like partition protein	DNA, RNA and nucleotide metabolism	398.0	314.82
+Phage_T4_Y01J	PF26878			Bacteriophage T4 protein Y01J			68.0	139.34
+phrog_9					terminase large subunit	head and packaging	376.0	49.92
+TAGT	PF20691	CL0110		TET-Associated Glycosyltransferase			185.0	30.26
+TelA	PF05816			Toxic anion resistance protein (TelA)			316.0	112.98
+Phage_phiTE_015	PF26207			Phage PhiTE phiTE_015 protein family			45.0	42.58
+phrog_2402					hypothetical	unknown function	286.0	345.31
+phrog_12584					hypothetical	unknown function	79.0	161.75
+phrog_295					tail fiber protein	tail	250.0	409.26
+phrog_3499					internal head protein	head and packaging	85.0	167.23
+Phage_T7_1_1	PF08200			Bacteriophage 1.1 Protein			40.0	45.69
+phrog_584					major tail protein	tail	217.0	286.74
+phrog_18381					hypothetical	unknown function	86.0	26.85
+phrog_16423					hypothetical	unknown function	76.0	86.52
+phrog_38225					hypothetical	unknown function	32.0	86.65
+T4_y05I_N	PF24449	CL0609		y05I-like putative transcription factor N-terminal domain			90.0	29.82
+phrog_3575					major tail protein	tail	463.0	858.58
+phrog_2294					ribonucleotide reductase	DNA, RNA and nucleotide metabolism	106.0	174.64
+phrog_11867					hypothetical	unknown function	115.0	262.11
+Phage_tail_fib	PF12571			Phage tail-collar fibre protein, N-terminal			151.0	193.01
+phrog_9323					hypothetical	unknown function	74.0	153.47
+phrog_1732					hypothetical	unknown function	142.0	194.99
+DNA_gyraseB	PF00204	CL0329		DNA gyrase B			166.0	49.9
+phrog_16572					hypothetical	unknown function	47.0	112.28
+phrog_19262					hypothetical	unknown function	410.0	979.44
+Phage_P7_repressor_C1	PF27008			Bacteriophage P7 repressor protein C1			283.0	456.71
+phrog_264					major head protein	head and packaging	314.0	305.74
+CTP_transf_like	PF01467	CL0039		Cytidylyltransferase-like			144.0	28.43
+Helicase_dom	PF28555	CL0023		Probable helicase domain			238.0	29.38
+NinE	PF05322			NINE Protein			41.0	72.0
+SLT	PF01464	CL0037		Transglycosylase SLT domain			126.0	26.11
+AAA	PF00004	CL0023		ATPase family associated with various cellular activities (AAA)			114.0	61.86
+AAA_28	PF13521	CL0023		AAA domain			155.0	109.84
+phrog_8294					hypothetical	unknown function	54.0	64.88
+phrog_6814					hypothetical	unknown function	84.0	135.5
+LAGLIDADG_2	PF03161	CL0324		LAGLIDADG DNA endonuclease family			163.0	28.98
+RecA_N	PF00154	CL0023		RecA N-terminal domain			265.0	43.21
+Phage_holin_3_3	PF16083	CL0564		LydA holin phage, holin superfamily III			78.0	33.7
+phrog_4122					hypothetical	unknown function	118.0	239.09
+phrog_3980					hypothetical	unknown function	289.0	401.02
+phrog_47					DNA primase	DNA, RNA and nucleotide metabolism	342.0	259.03
+phrog_4053					transcriptional regulator	transcription regulation	101.0	185.85
+phrog_4277					tail fiber protein	tail	784.0	1293.07
+phrog_11861					hypothetical	unknown function	104.0	169.22
+Gp6_C-I	PF21387			Baseplate structural protein gp6, C-terminal domain I			69.0	150.98
+phrog_11295					hypothetical	unknown function	110.0	179.66
+phrog_4861					DNA primase	DNA, RNA and nucleotide metabolism	360.0	654.81
+phrog_1052					head assembly	head and packaging	307.0	361.68
+phrog_25787					hypothetical	unknown function	104.0	214.46
+phrog_30					minor tail protein	tail	252.0	307.56
+Ig_2	PF13895	CL0159		Immunoglobulin domain			84.0	26.49
+phrog_19					DnaB-like replicative helicase	DNA, RNA and nucleotide metabolism	472.0	419.52
+phrog_4049					hypothetical	unknown function	146.0	165.52
+phrog_871					hypothetical	unknown function	81.0	101.23
+Gp7_6th	PF21456			Baseplate wedge protein gp7, domain VI			93.0	154.58
+DUF551	PF04448			Protein of unknown function (DUF551)			61.0	50.61
+phrog_887					queuine tRNA-ribosyltransferase	moron, auxiliary metabolic gene and host takeover	312.0	298.01
+phrog_1250					unknown function	unknown function	322.0	555.73
+phrog_6031					hypothetical	unknown function	100.0	92.31
+DUF2824	PF11039	CL0257		Protein of unknown function (DUF2824)			148.0	179.94
+HTH_26	PF13443	CL0123		Cro/C1-type HTH DNA-binding domain			56.0	26.9
+phrog_90					endolysin	lysis	158.0	295.29
+phrog_1690					hypothetical	unknown function	65.0	105.34
+phrog_1985					HNH endonuclease	DNA, RNA and nucleotide metabolism	191.0	215.67
+phrog_599					Lar-like restriction alleviation protein	moron, auxiliary metabolic gene and host takeover	81.0	64.12
+phrog_15324					tail sheath and receptor binding protein	tail	1382.0	2625.44
+phrog_12974					hypothetical	unknown function	129.0	297.38
+phrog_7116					hypothetical	unknown function	171.0	193.68
+Baseplate_J_C	PF26079			Baseplate J-like protein C-terminal domain			78.0	42.57
+phrog_4203					hypothetical	unknown function	102.0	155.38
+phrog_5557					hypothetical	unknown function	166.0	256.91
+phrog_12					portal protein	head and packaging	405.0	225.27
+DUF7205	PF23835	CL0010		Domain of unknown function (DUF7205)			62.0	59.96
+DUF7020	PF22885			Domain of unknown function (DUF7020)			130.0	160.11
+Proteasome	PF00227	CL0052		Proteasome subunit			72.0	13.58
+phrog_3717					terminase large subunit	head and packaging	259.0	170.18
+phrog_4821					hypothetical	unknown function	99.0	196.25
+phrog_5799					hypothetical	unknown function	61.0	127.75
+phrog_18014					hypothetical	unknown function	206.0	477.58
+phrog_27423					hypothetical	unknown function	83.0	192.28
+phrog_11244					hypothetical	unknown function	118.0	256.16
+GATase_6	PF13522	CL0052		Glutamine amidotransferase domain			122.0	55.77
+phrog_5474					hypothetical	unknown function	120.0	155.23
+HATPase_c	PF02518	CL0025		Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase			147.0	37.56
+phrog_1005					major head protein	head and packaging	339.0	286.25
+phrog_2358					hypothetical	unknown function	159.0	54.23
+UvrD_C	PF13361	CL0023		UvrD-like helicase C-terminal domain			181.0	41.51
+phrog_2315					hypothetical	unknown function	96.0	75.59
+phrog_20588					hypothetical	unknown function	115.0	260.2
+phrog_4401					hypothetical	unknown function	98.0	182.53
+DUF3799	PF12684	CL0236		PDDEXK-like domain of unknown function (DUF3799)			281.0	66.61
+DUF2201_N	PF13203	CL0126		Putative metallopeptidase domain			331.0	64.02
+phrog_530					head maturation protease	head and packaging	366.0	349.04
+phrog_4593					hypothetical	unknown function	92.0	187.4
+phrog_124					Sak4-like ssDNA annealing protein	DNA, RNA and nucleotide metabolism	250.0	156.22
+phrog_22006					hypothetical	unknown function	48.0	105.96
+DUF2737	PF10930			Protein of unknown function (DUF2737)			42.0	35.72
+Laminin_G_3	PF13385	CL0004		Concanavalin A-like lectin/glucanases superfamily			160.0	26.05
+phrog_1777					hypothetical	unknown function	86.0	142.39
+phrog_30479					hypothetical	unknown function	74.0	128.72
+phrog_6599					hypothetical	unknown function	248.0	388.46
+phrog_3007					RusA-like Holliday junction resolvase	DNA, RNA and nucleotide metabolism	172.0	195.59
+phrog_6060					anti-termination protein Q-like	transcription regulation	61.0	112.56
+phrog_743					single strand DNA binding protein	DNA, RNA and nucleotide metabolism	265.0	253.42
+phrog_11551					hypothetical	unknown function	63.0	160.86
+phrog_325					Dda-like helicase	DNA, RNA and nucleotide metabolism	439.0	545.46
+phrog_1140					baseplate hub distal subunit	tail	177.0	277.93
+phrog_17630					hypothetical	unknown function	84.0	182.3
+phrog_23204					hypothetical	unknown function	74.0	166.36
+phrog_2533					hypothetical	unknown function	1140.0	2422.78
+phrog_335					phosphatase	other	155.0	209.23
+phrog_8940					capsid assembly protein	tail	201.0	445.84
+phrog_2376					ATPase	other	381.0	361.41
+phrog_2239					hypothetical	unknown function	89.0	210.65
+phrog_10457					endolysin	lysis	90.0	133.95
+phrog_9599					hypothetical	unknown function	63.0	133.65
+AAA_15	PF13175	CL0023		AAA ATPase domain			260.0	27.07
+phrog_2118					HNH endonuclease	DNA, RNA and nucleotide metabolism	157.0	158.25
+PHP	PF02811	CL0036		PHP domain			119.0	25.57
+phrog_1283					baseplate hub subunit and tail length	tail	590.0	835.49
+phrog_37481					hypothetical	unknown function	37.0	83.1
+phrog_27262					hypothetical	unknown function	78.0	175.19
+DUF2201	PF09967	CL0128		VWA-like domain (DUF2201)			137.0	41.67
+phrog_1740					RNA polymerase sigma factor	transcription regulation	214.0	171.94
+phrog_4215					hypothetical	unknown function	145.0	249.91
+phrog_67					DNA methyltransferase	other	421.0	145.74
+phrog_16534					tail fiber protein	tail	322.0	726.24
+phrog_16641					tail fiber protein	tail	203.0	139.86
+DUF6453	PF20051			Family of unknown function (DUF6453)			289.0	378.84
+phrog_219					baseplate wedge subunit	tail	644.0	739.69
+dUTPase	PF00692	CL0153		dUTPase			131.0	65.19
+phrog_26840					hypothetical	unknown function	128.0	211.33
+phrog_4348					hypothetical	unknown function	134.0	246.24
+Major_capside	PF09950	CL0373		Major capsid protein			234.0	122.17
+phrog_174					dCMP deaminase	DNA, RNA and nucleotide metabolism	193.0	222.41
+phrog_6466					DNA ligase	DNA, RNA and nucleotide metabolism	109.0	148.35
+phrog_2529					hypothetical	unknown function	88.0	59.98
+phrog_2135					DNA primase	DNA, RNA and nucleotide metabolism	715.0	1204.91
+phrog_1169					hypothetical	unknown function	72.0	111.09
+Metallophos_2	PF12850	CL0163		Calcineurin-like phosphoesterase superfamily domain			152.0	28.27
+phrog_2480					hypothetical	unknown function	141.0	151.36
+phrog_2333					unknown function	unknown function	182.0	129.5
+Fn3-II_PB4	PF24170	CL0159		Straight fiber protein PB4 second Fn3-like domain			95.0	120.37
+phrog_138					major head protein	head and packaging	521.0	601.31
+Phage_Inh_N	PF26097			Phage inhibitor of prohead protease N-terminal domain			51.0	75.47
+Rep3_N	PF01051	CL0123		Initiator Replication protein, WH1			163.0	23.7
+Phage_tail_C_2	PF25670			Phage tail protein C-terminal domain			133.0	196.21
+phrog_1017					hypothetical	unknown function	183.0	175.68
+phrog_19025					hypothetical	unknown function	54.0	28.88
+phrog_31464					hypothetical	unknown function	53.0	125.65
+phrog_21889					hypothetical	unknown function	161.0	282.58
+phrog_14793					hypothetical	unknown function	89.0	158.58
+phrog_281					PAAR motif of membran proteins	moron, auxiliary metabolic gene and host takeover	97.0	137.19
+phrog_3945					Hoc-like head decoration	head and packaging	152.0	286.34
+phrog_12418					hypothetical	unknown function	108.0	240.68
+AGT	PF11440	CL0113		DNA alpha-glucosyltransferase			355.0	856.49
+phrog_606					terminase small subunit	head and packaging	168.0	187.33
+Phage_cap_P2	PF05125	CL0373		Phage major capsid protein, P2 family			333.0	504.87
+Gp138_C	PF21930	CL0606		Gp138, beta helical trimerization domain			75.0	52.67
+RNA_pol	PF00940			DNA-dependent RNA polymerase			440.0	337.38
+phrog_2032					tail fiber assembly protein	tail	144.0	281.12
+phrog_17029					hypothetical	unknown function	165.0	351.38
+Phage_spike	PF18715	CL0606		Phage spike trimer			68.0	76.85
+phrog_3350					hypothetical	unknown function	37.0	90.97
+phrog_21159					hypothetical	unknown function	103.0	103.41
+phrog_16551					hypothetical	unknown function	136.0	251.73
+phrog_2458					hypothetical	unknown function	80.0	134.75
+Phage_Wedge1	PF11041			Bacteriophage baseplate wedge 1 protein			144.0	12.15
+Tube	PF17212	CL0643		Tail tubular protein			168.0	230.94
+DUF7277	PF23942			Domain of unknown function (DUF7277)			100.0	89.06
+XM1_gp53_minor_capsid	PF23982	CL0845		XM1 gp53 minor capsid protein			146.0	94.45
+phrog_2167					inhibitor of host Lon protease	other	152.0	227.19
+NUMOD4	PF07463			NUMOD4 motif			44.0	28.17
+phrog_1322					membrane protein	moron, auxiliary metabolic gene and host takeover	88.0	112.02
+DUF3850	PF12961	CL0178		Domain of unknown function (DUF3850)			72.0	60.95
+phrog_2141					hypothetical	unknown function	318.0	495.86
+Fic	PF02661			Fic/DOC family			82.0	37.7
+phrog_17900					hypothetical	unknown function	169.0	302.15
+RNase_H_2	PF13482	CL0219		RNase_H superfamily			111.0	18.91
+Arm-DNA-bind_1	PF09003	CL0081		Bacteriophage lambda integrase, Arm DNA-binding domain			69.0	111.99
+phrog_1297					ATPase	other	394.0	367.36
+phrog_10617					hypothetical	unknown function	62.0	125.11
+phrog_13316					hypothetical	unknown function	68.0	60.74
+Tevenvirinae_ADPRT	PF26846			Tevenvirinae NAD(+)--arginine ADP-ribosyltransferase family			116.0	141.45
+phrog_1725					DNA binding protein	DNA, RNA and nucleotide metabolism	136.0	171.8
+phrog_20065					hypothetical	unknown function	68.0	138.05
+Phage_phiTE_241_C	PF26209			Putative phage tail fibre C-terminal domain			84.0	87.88
+phrog_5107					amidase	lysis	240.0	51.33
+phrog_10946					hypothetical	unknown function	133.0	229.23
+phrog_1851					PmgC-like head morphogenesis	head and packaging	183.0	340.87
+phrog_13236					hypothetical	unknown function	61.0	87.88
+phrog_11936					hypothetical	unknown function	97.0	204.39
+DUF7290	PF23962			Domain of unknown function (DUF7290)			82.0	121.65
+phrog_15876					hypothetical	unknown function	41.0	111.57
+phrog_1045					hypothetical	unknown function	60.0	112.99
+phrog_13738					membrane protein	moron, auxiliary metabolic gene and host takeover	94.0	200.5
+TA_inhibitor	PF17574			Inhibitor of toxin/antitoxin system (Gp4.5)			89.0	207.5
+phrog_12457					hypothetical	unknown function	109.0	243.87
+Phage_tail_3	PF08813	CL0504		Phage tail tube protein, TTP			165.0	227.1
+phrog_4965					hypothetical	unknown function	83.0	136.67
+Tail_P2_I	PF09684			Phage tail protein (Tail_P2_I)			137.0	190.25
+phrog_10737					hypothetical	unknown function	99.0	142.94
+phrog_252					Bet-like ssDNA annealing protein	DNA, RNA and nucleotide metabolism	260.0	443.26
+phrog_20931					hypothetical	unknown function	70.0	160.72
+phrog_9938					hypothetical	unknown function	152.0	297.28
+Gp45_2	PF17470			Phage gene product 45.2			55.0	84.64
+phrog_2684					hypothetical	unknown function	116.0	174.95
+ResIII	PF04851	CL0023		Type III restriction enzyme, res subunit			156.0	60.6
+phrog_13689					hypothetical	unknown function	55.0	126.71
+P22_Cro	PF14549	CL0123		DNA-binding transcriptional regulator Cro			34.0	25.86
+phrog_2210					hypothetical	unknown function	66.0	129.19
+phrog_1119					Cor superinfection exclusion protein	moron, auxiliary metabolic gene and host takeover	75.0	88.55
+Gly_radical	PF01228	CL0339		Glycine radical			56.0	65.46
+phrog_551					DNA topoisomerase II	DNA, RNA and nucleotide metabolism	442.0	702.63
+NinD	PF17466			Family of unknown function			57.0	140.29
+phrog_17085					hypothetical	unknown function	117.0	266.89
+RNaseH_C	PF09293	CL0464		T4 RNase H, C terminal			123.0	232.82
+phrog_12370					hypothetical	unknown function	126.0	294.08
+Lambda_ea8_5	PF20735			Bacteriophage lambda ea8.5-related domain			86.0	164.09
+phrog_8108					hypothetical	unknown function	47.0	26.09
+phrog_464					unknown function	unknown function	95.0	124.52
+phrog_17615					hypothetical	unknown function	116.0	234.6
+phrog_22473					hypothetical	unknown function	201.0	436.28
+phrog_38236					hypothetical	unknown function	70.0	52.6
+Peptidase_S24	PF00717	CL0299		Peptidase S24-like			123.0	100.0
+DUF8047	PF26220			Family of unknown function (DUF8047)			63.0	83.95
+phrog_205					tail sheath	tail	451.0	394.96
+phrog_34533					hypothetical	unknown function	84.0	58.02
+phrog_2650					hypothetical	unknown function	118.0	160.38
+Phage_lysis	PF03245	CL0331		Bacteriophage Rz lysis protein			125.0	183.04
+Phage_RB18_ORF43	PF25760			Phage RB18 ORF43.1 protein			69.0	110.98
+phrog_3747					hypothetical	unknown function	83.0	168.35
+Head_binding	PF09008			Head binding			113.0	219.71
+phrog_6314					hypothetical	unknown function	67.0	80.98
+phrog_51					terminase small subunit	head and packaging	195.0	28.21
+phrog_430					baseplate hub subunit and tail lysozyme	tail	576.0	686.23
+phrog_31152					hypothetical	unknown function	46.0	46.67
+phrog_1391					hypothetical	unknown function	86.0	116.79
+DUF5516	PF17637			Family of unknown function (DUF5516)			37.0	63.94
+phrog_2283					hypothetical	unknown function	60.0	128.24
+phrog_2125					virion structural protein	head and packaging	235.0	300.07
+phrog_1871					hypothetical	unknown function	44.0	78.15
+phrog_2109					hypothetical	unknown function	230.0	337.5
+phrog_19184					hypothetical	unknown function	41.0	90.82
+Imm_superinfect	PF14373			Superinfection immunity protein			42.0	57.54
+phrog_22298					hypothetical	unknown function	152.0	368.03
+DUF2213	PF09979	CL0201		Uncharacterized protein conserved in bacteria (DUF2213)			180.0	69.58
+phrog_4630					DNA primase	DNA, RNA and nucleotide metabolism	556.0	851.83
+phrog_7327					hypothetical	unknown function	174.0	266.22
+DUF5480	PF17576			Family of unknown function (DUF5480)			71.0	167.4
+phrog_28140					hypothetical	unknown function	42.0	88.3
+DUF7566	PF24450			Family of unknown function (DUF7566)			336.0	375.76
+phrog_423					endonuclease VII	DNA, RNA and nucleotide metabolism	157.0	182.64
+phrog_3402					antitoxin from a toxin-antitoxin system	moron, auxiliary metabolic gene and host takeover	56.0	135.81
+phrog_15251					hypothetical	unknown function	35.0	92.83
+phrog_4297					Rz-like spanin	lysis	130.0	161.73
+P2_Phage_GpR	PF06891	CL0691		P2 phage tail completion protein R (GpR)			132.0	153.45
+phrog_22194					hypothetical	unknown function	92.0	213.65
+phrog_17726					hypothetical	unknown function	35.0	97.58
+phrog_2599					ribosomal protein S6 glutaminyl transferase	moron, auxiliary metabolic gene and host takeover	397.0	331.8
+phrog_12725					hypothetical	unknown function	82.0	186.07
+phrog_13931					hypothetical	unknown function	47.0	119.68
+phrog_11405					hypothetical	unknown function	58.0	133.64
+Phage_T4_gp2	PF26869			Phage T4 terminal DNA protecting protein			254.0	450.35
+phrog_21459					hypothetical	unknown function	111.0	239.1
+phrog_37					tail terminator	connector	131.0	209.03
+phrog_797					hypothetical	unknown function	113.0	145.98
+phrog_6578					tail fiber protein	tail	1305.0	984.1
+phrog_18166					hypothetical	unknown function	92.0	112.65
+phrog_782					hypothetical	unknown function	124.0	140.11
+phrog_10404					hypothetical	unknown function	43.0	108.92
+phrog_20600					hypothetical	unknown function	78.0	189.4
+phrog_419					hypothetical	unknown function	82.0	122.87
+phrog_20174					hypothetical	unknown function	79.0	46.2
+Phage_T4_Y04F	PF26806	CL0010		Phage T4 y04F-like family			56.0	114.09
+phrog_3183					hypothetical	unknown function	81.0	147.57
+Phage_T4_Y07B	PF27001			Bacteriophage T4 protein Y07B			88.0	109.59
+phrog_259					gam-like host nuclease inhibitor	moron, auxiliary metabolic gene and host takeover	98.0	197.19
+LOH1CR12	PF10158			Tumour suppressor protein			90.0	26.15
+phrog_28149					hypothetical	unknown function	30.0	93.86
+phrog_1968					hypothetical	unknown function	103.0	174.62
+phrog_8729					hypothetical	unknown function	87.0	148.73
+phrog_1084					unknown function	unknown function	140.0	103.79
+Acb1	PF23474	CL0247		Anti-CBASS protein Acb1			142.0	198.7
+phrog_1723					recombinase	other	62.0	115.81
+phrog_7366					hypothetical	unknown function	97.0	148.07
+phrog_2716					hypothetical	unknown function	80.0	108.91
+GP17	PF17420			Superinfection exclusion gene product 17			99.0	143.67
+phrog_7266					hypothetical	unknown function	111.0	210.6
+phrog_27210					hypothetical	unknown function	74.0	115.46
+phrog_19577					minor head protein	head and packaging	118.0	28.92
+phrog_5357					tail length tape measure protein	tail	73.0	157.3
+phrog_8514					hypothetical	unknown function	203.0	279.83
+phrog_234					late sigma transcription factor	transcription regulation	185.0	242.03
+phrog_27					tail completion or Neck1 protein	connector	177.0	121.92
+phrog_1692					unknown function	unknown function	61.0	119.59
+phrog_1203					hypothetical	unknown function	197.0	295.94
+Hom_end_hint	PF05203	CL0363		Hom_end-associated Hint			98.0	53.73
+WYL	PF13280	CL0654		WYL domain			72.0	25.39
+phrog_12130					hypothetical	unknown function	551.0	1189.11
+Phage_P2_GpU	PF06995			Phage P2 GpU			120.0	150.59
+phrog_15108					hypothetical	unknown function	55.0	133.96
+phrog_1216					portal protein	head and packaging	718.0	993.26
+phrog_38388					hypothetical	unknown function	75.0	186.33
+phrog_349					virion structural protein	head and packaging	125.0	86.53
+MUG113	PF13455	CL0418		Meiotically up-regulated gene 113			70.0	58.26
+phrog_25318					hypothetical	unknown function	80.0	26.46
+Phage_P1_RepL	PF26868			Phage P1 replication protein RepL			281.0	494.8
+phrog_27111					hypothetical	unknown function	48.0	122.8
+phrog_7670					hypothetical	unknown function	37.0	69.42
+LysA	PF28015			Antiholin LysA-like			134.0	138.24
+phrog_7864					hypothetical	unknown function	240.0	378.21
+DUF7203	PF23833			Family of unknown function (DUF7203)			100.0	51.91
+phrog_21392					hypothetical	unknown function	95.0	202.41
+phrog_1832					released from the phage upon host infection	other	54.0	111.43
+phrog_30425					hypothetical	unknown function	72.0	180.2
+Phage_T4_Y06J	PF26834			Phage T4 Y06J protein			109.0	155.35
+DUF7307	PF23984			Pam3 gp33-like protein			160.0	121.23
+phrog_1745					DNA transfer protein	other	556.0	837.5
+phrog_1818					hypothetical	unknown function	163.0	189.11
+phrog_14433					hypothetical	unknown function	50.0	104.58
+phrog_2267					hypothetical	unknown function	151.0	168.4
+phrog_429					DNA end protector	DNA, RNA and nucleotide metabolism	274.0	315.05
+phrog_22028					hypothetical	unknown function	130.0	300.48
+phrog_5827					hypothetical	unknown function	64.0	112.71
+phrog_1559					hypothetical	unknown function	262.0	451.85
+phrog_267					major head protein	head and packaging	395.0	385.19
+DUF968	PF06147	CL0263		Protein of unknown function (DUF968)			177.0	171.9
+phrog_17339					protease	other	92.0	209.38
+phrog_8111					internal virion protein	head and packaging	77.0	175.52
+DUF669	PF05037			Protein of unknown function (DUF669)			132.0	34.38
+phrog_22441					hypothetical	unknown function	50.0	134.14
+phrog_2112					hypothetical	unknown function	71.0	142.91
+phrog_25300					hypothetical	unknown function	95.0	168.81
+phrog_14329					hypothetical	unknown function	105.0	237.35
+phrog_10388					hypothetical	unknown function	54.0	110.7
+Phage_int_M	PF22022	CL0469		Phage integrase central domain			94.0	33.83
+phrog_170					PhoH-like phosphate starvation-inducible	other	261.0	240.0
+phrog_15229					hypothetical	unknown function	57.0	131.19
+phrog_1053					hypothetical	unknown function	271.0	330.41
+phrog_1475					hypothetical	unknown function	108.0	191.88
+phrog_2351					hypothetical	unknown function	340.0	511.43
+Peptidase_S78_2	PF14550	CL0201		Putative phage serine protease XkdF			119.0	63.15
+DUF7422	PF24197			Family of unknown function (DUF7422)			69.0	130.87
+phrog_10428					L-glutamine-D-fructose-6-phosphate aminotransferase	other	471.0	923.03
+Glyco_hydro_19	PF00182	CL0037		Chitinase class I			104.0	29.57
+Phage_T4_IpIII	PF26861			Phage internal protein III			190.0	370.73
+phrog_1613					tail assembly chaperone	tail	132.0	163.95
+phrog_324					head morphogenesis	head and packaging	254.0	220.3
+phrog_33163					hypothetical	unknown function	70.0	171.54
+HTH_31	PF13560	CL0123		Helix-turn-helix domain			62.0	52.2
+phrog_12046					hypothetical	unknown function	77.0	180.45
+phrog_20900					tail spike protein	tail	222.0	167.67
+phrog_247					major head protein	head and packaging	342.0	342.52
+PC4	PF02229	CL0609		Transcriptional Coactivator p15 (PC4)			50.0	31.41
+phrog_849					DNA primase	DNA, RNA and nucleotide metabolism	172.0	198.28
+Antiholin	PF24205			T4-like virus antiholin family			97.0	72.02
+MotCF	PF09158			Bacteriophage T4 MotA, C-terminal			103.0	123.96
+phrog_557					outer membrane protein	other	100.0	110.85
+phrog_5252					hypothetical	unknown function	60.0	148.42
+phrog_1252					DNA polymerase	DNA, RNA and nucleotide metabolism	612.0	727.86
+Gp5_OB	PF06714	CL0021		Gp5 N-terminal OB domain			141.0	219.75
+phrog_824					hypothetical	unknown function	139.0	128.63
+phrog_4030					hypothetical	unknown function	86.0	60.51
+Caudo_TAP_N	PF28596			Tail fiber assembly protein, N-terminal domain			65.0	49.11
+DUF7788	PF25043	CL0128		Domain of unknown function (DUF7788)			193.0	147.68
+phrog_15686					hypothetical	unknown function	99.0	190.51
+phrog_15892					hypothetical	unknown function	67.0	152.76
+phrog_7648					hypothetical	unknown function	50.0	90.44
+phrog_3781					hypothetical	unknown function	208.0	438.58
+phrog_11868					hypothetical	unknown function	89.0	203.68
+phrog_760					hypothetical	unknown function	428.0	468.96
+phage_tail_N	PF08400	CL0287		Prophage tail fibre N-terminal			134.0	251.23
+phrog_724					exonuclease recombination-associated	DNA, RNA and nucleotide metabolism	292.0	210.18
+phrog_11902					hypothetical	unknown function	972.0	890.91
+phrog_3931					hypothetical	unknown function	58.0	118.79
+phrog_15992					hypothetical	unknown function	135.0	307.73
+phrog_21570					hypothetical	unknown function	196.0	418.39
+Dam	PF05869			DNA N-6-adenine-methyltransferase (Dam)			189.0	221.17
+phrog_951					hypothetical	unknown function	105.0	136.42
+Phage_depo_C	PF25692			Phage depolymerase C-terminal beta sandwich domain			97.0	25.6
+E217_GP41	PF22759			Baseplate hub gp41			249.0	35.53
+phrog_2206					virion RNA polymerase	DNA, RNA and nucleotide metabolism	3500.0	3982.41
+phrog_2382					hypothetical	unknown function	51.0	111.95
+phrog_5902					hypothetical	unknown function	387.0	424.12
+phrog_8705					hypothetical	unknown function	70.0	85.86
+phrog_678					replication initiation O-like	DNA, RNA and nucleotide metabolism	280.0	238.74
+phrog_1504					hypothetical	unknown function	77.0	132.01
+phrog_6408					hypothetical	unknown function	83.0	146.88
+phrog_6003					hypothetical	unknown function	89.0	153.12
+phrog_2510					hypothetical	unknown function	118.0	97.15
+phrog_1035					endonuclease VII	DNA, RNA and nucleotide metabolism	204.0	103.93
+phrog_9539					hypothetical	unknown function	65.0	126.63
+phrog_26258					radical SAM domain-containing protein	other	70.0	170.36
+phrog_5172					hypothetical	unknown function	272.0	423.47
+phrog_646					unknown function	unknown function	122.0	241.39
+DUF7412	PF24183			Family of unknown function (DUF7412)			157.0	330.37
+T4_Spackle	PF25676			Bacteriophage T4 Spackle protein			96.0	138.02
+phrog_4991					hypothetical	unknown function	85.0	101.55
+phrog_15697					hypothetical	unknown function	64.0	142.35
+phrog_8274					hypothetical	unknown function	191.0	313.71
+phrog_12347					hypothetical	unknown function	66.0	166.47
+phrog_5668					tail fiber protein	tail	503.0	139.53
+phrog_9366					transposase	integration and excision	109.0	215.25
+phrog_2274					unknown function	unknown function	175.0	369.32
+phrog_12951					hypothetical	unknown function	156.0	329.2
+phrog_10061					hypothetical	unknown function	74.0	137.34
+phrog_2192					hypothetical	unknown function	87.0	162.23
+phrog_25978					hypothetical	unknown function	108.0	249.91
+YadA_anchor	PF03895	CL0193		YadA-like membrane anchor domain			60.0	68.39
+I-TevI_DNA-bd	PF20987	CL0123		Intron-encoded endonuclease 1, DNA-binding domain			51.0	109.31
+phrog_1					integrase	integration and excision	355.0	217.16
+phrog_7066					hypothetical	unknown function	130.0	166.55
+DNA_pol3_finger	PF17657			Bacterial DNA polymerase III alpha subunit finger domain			161.0	127.83
+phrog_1435					unknown function	unknown function	308.0	354.61
+phrog_9346					hypothetical	unknown function	61.0	85.1
+phrog_7665					hypothetical	unknown function	61.0	120.69
+DUF7274	PF23939			Domain of unknown function (DUF7274)			74.0	109.51
+Phage_Adaptor_PhiTE	PF26075			Bacteriophage PhiTE adapter protein			167.0	152.88
+phrog_4528					hypothetical	unknown function	182.0	291.81
+DUF7210	PF23843			Domain of unknown function (DUF7210)			37.0	21.05
+phrog_9294					hypothetical	unknown function	113.0	178.6
+phrog_23061					hypothetical	unknown function	42.0	116.35
+phrog_2140					hypothetical	unknown function	57.0	127.62
+Cro	PF09048	CL0123		Cro			60.0	102.82
+HNH	PF01844	CL0263		HNH endonuclease			49.0	24.81
+phrog_3715					hypothetical	unknown function	73.0	124.87
+phrog_11049					hypothetical	unknown function	95.0	185.66
+phrog_26246					tail protein	tail	305.0	146.91
+phrog_22950					hypothetical	unknown function	57.0	136.32
+phrog_17007					hypothetical	unknown function	52.0	132.15
+phrog_2667					internal head protein	head and packaging	102.0	147.85
+Phage_hub_GP28	PF11110			Baseplate hub distal subunit			154.0	358.56
+phrog_26798					hypothetical	unknown function	93.0	214.97
+phrog_11084					hypothetical	unknown function	167.0	264.95
+phrog_7202					hypothetical	unknown function	51.0	112.4
+phrog_7684					hypothetical	unknown function	94.0	165.84
+phrog_14152					hypothetical	unknown function	77.0	133.34
+phrog_12230					hypothetical	unknown function	58.0	147.48
+phrog_860					holin	lysis	217.0	359.93
+phrog_3623					hypothetical	unknown function	61.0	113.29
+phrog_424					phosphoadenosine phosphosulfate reductase	moron, auxiliary metabolic gene and host takeover	139.0	52.99
+SNF2-rel_dom	PF00176	CL0023		SNF2-related domain			229.0	41.99
+YqeY	PF09424	CL0279		Yqey-like protein			138.0	30.25
+phrog_18567					hypothetical	unknown function	83.0	174.8
+Phage_T4_Ac	PF26944			Bacteriophage T4 protein ac			49.0	94.57
+DUF5465	PF17553			Family of unknown function (DUF5465)			19.0	41.89
+phrog_339					tail length tape measure protein	tail	1086.0	644.14
+phrog_19286					hypothetical	unknown function	52.0	128.34
+Anti-TRAP	PF15777	CL0895		Tryptophan RNA-binding attenuator protein inhibitory protein			51.0	29.06
+phrog_7420					hypothetical	unknown function	92.0	179.44
+phrog_717					hypothetical	unknown function	85.0	100.15
+phrog_4414					hypothetical	unknown function	191.0	214.59
+phrog_32					tail assembly protein	tail	190.0	230.37
+phrog_9017					tail fiber protein	tail	157.0	223.75
+Hydrolase	PF00702	CL0137		haloacid dehalogenase-like hydrolase			189.0	25.68
+Phage_T4_gp36	PF03903			Phage T4 tail fibre			111.0	28.9
+phrog_2008					hypothetical	unknown function	70.0	142.48
+phrog_4549					tail fiber protein	tail	581.0	862.98
+phrog_2052					unknown function	unknown function	80.0	126.31
+phrog_449					head-tail adaptor	connector	524.0	747.52
+phrog_7650					hypothetical	unknown function	116.0	189.68
+DUF1799	PF08809			Phage related hypothetical protein (DUF1799)			81.0	58.86
+phrog_206					head scaffolding protein	head and packaging	265.0	172.56
+phrog_1152					Rz-like spanin	lysis	115.0	142.56
+phrog_30053					hypothetical	unknown function	82.0	173.6
+Phage_capsid	PF05065	CL0373		Phage capsid family			280.0	76.91
+phrog_26870					hypothetical	unknown function	233.0	299.82
+phrog_230					baseplate tail tube cap	tail	364.0	261.57
+phrog_1699					long tail fiber protein distal subunit	tail	990.0	934.52
+phrog_4442					hypothetical	unknown function	76.0	153.0
+DUF3307	PF11750			Protein of unknown function (DUF3307)			112.0	46.2
+phrog_4726					hypothetical	unknown function	92.0	201.66
+phrog_10984					hypothetical	unknown function	109.0	215.83
+phrog_9013					head scaffolding protein	head and packaging	361.0	608.76
+phrog_72					NinB/ Orf homologous recombination mediator	DNA, RNA and nucleotide metabolism	146.0	211.28
+DUF5681	PF18932			Family of unknown function (DUF5681)			84.0	54.25
+phrog_7810					hypothetical	unknown function	101.0	50.67
+phrog_7411					hypothetical	unknown function	59.0	114.82
+phrog_4788					hypothetical	unknown function	58.0	113.37
+Phage_lambda_P	PF06992			Replication protein P			161.0	208.19
+phrog_8771					hypothetical	unknown function	153.0	227.06
+phrog_1253					inhibitor of host transcription	transcription regulation	167.0	278.11
+phrog_657					hypothetical	unknown function	68.0	161.55
+phrog_9755					hypothetical	unknown function	61.0	80.83
+phrog_3249					hypothetical	unknown function	65.0	114.38
+phrog_4251					minor tail protein	tail	266.0	474.03
+N4_RNAP_helical	PF21894			Bacteriophage N4 RNA polymerase, helical domain			218.0	274.86
+phrog_13168					terminase	head and packaging	106.0	141.74
+phrog_14179					glycosyltransferase	moron, auxiliary metabolic gene and host takeover	187.0	372.62
+Phage_T5_RBP5	PF26860			Phage T5 Receptor-binding protein pb5 family			585.0	796.03
+HTH_17	PF12728	CL0123		Helix-turn-helix domain			56.0	34.1
+phrog_21018					hypothetical	unknown function	52.0	136.31
+UvsW_N	PF21241			DNA helicase UvsW, N-terminal			81.0	139.19
+phrog_10698					hypothetical	unknown function	85.0	160.42
+phrog_15836					hypothetical	unknown function	47.0	114.88
+phrog_4927					hypothetical	unknown function	80.0	88.36
+Glyco_hydro_108	PF05838	CL0037		Glycosyl hydrolase 108			92.0	79.82
+phrog_32259					hypothetical	unknown function	33.0	55.71
+phrog_7239					hypothetical	unknown function	44.0	74.64
+phrog_20789					hypothetical	unknown function	69.0	136.46
+phrog_18974					hypothetical	unknown function	73.0	161.56
+phrog_4532					hypothetical	unknown function	68.0	143.86
+phrog_11437					hypothetical	unknown function	68.0	29.33
+phrog_16065					hypothetical	unknown function	68.0	142.03
+phrog_672					hypothetical	unknown function	56.0	120.97
+phrog_1488					unknown function	unknown function	48.0	61.28
+phrog_313					Tail assembly chaperone	tail	140.0	56.28
+ddrB-ParB	PF18763	CL0248		ddrB-like ParB superfamily domain			134.0	135.95
+DUF5481	PF17578			Family of unknown function (DUF5481)			103.0	237.37
+phrog_18792					hypothetical	unknown function	55.0	47.89
+phrog_4423					hypothetical	unknown function	86.0	167.39
+phrog_3452					hypothetical	unknown function	57.0	114.91
+DNAG_N	PF08275	CL0748		DNA primase catalytic core, N-terminal domain			60.0	27.61
+phrog_109					P-like helicase loader	DNA, RNA and nucleotide metabolism	233.0	344.3
+GPW_gp25	PF04965	CL0763		Baseplate wedge protein gp25			92.0	66.39
+phrog_27367					tail fiber protein	tail	262.0	261.62
+phrog_1502					hypothetical	unknown function	173.0	226.63
+RlaP	PF10127	CL0260		RNA repair pathway DNA polymerase beta family			151.0	39.24
+phrog_33262					phosphoadenosine phosphosulfate reductase	moron, auxiliary metabolic gene and host takeover	286.0	314.84
+phrog_2359					holin	lysis	96.0	104.26
+phrog_9845					hypothetical	unknown function	94.0	203.63
+phrog_2330					unknown function	unknown function	118.0	195.53
+phrog_12794					hypothetical	unknown function	95.0	216.23
+RE_endonuc	PF19778	CL0236		Endonuclease domain			112.0	88.73
+phrog_11661					hypothetical	unknown function	104.0	219.24
+phrog_9447					hypothetical	unknown function	111.0	202.79
+phrog_16					DNA helicase	DNA, RNA and nucleotide metabolism	363.0	326.67
+phrog_5211					hypothetical	unknown function	110.0	167.79
+phrog_16431					hypothetical	unknown function	74.0	139.62
+phrog_3877					hypothetical	unknown function	285.0	572.88
+phrog_4797					hypothetical	unknown function	912.0	1346.65
+SMC_N	PF02463	CL0023		RecF/RecN/SMC N terminal domain			552.0	38.65
+phrog_2226					SAM-dependent methyltransferase	other	152.0	170.57
+KilA-N	PF04383	CL0123		KilA-N domain			101.0	75.1
+Phage_antitermQ	PF06530	CL0123		Phage antitermination protein Q			116.0	89.81
+phrog_1700					hypothetical	unknown function	80.0	145.57
+Phage_clamp_A	PF16790			Bacteriophage clamp loader A subunit			137.0	257.83
+phrog_1105					DNA polymerase III theta subunit	DNA, RNA and nucleotide metabolism	86.0	122.9
+phrog_12967					hypothetical	unknown function	78.0	183.87
+phrog_1273					hypothetical	unknown function	114.0	64.73
+phrog_1380					hypothetical	unknown function	62.0	94.14
+phrog_7252					hypothetical	unknown function	81.0	118.09
+phrog_280					virion structural protein	head and packaging	142.0	142.58
+phrog_4038					hypothetical	unknown function	123.0	241.62
+CapR	PF21817	CL0839		CapR homology domain			126.0	26.78
+phrog_116					DNA methyltransferase	other	329.0	239.08
+phrog_2254					hypothetical	unknown function	89.0	137.5
+phrog_32657					hypothetical	unknown function	75.0	176.01
+Gp7_helical	PF21428			Baseplate wedge protein gp7, helical domain			47.0	106.01
+phrog_10169					hypothetical	unknown function	90.0	123.57
+T4_Gp59_N	PF08993			T4 gene Gp59 loader of gp41 DNA helicase			93.0	179.96
+phrog_3645					virion structural protein	head and packaging	205.0	274.58
+phrog_11427					hypothetical	unknown function	140.0	262.78
+phrog_16338					hypothetical	unknown function	93.0	130.27
+phrog_1312					hypothetical	unknown function	48.0	55.86
+GerE	PF00196	CL0123		Bacterial regulatory proteins, luxR family			39.0	27.82
+Enc34_ssDNA-bd	PF10991	CL0021		Enterobacter phage Enc34, ssDNA-binding protein			196.0	112.66
+phrog_29					major head protein	head and packaging	335.0	202.09
+phrog_3299					hypothetical	unknown function	222.0	307.6
+phrog_12321					tail fiber protein	tail	458.0	635.9
+phrog_6006					hypothetical	unknown function	58.0	55.75
+LtfC	PF23926			LtfC-like, beta-sandwich domain			132.0	50.83
+phrog_22955					hypothetical	unknown function	87.0	206.45
+DUF7369	PF24084			Domain of unknown function (DUF7369)			61.0	90.33
+Phage_T3_1_05	PF25755			Enterobacteria phage T3 gene 1.05 protein			73.0	95.77
+phrog_751					hypothetical	unknown function	52.0	83.82
+Phage_T7_Gp5_9	PF25708			Phage T7 gp5.9 RecBCD inhibitor			50.0	28.84
+phrog_598					DNA ejection	DNA, RNA and nucleotide metabolism	231.0	332.41
+phrog_242					translation repressor	other	122.0	199.7
+phrog_4939					hypothetical	unknown function	64.0	98.17
+ATP-cone	PF03477			ATP cone domain			87.0	62.77
+phrog_5271					hypothetical	unknown function	204.0	426.6
+phrog_4422					hypothetical	unknown function	171.0	306.69
+Phage_N4_Gp1	PF26891			Bacteriophage N4 gene product 1			108.0	157.74
+T4_Tape_measure	PF25671			Phage T4-tail tape measure protein			582.0	660.42
+phrog_11211					hypothetical	unknown function	80.0	175.89
+D5_N	PF08706			D5 N terminal like			135.0	45.4
+NAPRTase	PF04095	CL0036		Nicotinate phosphoribosyltransferase (NAPRTase) family			357.0	129.77
+phrog_4343					hypothetical	unknown function	167.0	339.41
+phrog_16157					hypothetical	unknown function	50.0	131.22
+Phage_base_V	PF04717	CL0021		Type VI secretion system/phage-baseplate injector OB domain			68.0	72.47
+phrog_31753					hypothetical	unknown function	149.0	68.52
+phrog_241					head morphogenesis	head and packaging	363.0	323.79
+SegE_GIY-YIG	PF19835	CL0418		Putative endonuclease segE, GIY-YIG domain			87.0	16.99
+phrog_9157					hypothetical	unknown function	111.0	192.07
+Phage_RepB	PF26815			Phage replication gene B protein family			166.0	323.68
+phrog_22819					hypothetical	unknown function	31.0	64.37
+phrog_4382					hypothetical	unknown function	131.0	213.27
+phrog_2547					hypothetical	unknown function	133.0	217.89
+phrog_9632					hypothetical	unknown function	93.0	154.78
+Phage_pRha	PF09669			Phage regulatory protein Rha (Phage_pRha)			86.0	34.51
+phrog_8683					hypothetical	unknown function	63.0	144.09
+phrog_3261					hypothetical	unknown function	60.0	56.66
+Phage_N4_Gp2	PF26984			Bacteriophage N4 gene product 2			110.0	143.17
+Gp6-like_1st	PF21379			Baseplate wedge protein gp6-like, helical domain			74.0	148.42
+phrog_27509					hypothetical	unknown function	114.0	252.18
+phrog_3907					tail terminator	connector	161.0	292.2
+phrog_5774					head-tail joining	connector	175.0	216.53
+T4_RIIA1	PF24210			RIIA.1-like protein			67.0	113.55
+phrog_8082					hypothetical	unknown function	66.0	143.19
+BPP1_LPA	PF25716			Late promoter-activating protein			132.0	192.79
+phrog_15151					hypothetical	unknown function	33.0	91.71
+phrog_5976					hypothetical	unknown function	76.0	86.05
+phrog_1457					lysis inhibition; accessory protein	lysis	82.0	154.26
+Phage_stabilise	PF11134			Phage stabilisation protein			469.0	648.61
+phrog_4516					hypothetical	unknown function	171.0	336.28
+phrog_18323					hypothetical	unknown function	49.0	112.82
+T4-Gluco-transf	PF09198	CL0113		Bacteriophage T4 beta-glucosyltransferase			166.0	377.95
+phrog_20168					hypothetical	unknown function	75.0	155.69
+phrog_14925					hypothetical	unknown function	50.0	98.86
+phrog_16060					hypothetical	unknown function	28.0	68.88
+phrog_14993					hypothetical	unknown function	92.0	201.49
+Tape_meas_lam_C	PF09718			Lambda phage tail tape-measure protein (Tape_meas_lam_C)			76.0	76.17
+phrog_342					internal virion protein with endolysin domain	head and packaging	1318.0	1194.83
+Ead_Ea22	PF13935			Ead/Ea22-like protein			100.0	96.05
+phrog_35					transcriptional repressor	transcription regulation	66.0	54.27
+phrog_103					tail protein	tail	142.0	167.76
+Phage_T4_Y06P	PF26876			Phage T4 Y06P protein			200.0	390.25
+phrog_420					unknown function	unknown function	280.0	309.38
+phrog_15210					lipoprotein	other	113.0	234.95
+phrog_5773					head protein	head and packaging	69.0	142.16
+phrog_2979					RIIA lysis inhibitor	lysis	837.0	887.43
+phrog_10775					tail protein	tail	136.0	41.67
+phrog_14585					hypothetical	unknown function	89.0	211.71
+phrog_2886					RIIB lysis inhibitor	lysis	690.0	655.31
+phrog_128					hypothetical	unknown function	70.0	110.21
+phrog_358					hypothetical	unknown function	402.0	16.26
+phrog_5359					hypothetical	unknown function	264.0	321.73
+phrog_3955					hypothetical	unknown function	45.0	84.6
+phrog_27229					hypothetical	unknown function	84.0	141.11
+phrog_4082					hypothetical	unknown function	199.0	421.7
+phrog_8119					hypothetical	unknown function	328.0	646.88
+Phage_Tail_Tip	PF09327			Bacteriophage tail tip fiber protein			130.0	114.28
+phrog_225					clamp loader of DNA polymerase	DNA, RNA and nucleotide metabolism	187.0	163.67
+phrog_18561					hypothetical	unknown function	36.0	102.82
+phrog_1356					holin	lysis	87.0	83.56
+phrog_7812					hypothetical	unknown function	100.0	122.87
+phrog_6869					hypothetical	unknown function	172.0	364.12
+phrog_11811					hypothetical	unknown function	62.0	102.0
+Hydrolase_2	PF07486			Cell Wall Hydrolase			112.0	71.85
+phrog_28171					hypothetical	unknown function	201.0	24.97
+phrog_8569					hypothetical	unknown function	172.0	177.8
+phrog_1636					hypothetical	unknown function	156.0	373.8
+phrog_14631					hypothetical	unknown function	34.0	81.02
+phrog_405					DNA polymerase	DNA, RNA and nucleotide metabolism	965.0	863.75
+DUF1353	PF07087			Protein of unknown function (DUF1353)			88.0	86.4
+phrog_1033					ParB-like partition protein	DNA, RNA and nucleotide metabolism	269.0	301.62
+phrog_4040					hypothetical	unknown function	114.0	216.21
+phrog_667					hypothetical	unknown function	92.0	127.64
+HTH_23	PF13384	CL0123		Homeodomain-like domain			41.0	28.36
+phrog_5915					hypothetical	unknown function	45.0	86.76
+SieB	PF14163			Super-infection exclusion protein B			160.0	105.24
+I-TevI_ZnF	PF22635			Intron-associated endonuclease 1 zinc finger domain			31.0	72.59
+DUF1833	PF08875	CL0249		Domain of unknown function (DUF1833)			147.0	61.48
+MotA_activ	PF09114	CL0123		Transcription factor MotA, activation domain			95.0	150.2
+DUF7247	PF23905			Domain of unknown function (DUF7247)			114.0	152.57
+phrog_3696					hypothetical	unknown function	96.0	165.98
+HTH_54	PF18607	CL0123		ParA helix turn helix domain			92.0	154.97
+RdgC	PF04381			Putative exonuclease, RdgC			275.0	69.63
+Phage_T5_AP_Endonuclease	PF26847			Phage T5 Apurinic/Apyrimidinic endonuclease family			114.0	244.82
+phrog_24635					hypothetical	unknown function	109.0	226.59
+phrog_2234					tail spike protein	tail	208.0	4.41
+ProQ	PF04352			ProQ/FINO family			101.0	26.16
+phrog_3815					COOH.NH2 ligase	other	268.0	394.12
+phrog_874					hypothetical	unknown function	257.0	258.78
+phrog_5011					outer membrane protein	other	32.0	90.27
+phrog_38876					DNA polymerase exonuclease subunit	DNA, RNA and nucleotide metabolism	111.0	250.24
+phrog_2568					ocr-like anti-restriction	moron, auxiliary metabolic gene and host takeover	117.0	183.51
+TerC	PF03741	CL0292		Integral membrane protein TerC family			208.0	133.9
+Phage_T4_Y00F	PF26820			Bacteriophage T4 Y00F protein			170.0	89.88
+HNH_3	PF13392	CL0263		HNH endonuclease			45.0	55.9
+dUTPase_2	PF08761	CL0231		dUTPase			149.0	10.79
+phrog_27054					hypothetical	unknown function	79.0	188.86
+phrog_2607					hypothetical	unknown function	200.0	355.82
+phrog_16063					hypothetical	unknown function	72.0	132.61
+phrog_3714					hypothetical	unknown function	154.0	167.44
+phrog_2416					hypothetical	unknown function	92.0	136.33
+phrog_175					holin	lysis	93.0	156.8
+phrog_4535					hypothetical	unknown function	66.0	83.13
+DUF7275	PF23940			Domain of unknown function (DUF7275)			186.0	254.44
+phrog_15684					hypothetical	unknown function	1875.0	4410.79
+phrog_3995					tail protein	tail	462.0	447.59
+phrog_3215					hypothetical	unknown function	88.0	144.69
+PriCT_2	PF08707			Primase C terminal 2 (PriCT-2)			73.0	71.24
+phrog_4551					hypothetical	unknown function	90.0	155.05
+phrog_5255					tail length tape measure protein	tail	777.0	1127.3
+phrog_11241					hypothetical	unknown function	86.0	203.43
+phrog_4453					hypothetical	unknown function	108.0	217.35
+phrog_35263					unknown function	unknown function	102.0	238.77
+DUF7415	PF24187			Domain of unknown function (DUF7415)			96.0	46.95
+phrog_26061					hypothetical	unknown function	61.0	165.08
+phrog_75					head-tail adaptor Ad1	connector	68.0	121.77
+phrog_5					tail completion or Neck1 protein	connector	132.0	59.75
+phrog_9340					hypothetical	unknown function	34.0	55.95
+phrog_4379					hypothetical	unknown function	114.0	217.15
+phrog_33982					hypothetical	unknown function	68.0	175.56
+phrog_739					Rz-like spanin	lysis	117.0	138.1
+TMP_3	PF20155			Tape measure protein			191.0	64.41
+phrog_31823					hypothetical	unknown function	37.0	111.61
+TMP_N	PF24164			Tape measure protein N-terminal			82.0	117.29
+phrog_168					clamp loader of DNA polymerase	DNA, RNA and nucleotide metabolism	319.0	453.14
+phrog_469					tail protein	tail	846.0	831.63
+phrog_13661					hypothetical	unknown function	110.0	249.29
+phrog_15662					hypothetical	unknown function	69.0	115.31
+phrog_9585					hypothetical	unknown function	97.0	152.22
+phrog_28042					replication initiation protein	DNA, RNA and nucleotide metabolism	45.0	112.49
+phrog_4495					hypothetical	unknown function	126.0	241.42
+phrog_6887					hypothetical	unknown function	72.0	133.68
+phrog_8202					hypothetical	unknown function	96.0	185.35
+phrog_237					head scaffolding protein	head and packaging	269.0	299.39
+DarA_N	PF18788			Defence against restriction A N-terminal			140.0	143.41
+phrog_9500					CsrA-like regulator	transcription regulation	60.0	36.75
+phrog_559					HNH endonuclease	DNA, RNA and nucleotide metabolism	295.0	125.31
+phrog_2162					Sir2 (NAD-dependent deacetylase)	DNA, RNA and nucleotide metabolism	253.0	340.74
+phrog_28884					hypothetical	unknown function	228.0	540.34
+phrog_967					baseplate wedge tail fiber protein connector	tail	288.0	445.48
+phrog_68					portal protein	head and packaging	344.0	587.76
+phrog_8596					hypothetical	unknown function	42.0	107.81
+phrog_6020					major head protein	head and packaging	341.0	501.83
+phrog_5932					hypothetical	unknown function	64.0	91.89
+ORF11CD3	PF10549			ORF11CD3 domain			54.0	75.34
+phrog_12606					hypothetical	unknown function	110.0	138.57
+NUDIX	PF00293	CL0261		NUDIX domain			135.0	50.09
+P22_CoatProtein	PF11651	CL0373		P22 coat protein - gene protein 5			428.0	601.26
+phrog_10685					hypothetical	unknown function	64.0	137.58
+Phage_Y01A	PF25693			Bacteriophage T4-like Y01A protein			95.0	57.05
+phrog_4457					hypothetical	unknown function	74.0	146.03
+phrog_17117					hypothetical	unknown function	56.0	101.08
+phrog_25653					hypothetical	unknown function	82.0	193.41
+phrog_6202					tail fiber protein	tail	410.0	257.44
+phrog_1880					PnuC-like nicotinamide mononucleotide transport	moron, auxiliary metabolic gene and host takeover	225.0	249.6
+Resolvase	PF00239			Resolvase, N terminal domain			140.0	77.01
+phrog_18624					hypothetical	unknown function	56.0	36.82
+Phage_T7_1_5	PF26858			Phage T7 protein 1.5			29.0	75.15
+phrog_14688					lipoprotein	other	146.0	315.48
+phrog_977					baseplate wedge subunit	tail	334.0	652.25
+Phage_capsid_4	PF25209	CL0373		Phage capsid protein			275.0	51.14
+phrog_1510					superinfection exclusion	moron, auxiliary metabolic gene and host takeover	104.0	168.87
+phrog_2746					host range and adsorption protein	moron, auxiliary metabolic gene and host takeover	133.0	165.33
+phrog_9798					hypothetical	unknown function	101.0	219.64
+phrog_13627					hypothetical	unknown function	57.0	41.8
+phrog_26866					hypothetical	unknown function	60.0	126.77
+phrog_15636					hypothetical	unknown function	51.0	137.37
+phrog_269					DNA helicase loader	DNA, RNA and nucleotide metabolism	210.0	285.54
+phrog_17424					hypothetical	unknown function	47.0	125.85
+phrog_50					DnaC-like helicase loader	DNA, RNA and nucleotide metabolism	286.0	257.3
+phrog_735					terminase small subunit	head and packaging	164.0	264.14
+DUF7446	PF24233			Family of unknown function (DUF7446)			74.0	66.97
+phrog_149					exonuclease	DNA, RNA and nucleotide metabolism	226.0	433.23
+phrog_8099					hypothetical	unknown function	90.0	162.28
+phrog_8792					hypothetical	unknown function	107.0	144.31
+DNA_ligase_C	PF17879	CL0021		DNA ligase C-terminal domain			109.0	250.75
+phrog_1339					internal virion protein	head and packaging	743.0	1202.1
+phrog_112					Gp2.5-like ssDNA binding protein and ssDNA annealing protein	DNA, RNA and nucleotide metabolism	232.0	150.12
+SU10_portal	PF23899	CL0838		Phage SU10 portal protein			606.0	511.91
+phrog_4023					hypothetical	unknown function	135.0	210.57
+Baseplate_J_M	PF26078			Baseplate J-like central domain			74.0	36.1
+phrog_14355					hypothetical	unknown function	264.0	633.82
+phrog_1582					hypothetical	unknown function	121.0	219.94
+Phage_T4_IpII	PF26874			Phage T4 internal protein II			100.0	223.98
+phrog_29431					hypothetical	unknown function	111.0	240.98
+phrog_26489					hypothetical	unknown function	50.0	44.89
+DNA_pol3_theta	PF06440			DNA polymerase III, theta subunit			70.0	115.99
+phrog_16587					hypothetical	unknown function	68.0	66.96
+T4_Rnl1_C	PF20819			T4 RNA ligase 1, C-terminal domain			122.0	128.92
+phrog_2340					endonuclease	DNA, RNA and nucleotide metabolism	159.0	198.2
+phrog_22269					hypothetical	unknown function	74.0	172.64
+phrog_28965					hypothetical	unknown function	86.0	162.18
+Phage_T7_tail	PF03906			Phage T7 tail fibre protein, N-terminal domain			131.0	193.86
+RNase_H	PF00075	CL0219		RNase H			140.0	30.24
+phrog_25538					hypothetical	unknown function	277.0	364.48
+phrog_7379					hypothetical	unknown function	131.0	225.67
+HDPD	PF02924			Bacteriophage lambda head decoration protein D			108.0	75.96
+phrog_15360					hypothetical	unknown function	76.0	173.52
+phrog_14875					hypothetical	unknown function	38.0	104.87
+phrog_14327					hypothetical	unknown function	64.0	75.63
+phrog_578					head closure Hc3	connector	472.0	753.31
+phrog_2049					unknown function	unknown function	109.0	188.46
+DNA_PPF	PF02916	CL0060		DNA polymerase processivity factor			109.0	116.2
+Phage_TAC_4	PF08748	CL0567		Phage tail assembly chaperone			104.0	113.39
+HTH_3	PF01381	CL0123		Helix-turn-helix			56.0	40.86
+phrog_8430					hypothetical	unknown function	164.0	202.83
+HD_4	PF13328	CL0237		HD domain			147.0	55.73
+Glutaredoxin	PF00462	CL0172		Glutaredoxin			75.0	29.71
+Phage_tail_terminator_5	PF13554	CL0691		Phage tail terminator protein			126.0	72.04
+phrog_27883					hypothetical	unknown function	65.0	165.08
+phrog_4477					hypothetical	unknown function	408.0	582.81
+phrog_1366					hypothetical	unknown function	328.0	289.27
+phrog_1976					hypothetical	unknown function	61.0	119.52
+phrog_6361					hypothetical	unknown function	224.0	248.61
+phrog_14165					hypothetical	unknown function	108.0	190.71
+Phage_T4_Spanin	PF26831			Phage spanin outer lipoprotein subunit			99.0	139.41
+phrog_2102					Dmd discriminator of mRNA degradation	DNA, RNA and nucleotide metabolism	60.0	133.61
+phrog_1158					tail assembly chaperone	tail	113.0	115.66
+phrog_2919					hypothetical	unknown function	59.0	100.69
+phrog_3498					NAD-dependent DNA ligase	DNA, RNA and nucleotide metabolism	256.0	452.74
+phrog_786					hypothetical	unknown function	129.0	144.83
+phrog_322					hypothetical	unknown function	123.0	141.78
+phrog_4596					hypothetical	unknown function	83.0	124.35
+phrog_20937					hypothetical	unknown function	71.0	170.53
+phrog_1328					major head protein	head and packaging	351.0	398.08
+phrog_84					ribonucleoside-diphosphate reductase large subunit	DNA, RNA and nucleotide metabolism	754.0	1036.25
+phrog_5341					internal virion protein	head and packaging	192.0	389.86
+phrog_1594					hypothetical	unknown function	109.0	186.19
+phrog_2585					nucleotide kinase	other	182.0	212.77
+phrog_16391					hypothetical	unknown function	39.0	108.81
+phrog_22925					hypothetical	unknown function	82.0	177.13
+phrog_8302					hypothetical	unknown function	366.0	735.64
+Phage_gp53	PF11246	CL0187		Base plate wedge protein 53			187.0	344.61
+phrog_21333					hypothetical	unknown function	88.0	138.66
+Phage_T4_gp68	PF26830			Prohead assembly protein gp68 family			141.0	243.01
+phrog_20147					hypothetical	unknown function	47.0	91.04
+phrog_21930					holin	lysis	84.0	196.35
+phrog_656					abc2 anti-RecBCD	moron, auxiliary metabolic gene and host takeover	98.0	183.7
+phrog_89					Rz-like spanin	lysis	141.0	207.02
+Endonuclease_7	PF02945	CL0263		Recombination endonuclease VII			96.0	76.72
+phrog_11133					hypothetical	unknown function	196.0	69.46
+phrog_1541					hypothetical	unknown function	74.0	157.1
+DUF7616	PF24592			Family of unknown function (DUF7616)			56.0	114.68
+phrog_3177					hypothetical	unknown function	72.0	159.38
+T4_Y03C	PF25721			Phage T4 Y03C protein family			84.0	72.91
+phrog_29854					hypothetical	unknown function	45.0	118.59
+phrog_374					HNH endonuclease	DNA, RNA and nucleotide metabolism	209.0	208.63
+DUF2685	PF10886			Protein of unknown function (DUF2685)			51.0	103.3
+Phage_TTP_12	PF16461	CL0504		Lambda phage tail tube protein, TTP			135.0	235.11
+Phage_pb10_N	PF21393			Decoration protein pb10 N-terminal domain			59.0	129.9
+phrog_162					endolysin	lysis	141.0	230.39
+phrog_303					hypothetical	unknown function	79.0	80.17
+phrog_4979					hypothetical	unknown function	143.0	277.33
+phrog_1931					hypothetical	unknown function	100.0	129.24
+phrog_13249					holin	lysis	79.0	175.72
+phrog_755					RNA ligase	DNA, RNA and nucleotide metabolism	150.0	230.95
+N36	PF11438			36-mer N-terminal peptide of the N protein (N36)			35.0	90.17
+Phage_T4_Y06M	PF26896			Bacteriophage T4 protein Y06M			135.0	208.37
+phrog_9014					Gp5.9-like inihibitor of recBCD nuclease	moron, auxiliary metabolic gene and host takeover	52.0	136.23
+phrog_29624					hypothetical	unknown function	61.0	103.22
+phrog_492					hypothetical	unknown function	153.0	56.35
+phrog_4448					hypothetical	unknown function	79.0	150.71
+GP3_package	PF16677	CL0123		DNA-packaging protein gp3			116.0	50.83
+phrog_817					tail fiber protein	tail	198.0	143.04
+phrog_1915					hypothetical	unknown function	128.0	136.51
+phrog_2076					QueE-like  radical SAM domain	moron, auxiliary metabolic gene and host takeover	235.0	253.81
+phrog_1798					hypothetical	unknown function	111.0	24.87
+phrog_11748					hypothetical	unknown function	126.0	245.52
+phrog_2346					hypothetical	unknown function	112.0	117.74
+phrog_368					hypothetical	unknown function	214.0	120.72
+SBB_T7	PF21265	CL0021		Single-stranded DNA-binding protein, Bacteriophage T7			171.0	305.7
+Phage_T7_Gp13	PF11090	CL0257		Bacteriophage T7, probable scaffold protein Gp13			86.0	160.47
+phrog_10509					hypothetical	unknown function	60.0	119.39
+phrog_2501					hypothetical	unknown function	46.0	67.6
+RzoQ	PF28595			Putative lipoprotein RzoQ			67.0	30.76
+Phage_T4_Y00H_G	PF26837			Phage T4 Y00H/Y00G protein family			79.0	86.66
+Phage_P1_Gp16	PF26903			Bacteriophage P1 gene 16 protein			166.0	306.84
+phrog_11132					hypothetical	unknown function	108.0	177.68
+phrog_1314					HNH endonuclease	DNA, RNA and nucleotide metabolism	485.0	427.56
+phrog_16257					hypothetical	unknown function	92.0	195.28
+phrog_3436					hypothetical	unknown function	90.0	171.76
+HAD_SAK_2	PF18143			HAD domain in Swiss Army Knife RNA repair proteins			137.0	66.52
+phrog_1269					baseplate wedge subunit	tail	102.0	130.49
+phrog_2153					hypothetical	unknown function	95.0	170.34
+phrog_15762					hypothetical	unknown function	199.0	356.15
+phrog_21861					hypothetical	unknown function	134.0	164.36
+phrog_11278					hypothetical	unknown function	89.0	168.55
+phrog_13956					hypothetical	unknown function	87.0	203.83
+phrog_2749					hypothetical	unknown function	103.0	173.14
+phrog_6					baseplate wedge subunit	tail	496.0	144.68
+phrog_6200					hypothetical	unknown function	71.0	135.55
+DNMK	PF21448	CL0023		Deoxynucleotide monophosphate kinase			233.0	360.55
+phrog_487					NrdD-like anaerobic ribonucleotide reductase large subunit	moron, auxiliary metabolic gene and host takeover	605.0	1017.86
+phrog_36709					hypothetical	unknown function	65.0	162.38
+phrog_20075					hypothetical	unknown function	40.0	115.14
+Mod_ADP_RT	PF26816			Bacteriophage T4 Mod ADP-ribosyltransferase			200.0	361.69
+WcaM	PF27800			Colanic acid biosynthesis WcaM			318.0	104.36
+phrog_3966					hypothetical	unknown function	104.0	122.49
+phrog_478					site-specific recombination directionality factor RDF	integration and excision	122.0	153.22
+phrog_2139					exonuclease	DNA, RNA and nucleotide metabolism	324.0	497.52
+Nmad5	PF18757			Nucleotide modification associated domain 5			253.0	196.88
+phrog_15669					hypothetical	unknown function	91.0	166.55
+phrog_14341					transcriptional repressor	transcription regulation	65.0	120.64
+phrog_4425					hypothetical	unknown function	88.0	167.7
+phrog_28700					hypothetical	unknown function	71.0	26.1
+S_tail_recep_bd	PF14928			Short tail fibre protein receptor-binding domain			93.0	207.38
+RmlD_sub_bind	PF04321	CL0063		RmlD substrate binding domain			260.0	246.83
+DUF5464	PF17552			Family of unknown function (DUF5464)			51.0	124.16
+GpA_ATPase	PF05876	CL0023		Phage terminase large subunit gpA, ATPase domain			257.0	172.42
+DUF7299	PF23973			Family of unknown function (DUF7299)			76.0	66.32
+GTP_cyclohydroI	PF01227	CL0334		GTP cyclohydrolase I			172.0	212.28
+phrog_1390					tail protein	tail	331.0	533.5
+phrog_13628					hypothetical	unknown function	46.0	127.42
+phrog_448					nicotinamide phosphoribosyl transferase	other	576.0	647.14
+phrog_213					portal protein	head and packaging	520.0	780.94
+phrog_11666					hypothetical	unknown function	34.0	45.66
+phrog_1114					PmgG-like head morphogenesis	head and packaging	193.0	266.77
+phrog_9690					DNA helicase	DNA, RNA and nucleotide metabolism	114.0	155.67
+DUF7180	PF23805			Family of unknown function (DUF7180)			72.0	83.31
+Phage_T4_gp19	PF06841	CL0504		T4-like virus tail tube protein gp19			153.0	48.1
+phrog_2678					hypothetical	unknown function	87.0	190.9
+phrog_12533					hypothetical	unknown function	89.0	191.75
+phrog_9296					hypothetical	unknown function	59.0	117.69
+DUF6260	PF19774	CL0373		Family of unknown function (DUF6260)			305.0	378.59
+phrog_8851					outer membrane protein	other	28.0	63.92
+phrog_4226					baseplate protein	tail	275.0	364.23
+phrog_15455					tail fiber protein	tail	595.0	81.07
+phrog_12610					hypothetical	unknown function	94.0	212.15
+phrog_7572					hypothetical	unknown function	117.0	201.02
+NLPC_P60	PF00877	CL0125		NlpC/P60 family			114.0	49.46
+DUF7442	PF24226			Phage membrane protein Family of unknown function (DUF7442)			79.0	117.29
+phrog_4056					baseplate protein	tail	226.0	330.23
+phrog_4590					hypothetical	unknown function	101.0	133.44
+phrog_2389					QueD-like  6-pyruvoyl-tetrahydropterin synthase	moron, auxiliary metabolic gene and host takeover	170.0	173.37
+phrog_2111					hypothetical	unknown function	208.0	440.83
+Phage_integrase	PF00589	CL0382		Phage integrase family			171.0	137.36
+phrog_161					head closure Hc1	connector	123.0	99.63
+phrog_4451					hypothetical	unknown function	59.0	112.87
+Gp5_trimer_C	PF22178	CL0606		Bacteriophage T4 gp5 C-terminal trimerisation domain			156.0	21.33
+IPI_T4	PF11634			Nuclease inhibitor from bacteriophage T4			76.0	179.9
+phrog_35664					hypothetical	unknown function	115.0	199.66
+phrog_3924					Kil protein for bacterial septation inhibition	other	47.0	123.38
+Radical_SAM	PF04055	CL0036		Radical SAM superfamily			93.0	44.16
+phrog_5473					hypothetical	unknown function	61.0	124.17
+phrog_11100					hypothetical	unknown function	119.0	162.43
+Lar_restr_allev	PF14354	CL0167		Restriction alleviation protein Lar			50.0	41.2
+phrog_53					head maturation protease	head and packaging	437.0	579.49
+phrog_1854					PmgB-like head morphogenesis	head and packaging	279.0	512.5
+phrog_14629					hypothetical	unknown function	1443.0	1580.5
+phrog_1722					tail protein	tail	405.0	741.13
+phrog_11458					hypothetical	unknown function	71.0	58.2
+phrog_5481					tail fiber protein	tail	1107.0	1228.92
+phrog_24420					hypothetical	unknown function	62.0	151.78
+phrog_3610					hypothetical	unknown function	47.0	94.74
+phrog_6503					hypothetical	unknown function	62.0	105.24
+Phage_Bf23_A1	PF26907			Bacteriophage Bf23 protein A1			38.0	50.2
+Pect-lyase_RHGA_epim	PF12708	CL0268		Rhamnogalacturonase A/epimerase, pectate lyase-like			211.0	43.33
+O_Spanin_T7	PF17531			Spanin, outer lipoprotein subunit T7-like virus			59.0	137.88
+TMP_2	PF06791			Prophage tail length tape measure protein			205.0	233.6
+phrog_2063					hypothetical	unknown function	111.0	169.59
+phrog_2097					tail fiber protein	tail	382.0	438.9
+phrog_6073					Rz-like spanin	lysis	68.0	105.35
+phrog_12538					hypothetical	unknown function	63.0	39.47
+Zn_ribbon_DnaG	PF01807	CL0167		CHC2 zinc finger			84.0	23.39
+phrog_13831					hypothetical	unknown function	60.0	119.58
+Phage_tube_2	PF18906			Phage tail tube protein			284.0	138.94
+adh_short_C2	PF13561	CL0063		Enoyl-(Acyl carrier protein) reductase			220.0	77.62
+phrog_842					beta-glucosyl-HMC-alpha-glucosyltransferase	other	261.0	274.32
+phrog_13897					hypothetical	unknown function	43.0	66.89
+phrog_5334					terminase small subunit	head and packaging	177.0	214.86
+phrog_35018					hypothetical	unknown function	90.0	171.47
+Phage_tail_L	PF05100	CL0249		Phage minor tail protein L			202.0	338.02
+phrog_28					tail length tape measure protein	tail	815.0	964.08
+phrog_5345					hypothetical	unknown function	104.0	165.16
+SIS	PF01380	CL0067		SIS domain			137.0	38.22
+phrog_13504					hypothetical	unknown function	165.0	332.63
+phrog_159					RuvC-like Holliday junction resolvase	DNA, RNA and nucleotide metabolism	209.0	121.85
+TMP_C	PF24165			Tape measure protein C-terminal			36.0	60.45
+phrog_19774					hypothetical	unknown function	75.0	165.54
+phrog_6094					hypothetical	unknown function	135.0	117.51
+Phage_T1_holin	PF27028			Bacteriophage T1 holin			71.0	124.16
+phrog_7504					homing endonuclease	DNA, RNA and nucleotide metabolism	210.0	444.61
+phrog_6377					hypothetical	unknown function	131.0	242.31
+phrog_2203					membrane protein	moron, auxiliary metabolic gene and host takeover	162.0	254.52
+phrog_7119					hypothetical	unknown function	51.0	109.33
+phrog_2425					hypothetical	unknown function	57.0	68.59
+DUF4752	PF15944			Domain of unknown function (DUF4752)			85.0	112.99
+phrog_145					portal protein	head and packaging	508.0	397.98
+phrog_7992					tail spike protein	tail	93.0	188.32
+phrog_19703					hypothetical	unknown function	78.0	192.87
+PB4_spike	PF24168			Straight fiber protein PB4 spike domain			315.0	592.03
+phrog_2888					alpha-glucosyltransferase	other	400.0	686.11
+phrog_8027					hypothetical	unknown function	46.0	73.75
+phrog_12734					hypothetical	unknown function	117.0	249.35
+phrog_6894					hypothetical	unknown function	98.0	176.48
+Phage_min_tail	PF05939			Phage minor tail protein			107.0	135.35
+phrog_1827					ATP-dependent protease	other	199.0	294.17
+phrog_25244					hypothetical	unknown function	82.0	172.59
+phrog_9291					hypothetical	unknown function	72.0	153.79
+Phage_holin_3_2	PF04550			Phage holin family 2			86.0	143.44
+phrog_24361					terminase	head and packaging	158.0	52.12
+phrog_4452					anti-restriction nuclease	DNA, RNA and nucleotide metabolism	72.0	128.5
+phrog_24275					hypothetical	unknown function	51.0	135.31
+phrog_7028					hypothetical	unknown function	132.0	230.28
+phrog_2110					hypothetical	unknown function	80.0	158.97
+Phage_blade	PF24647			Phage blade protein			60.0	103.39
+phrog_9414					hypothetical	unknown function	69.0	89.09
+phrog_5486					hypothetical	unknown function	131.0	246.49
+phrog_2260					hypothetical	unknown function	200.0	204.85
+phrog_12148					hypothetical	unknown function	41.0	96.03
+Gp18_domIII_N	PF22671			Tail sheath protein Gp18 domain III N-terminal region			60.0	64.77
+Gp38_N	PF21721			Phage tail fibre adhesin Gp38 N-terminal domain			42.0	78.73
+phrog_2257					unknown function	unknown function	295.0	540.18
+phrog_381					tail fiber protein	tail	669.0	764.51
+5_3_exonuc_N	PF02739	CL0280		5'-3' exonuclease, N-terminal resolvase-like domain			168.0	36.82
+phrog_28005					hypothetical	unknown function	94.0	213.35
+Gp38_E217	PF22760			Baseplate component gp38			143.0	39.75
+phrog_240					head protein	head and packaging	110.0	129.54
+Phage_portal_2	PF05136	CL0838		Phage portal protein, lambda family			370.0	328.67
+PriCT_1	PF08708	CL0242		Primase C terminal 1 (PriCT-1)			59.0	36.59
+DUF7370	PF24085			Family of unknown function (DUF7370)			124.0	123.99
+DNA_pol_B_exo1	PF03104	CL0219		DNA polymerase family B, exonuclease domain			206.0	73.77
+phrog_8339					hypothetical	unknown function	80.0	188.91
+phrog_9595					hypothetical	unknown function	160.0	202.4
+phrog_3636					DNA binding protein	DNA, RNA and nucleotide metabolism	180.0	179.55
+5_3_exonuc	PF01367	CL0464		5'-3' exonuclease, C-terminal SAM fold			85.0	44.86
+phrog_3199					hypothetical	unknown function	81.0	104.57
+phrog_4627					hypothetical	unknown function	136.0	208.19
+phrog_1238					phosphoheptose isomerase	moron, auxiliary metabolic gene and host takeover	133.0	133.61
+phrog_8408					hypothetical	unknown function	74.0	166.29
+phrog_3151					inhibitor of MrcBC restriction	moron, auxiliary metabolic gene and host takeover	91.0	149.15
+phrog_5707					hypothetical	unknown function	118.0	130.64
+gp37_C	PF12604	CL0840		Tail fibre protein gp37 C terminal domain			81.0	55.77
+phrog_2134					hypothetical	unknown function	137.0	165.11
+phrog_107					exonuclease	DNA, RNA and nucleotide metabolism	305.0	244.81
+phrog_108					Lom outer membrane protein	other	206.0	243.75
+NT5C	PF06941	CL0137		5' nucleotidase, deoxy (Pyrimidine), cytosolic type C protein (NT5C)			194.0	26.79
+T5_Terminase_small	PF26823			Putative phage T5 terminase, small subunit			160.0	277.5
+phrog_35977					hypothetical	unknown function	31.0	79.37
+phrog_5073					tail fiber protein	tail	439.0	352.05
+phrog_1014					hypothetical	unknown function	560.0	875.6
+phrog_55					head closure	connector	172.0	257.37
+VapE-like_dom	PF05272	CL0023		Virulence-associated protein E-like domain			242.0	98.85
+phrog_10640					hypothetical	unknown function	54.0	121.77
+Lambda_CIII	PF02061			Lambda Phage CIII			41.0	90.86
+phrog_16110					hypothetical	unknown function	72.0	149.33
+phrog_771					virion structural protein	head and packaging	350.0	449.48
+Gp51_C	PF28602			Baseplate hub assembly protein Gp51 C-terminal domain			47.0	93.25
+phrog_2874					hypothetical	unknown function	126.0	190.61
+Phage_T4_Y01E	PF26838			Phage T4 Y01E protein			60.0	91.32
+phrog_4868					hypothetical	unknown function	81.0	110.3
+NMN_transporter	PF04973			Nicotinamide mononucleotide transporter			185.0	143.04
+phrog_9374					hypothetical	unknown function	59.0	132.69
+Phage_Tube_PhiTE	PF11681			Bacteriophage PhiTE tail tube protein			117.0	32.45
+phrog_4					transcriptional repressor	transcription regulation	237.0	205.18
+UvsW-1	PF11637	CL0426		UvsW.1 domain			67.0	125.84
+Peptidase_M15_4	PF13539	CL0170		D-alanyl-D-alanine carboxypeptidase			63.0	25.76
+phrog_18461					hypothetical	unknown function	59.0	80.96
+phrog_18					minor tail protein	tail	232.0	420.51
+phrog_2941					virion structural protein	head and packaging	226.0	258.64
+phrog_757					DNA methyltransferase	other	254.0	295.52
+phrog_872					hypothetical	unknown function	161.0	241.01
+phrog_12958					hypothetical	unknown function	126.0	296.02
+TIM-barrel_NCTSP	PF23845	CL0036		Non-contractile tail sheath protein TIM barrel			363.0	269.04
+Phage_DsbA	PF11126			Transcriptional regulator DsbA			67.0	121.21
+phrog_4641					hypothetical	unknown function	68.0	103.97
+phrog_8297					hypothetical	unknown function	85.0	171.31
+phrog_35478					hypothetical	unknown function	31.0	91.86
+phrog_6828					hypothetical	unknown function	36.0	30.59
+phrog_375					Phd-like antitoxin	moron, auxiliary metabolic gene and host takeover	67.0	76.65
+Gp34_trimer	PF21446	CL0606		Long-tail fiber proximal subunit, C-terminal, trimerization domain			122.0	119.33
+phrog_442					head-tail adaptor	connector	170.0	156.13
+phrog_8993					hypothetical	unknown function	241.0	375.31
+phrog_13415					hypothetical	unknown function	279.0	537.91
+phrog_836					late transcriptional activator	transcription regulation	140.0	103.1
+phrog_917					released from the phage upon host infection	other	295.0	65.72
+phrog_114					ATP-dependent DNA ligase	DNA, RNA and nucleotide metabolism	485.0	435.78
+phrog_9747					hypothetical	unknown function	147.0	209.93
+phrog_3766					hypothetical	unknown function	66.0	118.7
+phrog_24351					endonuclease VII	DNA, RNA and nucleotide metabolism	90.0	206.46
+NCTSP_N	PF23844	CL0202		Non-contractile tail sheath N-terminal domain			187.0	46.97
+phrog_12154					DNA helicase	DNA, RNA and nucleotide metabolism	98.0	185.1
+phrog_9288					hypothetical	unknown function	35.0	41.81
+phrog_7349					hypothetical	unknown function	98.0	148.88
+phrog_704					DNA repair exonuclease	DNA, RNA and nucleotide metabolism	376.0	506.35
+phrog_1117					hypothetical	unknown function	54.0	128.24
+phrog_4465					tail fiber protein	tail	346.0	577.94
+phrog_2220					hypothetical	unknown function	885.0	999.24
+YdaS_toxin	PF15943	CL0123		Bacterial toxin YdaS			44.0	29.25
+phrog_7673					internal head protein	head and packaging	72.0	94.7
+phrog_2817					hypothetical	unknown function	79.0	124.06
+phrog_4328					hypothetical	unknown function	142.0	241.74
+DUF2800	PF10926	CL0236		Protein of unknown function (DUF2800)			447.0	217.02
+phrog_6221					hypothetical	unknown function	55.0	133.83
+phrog_4039					hypothetical	unknown function	140.0	277.34
+phrog_265					replication initiation protein	DNA, RNA and nucleotide metabolism	100.0	181.7
+phrog_13456					hypothetical	unknown function	115.0	86.25
+phrog_1855					DdrA-like anti-restriction protein	moron, auxiliary metabolic gene and host takeover	121.0	203.98
+phrog_10966					hypothetical	unknown function	222.0	391.94
+phrog_1086					hypothetical	unknown function	102.0	155.96
+phrog_11577					hypothetical	unknown function	123.0	259.02
+phrog_10530					DNA ligase	DNA, RNA and nucleotide metabolism	154.0	311.78
+phrog_592					thymidine kinase	other	193.0	302.39
+phrog_12630					hypothetical	unknown function	109.0	219.17
+UvsY	PF11056			Recombination, repair and ssDNA binding protein UvsY			129.0	176.16
+phrog_4586					hypothetical	unknown function	78.0	149.22
+phrog_603					transcriptional regulator	transcription regulation	72.0	96.17
+phrog_2193					hypothetical	unknown function	49.0	87.09
+phrog_6790					tail protein	tail	143.0	187.86
+Helic-prim_T7_N	PF21268	CL0748		Bacteriophage T7 DNA helicase/primase, N-terminal a+b fold			59.0	109.03
+DUF5466	PF17554			Family of unknown function (DUF5466)			57.0	142.56
+phrog_15027					tail assembly chaperone	tail	138.0	222.85
+Ig_3	PF13927	CL0159		Immunoglobulin domain			78.0	21.12
+Phage_T4_Y06R	PF26875			Phage T4 Y06R protein			111.0	125.32
+DUF5484	PF17583			Family of unknown function (DUF5484)			43.0	121.42
+phrog_3198					Rz-like spanin	lysis	60.0	103.53
+T4-gp15_tss	PF16724	CL0691		T4-like virus Myoviridae tail sheath stabiliser			257.0	310.16
+phrog_19550					hypothetical	unknown function	197.0	159.3
+phrog_2054					hypothetical	unknown function	88.0	155.76
+phrog_16989					membrane protein	moron, auxiliary metabolic gene and host takeover	44.0	46.68
+phrog_23015					hypothetical	unknown function	61.0	157.96
+phrog_1822					hypothetical	unknown function	89.0	126.61
+phrog_12469					hypothetical	unknown function	105.0	234.97
+phrog_804					hypothetical	unknown function	71.0	121.03
+phrog_4559					hypothetical	unknown function	82.0	161.16
+phrog_166					tail protein	tail	93.0	78.04
+phrog_4036					tail length tape measure protein	tail	742.0	1534.12
+Phage_PM2_Gpl	PF26925			Pseudoalteromonas phage PM2 protein Gp-l			65.0	76.11
+phrog_36409					hypothetical	unknown function	286.0	332.2
+phrog_18758					hypothetical	unknown function	68.0	146.37
+phrog_6164					hypothetical	unknown function	190.0	431.69
+phrog_2249					DNA primase	DNA, RNA and nucleotide metabolism	769.0	713.74
+phrog_2814					hypothetical	unknown function	85.0	132.27
+phrog_63					anti-repressor Ant	transcription regulation	303.0	242.02
+Tad2-like	PF11195			Thoeris anti-defense 2-like domain			79.0	77.56
+phrog_5989					terminase large subunit	head and packaging	334.0	322.4
+phrog_9053					hypothetical	unknown function	57.0	116.47
+T7_gp14	PF24072			T7 virus internal virion protein gp14 family			195.0	154.32
+phrog_2237					hypothetical	unknown function	109.0	146.98
+P22_Tail-4	PF11650	CL0643		P22 tail accessory factor			165.0	197.73
+SSB	PF00436	CL0021		Single-strand binding protein family			105.0	133.32
+Phage_fiber_2	PF03406			Phage tail fibre repeat			40.0	70.63
+phrog_126					holin/anti-holin	lysis	107.0	139.06
+phrog_2534					released from the phage upon host infection	other	431.0	722.2
+Phage_zn_bind	PF23895			Phage zinc binding domain			68.0	93.89
+phrog_4966					hypothetical	unknown function	112.0	124.96
+Phage_nozzle	PF25675			Bacteriophage nozzle protein			794.0	1253.17
+phrog_1185					nudix hydrolase	other	146.0	218.14
+phrog_7760					tail fiber protein	tail	222.0	400.08
+Packaging_FI	PF14000			DNA packaging protein FI			128.0	198.8
+CsrA	PF02599			Global regulator protein family			45.0	46.37
+phrog_1873					hypothetical	unknown function	68.0	121.95
+phrog_1685					hypothetical	unknown function	2255.0	3987.27
+phrog_2048					tail protein	tail	183.0	204.31
+Phage_zn_bind_2	PF23903			Phage zinc binding domain			45.0	80.55
+phrog_5579					hypothetical	unknown function	49.0	70.81
+phrog_1209					hypothetical	unknown function	120.0	212.17
+phrog_4859					helicase loader	DNA, RNA and nucleotide metabolism	61.0	135.29
+phrog_12812					hypothetical	unknown function	77.0	50.33
+Tail_spike_N	PF18668			Tail spike TSP1/Gp66 receptor binding N-terminal domain			70.0	38.75
+phrog_25980					hypothetical	unknown function	77.0	179.88
+Phage_GPD	PF05954	CL0504		Phage tail baseplate hub (GPD)			324.0	104.19
+Phage_T4_Y12I	PF26911			Bacteriophage T4 protein Y12I			68.0	136.38
+phrog_292					hypothetical	unknown function	63.0	119.09
+phrog_329					minor tail protein	tail	121.0	115.52
+phrog_19504					hypothetical	unknown function	58.0	153.85
+Phage-tail_3	PF13550	CL0504		Putative phage tail protein			165.0	139.86
+Thy1	PF02511			Thymidylate synthase complementing protein			160.0	33.38
+phrog_14834					hypothetical	unknown function	163.0	342.01
+Caudo_TAP	PF02413	CL0348		Caudovirales tail fibre assembly protein, lambda gpK			121.0	147.3
+phrog_4034					hypothetical	unknown function	196.0	385.99
+Portal_Mu	PF06074	CL0838		Portal protein of Mu bacteriophage			168.0	27.51
+phrog_10409					hypothetical	unknown function	82.0	174.04
+Zn_Ribbon_Prim	PF08273	CL0167		Zinc-binding domain of primase-helicase			37.0	41.83
+phrog_13850					hypothetical	unknown function	75.0	153.2
+VirionAssem_T7	PF11653			Bacteriophage T7 virion assembly protein			99.0	204.54
+phrog_127					anti-termination protein Q-like	transcription regulation	211.0	146.59
+phrog_3515					hypothetical	unknown function	34.0	79.11
+phrog_14549					hypothetical	unknown function	108.0	232.58
+phrog_5649					hypothetical	unknown function	55.0	44.89
+DUF7167	PF23768			Domain of unknown function (DUF7167)			91.0	17.59
+phrog_13920					hypothetical	unknown function	87.0	206.29
+phrog_1990					Cas4-domain exonuclease	DNA, RNA and nucleotide metabolism	316.0	397.49
+phrog_9509					hypothetical	unknown function	155.0	216.58
+phrog_3914					tail assembly chaperone	tail	115.0	188.67
+phrog_12908					hypothetical	unknown function	118.0	265.9
+HATPase_c_3	PF13589	CL0025		Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase			129.0	34.02
+phrog_27504					hypothetical	unknown function	283.0	639.72
+phrog_8233					tail assembly chaperone	tail	140.0	155.75
+phrog_27336					hypothetical	unknown function	107.0	236.05
+phrog_12984					lipoprotein	other	77.0	190.33
+Phage_Mu_F	PF04233			Phage Mu protein F like protein			105.0	33.29
+Pyr_excise	PF03013			Pyrimidine dimer DNA glycosylase			91.0	52.78
+phrog_207					head maturation protease	head and packaging	211.0	257.43
+Acb2_Tad1_hairpin	PF24729			Acb2/Tad1, hairpin domain			80.0	40.92
+Phage_cement	PF22758	CL0845		Structural cement protein (E217 gp24/Pam3 gp6)			165.0	78.59
+phrog_3889					base plate tail tube protein	tail	298.0	502.47
+phrog_1614					nucleotidyltransferase	DNA, RNA and nucleotide metabolism	197.0	128.89
+DUF3987	PF13148			Protein of unknown function (DUF3987)			367.0	135.79
+phrog_3977					hypothetical	unknown function	166.0	336.46
+DNA_pol3_alpha	PF07733	CL0260		Bacterial DNA polymerase III alpha NTPase domain			260.0	213.6
+DUF2774	PF11242			Protein of unknown function (DUF2774)			60.0	87.76
+phrog_7953					hypothetical	unknown function	93.0	218.97
+phrog_29443					hypothetical	unknown function	81.0	54.17
+phrog_19797					hypothetical	unknown function	42.0	104.75
+Phage_T4_Y13I	PF26888			Bacteriophage T4 protein Y13I			72.0	117.19
+DUF7179	PF23804			Family of unknown function (DUF7179)			91.0	129.1
+Phage_T4_Gp30_7	PF06919			Phage Gp30.7 protein			120.0	180.49
+Sheath_initiator	PF10934	CL0763		Contractile injection system sheath initiator			108.0	99.77
+phrog_8009					hypothetical	unknown function	42.0	74.37
+DAHP_synth_1	PF00793	CL0036		DAHP synthetase I family			303.0	251.01
+phrog_24970					hypothetical	unknown function	35.0	56.23
+phrog_2327					hypothetical	unknown function	68.0	131.97
+DUF2883	PF11097			Protein of unknown function (DUF2883)			75.0	187.22
+GP57	PF17594			Phage Tail fiber assembly helper gene product 57			75.0	165.79
+Phage_T7_Gp15	PF26212			Phage T7 Internal virion protein gp15			695.0	971.46
+phrog_2663					hypothetical	unknown function	169.0	207.01
+phrog_18384					hypothetical	unknown function	57.0	148.27
+phrog_1648					hypothetical	unknown function	67.0	122.14
+phrog_4242					tail fiber protein	tail	553.0	711.33
+phrog_3098					hypothetical	unknown function	37.0	75.19
+Terminase_5	PF06056	CL0123		Putative ATPase subunit of terminase (gpP-like)			58.0	93.92
+phrog_11457					hypothetical	unknown function	59.0	121.74
+phrog_46					baseplate hub	tail	67.0	124.61
+phrog_4240					hypothetical	unknown function	100.0	117.09
+Phage_Cox	PF10743			Regulatory phage protein cox			87.0	123.18
+phrog_1928					hypothetical	unknown function	112.0	118.63
+phrog_4383					hypothetical	unknown function	59.0	137.58
+phrog_8329					hypothetical	unknown function	165.0	289.59
+phrog_5782					virion structural protein	head and packaging	67.0	130.87
+T7-like_gp67	PF17570			Bacteriophage T7-like, protein 6.7			62.0	97.71
+RNase_T	PF00929	CL0219		Exonuclease			166.0	78.99
+phrog_3710					hypothetical	unknown function	175.0	227.67
+Phage_T4_Y05D	PF26901			Bacteriophage T4 protein Y05D			175.0	313.61
+phrog_38319					hypothetical	unknown function	260.0	149.15
+Phage_GPO	PF05929			Phage capsid scaffolding protein (GPO) serine peptidase			279.0	368.95
+phrog_20372					hypothetical	unknown function	114.0	185.89
+phrog_2401					periplasmic protein	other	65.0	112.46
+phrog_1056					fibritin neck whisker	tail	485.0	659.62
+Phage_tail_U	PF06141	CL0691		Phage minor tail protein U			129.0	171.12
+Pribosyltran	PF00156	CL0533		Phosphoribosyl transferase domain			143.0	30.37
+DUF7430	PF24207			Family of unknown function (DUF7430)			73.0	133.1
+phrog_11330					hypothetical	unknown function	72.0	125.81
+Phage_T4_Y11B	PF26882			Bacteriophage T4 protein Y11B			74.0	164.25
+phrog_415					polynucleotide kinase	other	179.0	214.81
+phrog_1229					hypothetical	unknown function	111.0	132.58
+phrog_6500					hypothetical	unknown function	66.0	150.16
+phrog_4363					internal virion protein	head and packaging	94.0	167.6
+phrog_14500					hypothetical	unknown function	63.0	164.53
+DUF3045	PF11243			Protein of unknown function (DUF3045)			88.0	213.56
+phrog_1965					hypothetical	unknown function	254.0	202.15
+phrog_23437					tail protein	tail	82.0	29.58
+PhageMin_Tail	PF10145			Phage-related minor tail protein			202.0	157.77
+T4_Gp59_C	PF08994			T4 gene Gp59 loader of gp41 DNA helicase C-term			104.0	173.85
+Intein_splicing	PF14890	CL0363		Intein splicing domain			341.0	27.82
+Ribonuc_red_lgN	PF00317			Ribonucleotide reductase, all-alpha domain			79.0	71.44
+phrog_1285					RNA polymerase binding	DNA, RNA and nucleotide metabolism	127.0	185.23
+phrog_10555					hypothetical	unknown function	106.0	237.7
+phrog_20894					hypothetical	unknown function	91.0	218.34
+phrog_2255					HNH endonuclease	DNA, RNA and nucleotide metabolism	126.0	83.1
+Acid_phosphat_B	PF03767	CL0137		HAD superfamily, subfamily IIIB (Acid phosphatase)			131.0	32.64
+phrog_17122					hypothetical	unknown function	132.0	284.17
+phrog_5653					terminase large subunit	head and packaging	195.0	90.53
+phrog_22353					hypothetical	unknown function	35.0	88.57
+phrog_1980					tail fiber protein	tail	592.0	172.57
+phrog_25271					hypothetical	unknown function	60.0	120.51
+phrog_1629					Ulx-like anti-restriction	moron, auxiliary metabolic gene and host takeover	145.0	230.7
+phrog_9839					hypothetical	unknown function	101.0	172.86
+phrog_4578					HNH endonuclease	DNA, RNA and nucleotide metabolism	121.0	140.15
+DUF7940	PF25612			Family of unknown function (DUF7940)			68.0	48.31
+phrog_13865					hypothetical	unknown function	85.0	118.52
+phrog_609					RIIB lysis inhibitor	lysis	312.0	465.67
+phrog_822					amidase	lysis	151.0	257.94
+phrog_15398					hypothetical	unknown function	108.0	226.17
+phrog_1130					membrane protein	moron, auxiliary metabolic gene and host takeover	65.0	63.33
+Antiterm	PF03589	CL0895		Antitermination protein Q			177.0	96.58
+Phage_Nu1	PF07471	CL0123		Phage DNA packaging protein Nu1			164.0	333.17
+phrog_16375					hypothetical	unknown function	73.0	157.79
+phrog_938					endolysin	lysis	166.0	196.53
+phrog_1826					hypothetical	unknown function	70.0	128.38
+phrog_92					DNA packaging chaperone FI	head and packaging	132.0	194.62
+phrog_29095					endonuclease	DNA, RNA and nucleotide metabolism	92.0	194.55
+phrog_16150					tail assembly protein	tail	417.0	858.79
+phrog_14200					hypothetical	unknown function	66.0	131.53
+phrog_36005					hypothetical	unknown function	46.0	64.45
+phrog_10456					hypothetical	unknown function	64.0	62.2
+phrog_1427					hypothetical	unknown function	72.0	131.79
+phrog_35057					hypothetical	unknown function	103.0	190.3
+AAA_25	PF13481	CL0023		AAA domain			189.0	66.59
+phrog_142					Ren-like exclusion protein	moron, auxiliary metabolic gene and host takeover	96.0	142.57
+phrog_12604					hypothetical	unknown function	91.0	210.49
+NinG	PF05766	CL0263		Bacteriophage Lambda NinG protein			199.0	309.24
+phrog_17					DNA polymerase	DNA, RNA and nucleotide metabolism	704.0	479.71
+phrog_2363					hypothetical	unknown function	192.0	437.76
+phrog_34266					hypothetical	unknown function	47.0	77.53
+DNA_pol_A_exo1	PF01612	CL0219		3'-5' exonuclease			196.0	135.32
+phrog_425					membrane associated protein	moron, auxiliary metabolic gene and host takeover	222.0	226.0
+RNA_lig_T4_1	PF09511	CL0179		RNA ligase			195.0	90.06
+phrog_12582					head protein	head and packaging	52.0	99.33
+Phage_T4_Y04J	PF26863			Phage T4 Y04J protein			51.0	99.47
+cREC_REC	PF20274	CL0304		Cyclic-phosphate processing Receiver domain			100.0	53.35
+phrog_54					DksA-like zinc-finger protein	other	74.0	110.79
+Dit_like	PF21821	CL0504		Dit-like phage tail protein			137.0	79.99
+phrog_785					holin	lysis	101.0	95.36
+phrog_4332					hypothetical	unknown function	127.0	224.8
+phrog_23744					hypothetical	unknown function	97.0	221.56
+phrog_38					terminase large subunit	head and packaging	570.0	398.05
+phrog_4887					hypothetical	unknown function	87.0	152.23
+T4_Y16D	PF26092			Phage T4 y16D protein			92.0	105.55
+phrog_19819					hypothetical	unknown function	82.0	58.35
+DUF2654	PF10849			Protein of unknown function (DUF2654)			70.0	144.62
+phrog_4982					hypothetical	unknown function	93.0	159.97
+phrog_10786					hypothetical	unknown function	77.0	147.07
+phrog_14913					HNH endonuclease	DNA, RNA and nucleotide metabolism	142.0	176.08
+phrog_113					portal protein	head and packaging	518.0	269.97
+phrog_11822					hypothetical	unknown function	50.0	130.33
+phrog_1235					hypothetical	unknown function	61.0	56.99
+phrog_2201					hypothetical	unknown function	70.0	71.99
+phrog_13260					hypothetical	unknown function	527.0	692.03
+phrog_465					endolysin	lysis	137.0	171.4
+phrog_1246					lysis inhibition	lysis	97.0	120.9
+phrog_16810					hypothetical	unknown function	104.0	230.68
+phrog_20082					membrane protein	moron, auxiliary metabolic gene and host takeover	41.0	99.28
+phrog_1804					Rz-like spanin	lysis	132.0	154.51
+DUF7279	PF23945			Family of unknown function (DUF7279)			53.0	65.8
+phrog_447					NAD synthetase	other	150.0	162.15
+phrog_4243					hypothetical	unknown function	231.0	361.96
+phrog_22596					hypothetical	unknown function	47.0	130.58
+phrog_1662					hypothetical	unknown function	71.0	118.97
+Phage_T4_gp13	PF26809			Bacteriophage T4 neck protein gp13			307.0	279.61
+phrog_5018					hypothetical	unknown function	118.0	157.98
+phrog_12544					hypothetical	unknown function	84.0	194.72
+phrog_5145					hypothetical	unknown function	76.0	164.31
+AAA_24	PF13479	CL0023		AAA domain			208.0	43.2
+BC10	PF06726			Bladder cancer-related protein BC10			68.0	83.73
+phrog_8760					hypothetical	unknown function	63.0	89.87
+T4_Y13H	PF25744			Bacteriophage T4 Y13H protein			61.0	115.49
+phrog_37033					hypothetical	unknown function	71.0	125.12
+phrog_23498					hypothetical	unknown function	37.0	82.47
+DM_Arn	PF22134			DNA Mimic Protein Arn			79.0	182.14
+phrog_2084					hypothetical	unknown function	66.0	140.82
+phrog_36357					hypothetical	unknown function	59.0	34.42
+phrog_2164					hypothetical	unknown function	138.0	107.76
+Gam	PF06064			Host-nuclease inhibitor protein Gam			98.0	215.13
+phrog_3779					tail length tape measure protein	tail	1225.0	2107.2
+FRD2	PF03197			Bacteriophage FRD2 protein			103.0	129.58
+NUMOD1	PF07453	CL0123		NUMOD1 domain			38.0	48.15
+Thymidylat_synt	PF00303			Thymidylate synthase			219.0	57.02
+phrog_543					DNA topoisomerase II large subunit	DNA, RNA and nucleotide metabolism	605.0	967.02
+phrog_8549					hypothetical	unknown function	103.0	131.81
+BRCT	PF00533	CL0459		BRCA1 C Terminus (BRCT) domain			74.0	29.18
+phrog_9502					tail fiber protein	tail	622.0	942.52
+phrog_135					dUTPase	DNA, RNA and nucleotide metabolism	169.0	167.4
+phrog_20874					hypothetical	unknown function	56.0	150.05
+phrog_1373					transcriptional regulator	transcription regulation	99.0	106.75
+phrog_9821					hypothetical	unknown function	253.0	587.69
+phrog_5180					hypothetical	unknown function	69.0	157.15
+phrog_12060					hypothetical	unknown function	73.0	174.56
+Phage_phiTE_241_N	PF26208			Putative phage tail fibre N-terminal domain			107.0	164.22
+phrog_6325					hypothetical	unknown function	93.0	180.77
+phrog_18049					hypothetical	unknown function	75.0	148.0
+phrog_2380					hypothetical	unknown function	70.0	94.07
+phrog_14592					virion structural protein	head and packaging	123.0	121.1
+phrog_93					endonuclease	DNA, RNA and nucleotide metabolism	92.0	110.78
+phrog_10623					hypothetical	unknown function	57.0	114.33
+Phage_T4_Y04H	PF26812			Y04H protein			70.0	129.07
+phrog_3684					hypothetical	unknown function	46.0	30.33
+Phage_NinH	PF06322	CL0123		Phage NinH protein			60.0	149.35
+phrog_2023					hypothetical	unknown function	95.0	162.83
+RecA_dep_nuc	PF16786	CL0263		Recombination enhancement, RecA-dependent nuclease			104.0	172.03
+phrog_8280					tail spike protein with colonic acid degradation activity	tail	644.0	332.49
+phrog_1234					Mrh transcription modulator under heat shock	transcription regulation	156.0	194.06
+Phage_holin_T	PF11031			Bacteriophage T holin			213.0	389.61
+phrog_262					DNA polymerase	DNA, RNA and nucleotide metabolism	898.0	1200.12
+phrog_60					hypothetical	unknown function	178.0	101.41
+DUF7244	PF23896	CL0010		Domain of unknown function (DUF7244)			57.0	102.97
+phrog_5607					hypothetical	unknown function	49.0	110.02
+phrog_4182					hypothetical	unknown function	140.0	213.83
+phrog_1419					tail protein	tail	784.0	714.37
+phrog_510					DNA primase	DNA, RNA and nucleotide metabolism	307.0	303.03
+phrog_20476					hypothetical	unknown function	99.0	140.83
+DUF2560	PF10834			Protein of unknown function (DUF2560)			109.0	16.29
+phrog_11609					hypothetical	unknown function	66.0	162.9
+phrog_18423					hypothetical	unknown function	48.0	126.2
+Phage-tail_2	PF09096	CL0504		Baseplate structural protein, domain 2			173.0	301.86
+phrog_1111					endonuclease	DNA, RNA and nucleotide metabolism	136.0	218.9
+phrog_6082					hypothetical	unknown function	75.0	129.26
+phrog_858					starvation-inducible transcriptional regulator	transcription regulation	128.0	180.87
+RepB_primase	PF16793			RepB DNA-primase N-terminal domain			208.0	124.35
+phrog_56					DNA methyltransferase	other	259.0	200.36
+phrog_805					internal virion protein	head and packaging	193.0	231.15
+phrog_651					head morphogenesis	head and packaging	151.0	262.36
+phrog_20227					hypothetical	unknown function	54.0	145.78
+Sigma70_r4_2	PF08281	CL0123		Sigma-70, region 4			35.0	22.35
+phrog_11158					hypothetical	unknown function	38.0	75.66
+phrog_10679					hypothetical	unknown function	73.0	126.93
+phrog_17779					hypothetical	unknown function	133.0	47.19
+Baseplate_J_N	PF26776			Baseplate J-like N-terminal domain			58.0	107.44
+phrog_2441					decoy of host sigma32	moron, auxiliary metabolic gene and host takeover	67.0	133.4
+phrog_413					head protein	head and packaging	141.0	291.57
+Calx-beta	PF03160	CL0159		Calx-beta domain			84.0	25.27
+DUF5471	PF17565			Family of unknown function (DUF5471)			70.0	169.08
+SH3_14	PF18343	CL0010		Dda helicase SH3 domain			130.0	234.02
+HTH_7	PF02796	CL0123		Helix-turn-helix domain of resolvase			45.0	65.27
+T4_Rnl2_C	PF18043			T4 RNA ligase 2 C-terminal			80.0	83.73
+phrog_2347					hypothetical	unknown function	73.0	145.22
+phrog_5162					hypothetical	unknown function	205.0	295.97
+GpA_nuclease	PF20454	CL0023		Terminase large subunit gpA, endonuclease domain			287.0	248.78
+Phage_30_8	PF06019			Phage GP30.8 protein			110.0	188.96
+DUF6378	PF19905			Domain of unknown function (DUF6378)			81.0	38.41
+phrog_3155					internal virion protein	head and packaging	157.0	340.3
+phrog_2015					tail tube protein	tail	278.0	470.69
+phrog_6596					hypothetical	unknown function	135.0	156.67
+phrog_173					nucleoside triphosphate pyrophosphohydrolase	DNA, RNA and nucleotide metabolism	179.0	69.77
+phrog_14449					transposase	integration and excision	102.0	240.79
+UvrD_C_2	PF13538	CL0023		UvrD-like helicase C-terminal domain			50.0	27.47
+Phage_gp49_66	PF13876			Phage protein (N4 Gp49/phage Sf6 gene 66) family			94.0	121.13
+TerB	PF05099	CL0414		Tellurite resistance protein TerB			135.0	13.34
+DUF7295	PF23967			Family of unknown function (DUF7295)			115.0	211.45
+phrog_2010					unknown function	unknown function	78.0	138.33
+T5orf172	PF10544	CL0418		T5orf172 domain			104.0	29.31
+phrog_6279					hypothetical	unknown function	31.0	85.32
+phrog_4899					hypothetical	unknown function	159.0	164.89
+phrog_13464					hypothetical	unknown function	74.0	160.49
+Macro	PF01661	CL0223		Macro domain			117.0	27.4
+phrog_12108					hypothetical	unknown function	71.0	154.83
+phrog_11918					hypothetical	unknown function	110.0	251.85
+phrog_7821					virion structural protein	head and packaging	150.0	226.59
+phrog_3022					DNA primase	DNA, RNA and nucleotide metabolism	849.0	766.49
+phrog_14979					hypothetical	unknown function	95.0	208.27
+phrog_5890					tellurite resistance	moron, auxiliary metabolic gene and host takeover	367.0	434.87
+phrog_8066					hypothetical	unknown function	522.0	839.38
+HTH_36	PF13730	CL0123		Helix-turn-helix domain			55.0	23.21
+phrog_8469					tail fiber protein	tail	220.0	151.0
+phrog_62					DNA helicase	DNA, RNA and nucleotide metabolism	473.0	497.37
+phrog_4386					hypothetical	unknown function	165.0	281.63
+SU10_MCP	PF17236	CL0373		SU10 major capsid protein			341.0	260.53
+phrog_4905					hypothetical	unknown function	112.0	182.05
+E217_gp28	PF22755	CL0504		E217 collar protein gp28			110.0	156.26
+phrog_5988					hypothetical	unknown function	71.0	136.72
+phrog_10580					hypothetical	unknown function	104.0	102.59
+phrog_3721					hypothetical	unknown function	265.0	534.56
+phrog_4334					hypothetical	unknown function	127.0	139.54
+phrog_6117					colanic acid degradation	moron, auxiliary metabolic gene and host takeover	802.0	922.11
+phrog_531					Rnase H	DNA, RNA and nucleotide metabolism	193.0	125.8
+phrog_22347					hypothetical	unknown function	76.0	188.44
+DTP-pb9_A-dom_N	PF21425	CL0504		Distal tail protein pb9, A domain, N-terminal			84.0	145.09
+phrog_2114					hypothetical	unknown function	238.0	369.48
+Phage_portal	PF04860	CL0838		Phage portal protein			267.0	55.94
+phrog_7594					hypothetical	unknown function	66.0	104.58
+phrog_3546					hypothetical	unknown function	59.0	140.7
+phrog_4375					hypothetical	unknown function	110.0	208.65
+phrog_799					DNA methyltransferase	other	177.0	200.57
+phrog_17131					hypothetical	unknown function	49.0	89.21
+gp45-slide_C	PF09116	CL0060		gp45 sliding clamp, C terminal			108.0	189.66
+phrog_18706					hypothetical	unknown function	54.0	144.42
+phrog_11265					tail length tape measure protein	tail	96.0	189.83
+phrog_1106					unknown function	unknown function	170.0	155.27
+phrog_125					DNA invertase	DNA, RNA and nucleotide metabolism	220.0	110.34
+phrog_13854					hypothetical	unknown function	85.0	195.85
+phrog_15376					hypothetical	unknown function	60.0	140.03
+phrog_20446					hypothetical	unknown function	185.0	403.79
+phrog_1962					glycosyltransferase	moron, auxiliary metabolic gene and host takeover	233.0	430.68
+Portal_T4	PF07230	CL0838		Bacteriophage T4-like portal protein (Gp20)			437.0	649.11
+phrog_97					UvsX-like recombinase	other	393.0	427.88
+phrog_1365					hypothetical	unknown function	106.0	54.45
+phrog_6888					hypothetical	unknown function	49.0	105.84
+phrog_1064					prohead	head and packaging	85.0	106.53
+phrog_474					phosphofructokinase	other	177.0	65.19
+NRDD	PF13597	CL0339		Anaerobic ribonucleoside-triphosphate reductase			584.0	542.01
+phrog_839					hypothetical	unknown function	153.0	195.62
+phrog_6273					hypothetical	unknown function	115.0	172.17
+phrog_1906					tail protein	tail	242.0	470.09
+phrog_15					terminase large subunit	head and packaging	641.0	888.92
+phrog_2452					hypothetical	unknown function	76.0	108.72
+Gp10A-like	PF21703	CL0373		Major capsid protein			280.0	391.4
+phrog_30280					hypothetical	unknown function	84.0	197.44
+RexB	PF15968			Membrane-anchored ion channel, Abi component			139.0	305.23
+phrog_6208					hypothetical	unknown function	89.0	151.08
+phrog_9867					hypothetical	unknown function	148.0	235.25
+phrog_1219					tail needle protein	tail	233.0	386.19
+phrog_36027					hypothetical	unknown function	44.0	110.71
+phrog_832					RNA polymerase ADP-ribosylase	DNA, RNA and nucleotide metabolism	200.0	239.64
+phrog_5441					hypothetical	unknown function	40.0	93.08
+phrog_4301					hypothetical	unknown function	126.0	89.04
+phrog_4462					hypothetical	unknown function	106.0	195.09
+phrog_14928					hypothetical	unknown function	187.0	413.67
+phrog_35630					hypothetical	unknown function	109.0	239.24
+phrog_11600					hypothetical	unknown function	466.0	422.3
+DUF4055	PF13264			Domain of unknown function (DUF4055)			143.0	58.11
+RPOL_N	PF14700			DNA-directed RNA polymerase N-terminal			291.0	117.99
+phrog_10205					membrane protein	moron, auxiliary metabolic gene and host takeover	70.0	103.05
+phrog_235					hypothetical	unknown function	166.0	345.05
+Gp6_2nd	PF21515			Baseplate wedge protein gp6, domain II			66.0	130.73
+phrog_5410					ATP-dependent protease	other	332.0	517.07
+phrog_169					tail completion or Neck1 protein	connector	145.0	145.6
+phrog_16356					hypothetical	unknown function	70.0	163.45
+phrog_13102					hypothetical	unknown function	323.0	670.77
+phrog_4882					hypothetical	unknown function	65.0	124.69
+phrog_19635					hypothetical	unknown function	54.0	132.27
+phrog_21280					hypothetical	unknown function	47.0	110.7
+phrog_5153					hypothetical	unknown function	68.0	145.49
+DUF723	PF05265	CL0839		Protein of unknown function (DUF723)			59.0	39.73
+Phage_T4_Y16K	PF26909			Bacteriophage T4 protein Y16K			70.0	116.96
+phrog_27406					endonuclease	DNA, RNA and nucleotide metabolism	97.0	225.16
+phrog_18961					hypothetical	unknown function	80.0	171.73
+Ail_Lom	PF06316	CL0193		Enterobacterial Ail/Lom protein			206.0	182.14
+PAAR_motif	PF05488			PAAR motif			78.0	37.09
+phrog_5792					hypothetical	unknown function	98.0	190.95
+phrog_4765					hypothetical	unknown function	279.0	262.74
+phrog_5082					hypothetical	unknown function	91.0	128.15
+phrog_979					terminase large subunit	head and packaging	514.0	652.99
+phrog_31467					hypothetical	unknown function	254.0	118.11
+phrog_49					head decoration	head and packaging	110.0	136.97
+phrog_15977					hypothetical	unknown function	44.0	112.87
+T7-like_gp12	PF10922			Bacteriophage T7-like, gene 1.2			85.0	135.07
+phrog_15807					hypothetical	unknown function	82.0	191.93
+phrog_10314					hypothetical	unknown function	53.0	125.47
+phrog_211					head-tail adaptor Ad2	connector	309.0	330.73
+phrog_550					CIII anti-termination	transcription regulation	50.0	109.51
+phrog_653					hypothetical	unknown function	60.0	91.69
+phrog_7213					hypothetical	unknown function	102.0	130.6
+phrog_6144					hypothetical	unknown function	134.0	107.13
+phrog_355					nucleoside 2-deoxyribosyltransferase	DNA, RNA and nucleotide metabolism	117.0	89.08
+phrog_17193					tail completion or Neck1 protein	connector	119.0	265.56
+phrog_1452					Gp5.5-like host HNS inhibition	moron, auxiliary metabolic gene and host takeover	97.0	112.65
+phrog_12802					hypothetical	unknown function	64.0	164.9
+PTPS	PF01242	CL0334		6-pyruvoyl tetrahydropterin synthase			167.0	75.05
+T4_CASP	PF25623			T4-phage like capsid assembly scaffolding protein family			252.0	297.57
+phrog_1872					endonuclease	DNA, RNA and nucleotide metabolism	118.0	145.54
+phrog_5461					hypothetical	unknown function	57.0	127.35

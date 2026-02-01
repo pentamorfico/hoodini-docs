@@ -12,6 +12,8 @@ import {
   VizWithNucleotideLinksDemo,
   VizWithDomainsDemo,
   VizFullDemo,
+  VizWithNcRNAsDemo,
+  VizWithRegionsDemo,
   // Legacy exports
   VizStandaloneDemo,
   VizMinimalDemo,
@@ -36,6 +38,8 @@ export function useMDXComponents(components?: Record<string, React.ComponentType
     VizWithNucleotideLinksDemo,
     VizWithDomainsDemo,
     VizFullDemo,
+    VizWithNcRNAsDemo,
+    VizWithRegionsDemo,
     // Legacy
     VizStandaloneDemo,
     VizMinimalDemo,

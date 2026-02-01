@@ -1,0 +1,17 @@
+/* Hide footer and sidebar in demo pages */
+footer,
+.nextra-sidebar-container {
+  display: none !important;
+}
+
+/* Make main content full width */
+main {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+/* Remove article padding */
+article {
+  padding: 0 !important;
+  max-width: 100% !important;
+}

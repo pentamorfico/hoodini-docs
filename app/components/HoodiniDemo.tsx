@@ -27,6 +27,7 @@ interface HoodiniDemoProps {
     domainsByGene?: Record<string, any[]>
     proteinMetadata?: Record<string, any>
     treeMetadata?: Record<string, any>
+    ncRNAMetadata?: Record<string, any>
   }
   /** Config options passed to the component */
   config?: Record<string, any>
@@ -39,15 +40,16 @@ const DATA_BASE_URL = 'https://raw.githubusercontent.com/pentamorfico/hoodini-vi
 
 // Default data paths for Dashboard demos
 const DEFAULT_DATA_PATHS = {
-  newick: `${DATA_BASE_URL}/small/tree.nwk`,
-  gffParquet: `${DATA_BASE_URL}/small/parquet/gff.parquet`,
-  hoodsParquet: `${DATA_BASE_URL}/small/parquet/hoods.parquet`,
-  proteinLinksParquet: `${DATA_BASE_URL}/small/parquet/protein_links.parquet`,
-  nucleotideLinksParquet: `${DATA_BASE_URL}/small/parquet/nucleotide_links.parquet`,
-  domainsParquet: `${DATA_BASE_URL}/small/parquet/domains.parquet`,
-  proteinMetadataParquet: `${DATA_BASE_URL}/small/parquet/protein_metadata.parquet`,
-  domainsMetadataParquet: `${DATA_BASE_URL}/small/parquet/domains_metadata.parquet`,
-  treeMetadataParquet: `${DATA_BASE_URL}/small/parquet/tree_metadata.parquet`,
+  newick: `${DATA_BASE_URL}/tree.nwk`,
+  gffParquet: `${DATA_BASE_URL}/parquet/gff.parquet`,
+  hoodsParquet: `${DATA_BASE_URL}/parquet/hoods.parquet`,
+  proteinLinksParquet: `${DATA_BASE_URL}/parquet/protein_links.parquet`,
+  nucleotideLinksParquet: `${DATA_BASE_URL}/parquet/nucleotide_links.parquet`,
+  domainsParquet: `${DATA_BASE_URL}/parquet/domains.parquet`,
+  proteinMetadataParquet: `${DATA_BASE_URL}/parquet/protein_metadata.parquet`,
+  domainsMetadataParquet: `${DATA_BASE_URL}/parquet/domains_metadata.parquet`,
+  treeMetadataParquet: `${DATA_BASE_URL}/parquet/tree_metadata.parquet`,
+  ncRNAMetadataParquet: `${DATA_BASE_URL}/parquet/ncrna_metadata.parquet`,
 }
 
 // ============================================================================
@@ -555,6 +557,129 @@ const SAMPLE_TREE_METADATA: Record<string, any> = {
   PAE_PA14: { species: 'Pseudomonas aeruginosa', strain: 'PA14', phylum: 'Proteobacteria', class: 'Gammaproteobacteria', order: 'Pseudomonadales', family: 'Pseudomonadaceae' },
 }
 
+// ncRNA features - tRNAs, rRNAs, and sRNAs interspersed with CDS genes
+// Important: type must contain "ncRNA" (e.g. "ncRNA", "ncRNA_gene"), use ncrna_type attribute for subtype
+const SAMPLE_NCRNA_GFF_FEATURES = [
+  // ECO_K12 - genes with ncRNAs
+  { seqid: 'ECO_K12', source: 'Prokka', type: 'CDS', start: 500, end: 1800, strand: '+', attributes: { ID: 'ECO_K12_001', Name: 'dnaA', product: 'Chromosomal replication initiator', cluster: 1 } },
+  { seqid: 'ECO_K12', source: 'Infernal', type: 'ncRNA', start: 1900, end: 1975, strand: '+', attributes: { ID: 'ECO_K12_tRNA1', Name: 'tRNA-Ala', product: 'tRNA-Ala(TGC)', ncrna_type: 'tRNA' } },
+  { seqid: 'ECO_K12', source: 'Prokka', type: 'CDS', start: 2100, end: 3400, strand: '+', attributes: { ID: 'ECO_K12_002', Name: 'dnaN', product: 'DNA polymerase III subunit beta', cluster: 2 } },
+  { seqid: 'ECO_K12', source: 'Prokka', type: 'CDS', start: 3500, end: 4800, strand: '+', attributes: { ID: 'ECO_K12_003', Name: 'recF', product: 'DNA replication and repair protein RecF', cluster: 3 } },
+  { seqid: 'ECO_K12', source: 'Infernal', type: 'ncRNA', start: 4900, end: 4975, strand: '-', attributes: { ID: 'ECO_K12_tRNA2', Name: 'tRNA-Gly', product: 'tRNA-Gly(GCC)', ncrna_type: 'tRNA' } },
+  { seqid: 'ECO_K12', source: 'Prokka', type: 'CDS', start: 5100, end: 6400, strand: '+', attributes: { ID: 'ECO_K12_004', Name: 'gyrB', product: 'DNA gyrase subunit B', cluster: 4 } },
+  { seqid: 'ECO_K12', source: 'Infernal', type: 'ncRNA', start: 6600, end: 8140, strand: '+', attributes: { ID: 'ECO_K12_16S', Name: '16S rRNA', product: '16S ribosomal RNA', ncrna_type: 'rRNA' } },
+  { seqid: 'ECO_K12', source: 'Infernal', type: 'ncRNA', start: 8200, end: 8275, strand: '+', attributes: { ID: 'ECO_K12_tRNA3', Name: 'tRNA-Ile', product: 'tRNA-Ile(GAU)', ncrna_type: 'tRNA' } },
+  { seqid: 'ECO_K12', source: 'Infernal', type: 'ncRNA', start: 8400, end: 11300, strand: '+', attributes: { ID: 'ECO_K12_23S', Name: '23S rRNA', product: '23S ribosomal RNA', ncrna_type: 'rRNA' } },
+  { seqid: 'ECO_K12', source: 'Infernal', type: 'ncRNA', start: 11400, end: 11520, strand: '+', attributes: { ID: 'ECO_K12_5S', Name: '5S rRNA', product: '5S ribosomal RNA', ncrna_type: 'rRNA' } },
+  { seqid: 'ECO_K12', source: 'Prokka', type: 'CDS', start: 11700, end: 13000, strand: '+', attributes: { ID: 'ECO_K12_005', Name: 'rpsA', product: '30S ribosomal protein S1', cluster: 5 } },
+  { seqid: 'ECO_K12', source: 'Infernal', type: 'ncRNA', start: 13200, end: 13500, strand: '-', attributes: { ID: 'ECO_K12_sRNA1', Name: 'RyhB', product: 'small regulatory RNA RyhB', ncrna_type: 'sRNA' } },
+  { seqid: 'ECO_K12', source: 'Prokka', type: 'CDS', start: 13700, end: 15000, strand: '+', attributes: { ID: 'ECO_K12_006', Name: 'rpoB', product: 'DNA-directed RNA polymerase subunit beta', cluster: 6 } },
+  
+  // SEN_LT2 - similar layout with ncRNAs
+  { seqid: 'SEN_LT2', source: 'Prokka', type: 'CDS', start: 400, end: 1700, strand: '+', attributes: { ID: 'SEN_LT2_001', Name: 'dnaA', product: 'Chromosomal replication initiator', cluster: 1 } },
+  { seqid: 'SEN_LT2', source: 'Infernal', type: 'ncRNA', start: 1800, end: 1875, strand: '+', attributes: { ID: 'SEN_LT2_tRNA1', Name: 'tRNA-Ala', product: 'tRNA-Ala(TGC)', ncrna_type: 'tRNA' } },
+  { seqid: 'SEN_LT2', source: 'Prokka', type: 'CDS', start: 2000, end: 3300, strand: '+', attributes: { ID: 'SEN_LT2_002', Name: 'dnaN', product: 'DNA polymerase III subunit beta', cluster: 2 } },
+  { seqid: 'SEN_LT2', source: 'Prokka', type: 'CDS', start: 3400, end: 4700, strand: '+', attributes: { ID: 'SEN_LT2_003', Name: 'recF', product: 'DNA replication and repair protein RecF', cluster: 3 } },
+  { seqid: 'SEN_LT2', source: 'Infernal', type: 'ncRNA', start: 4800, end: 4875, strand: '-', attributes: { ID: 'SEN_LT2_tRNA2', Name: 'tRNA-Gly', product: 'tRNA-Gly(GCC)', ncrna_type: 'tRNA' } },
+  { seqid: 'SEN_LT2', source: 'Prokka', type: 'CDS', start: 5000, end: 6300, strand: '+', attributes: { ID: 'SEN_LT2_004', Name: 'gyrB', product: 'DNA gyrase subunit B', cluster: 4 } },
+  { seqid: 'SEN_LT2', source: 'Infernal', type: 'ncRNA', start: 6500, end: 8040, strand: '+', attributes: { ID: 'SEN_LT2_16S', Name: '16S rRNA', product: '16S ribosomal RNA', ncrna_type: 'rRNA' } },
+  { seqid: 'SEN_LT2', source: 'Infernal', type: 'ncRNA', start: 8100, end: 8175, strand: '+', attributes: { ID: 'SEN_LT2_tRNA3', Name: 'tRNA-Ile', product: 'tRNA-Ile(GAU)', ncrna_type: 'tRNA' } },
+  { seqid: 'SEN_LT2', source: 'Infernal', type: 'ncRNA', start: 8300, end: 11200, strand: '+', attributes: { ID: 'SEN_LT2_23S', Name: '23S rRNA', product: '23S ribosomal RNA', ncrna_type: 'rRNA' } },
+  { seqid: 'SEN_LT2', source: 'Infernal', type: 'ncRNA', start: 11300, end: 11420, strand: '+', attributes: { ID: 'SEN_LT2_5S', Name: '5S rRNA', product: '5S ribosomal RNA', ncrna_type: 'rRNA' } },
+  { seqid: 'SEN_LT2', source: 'Prokka', type: 'CDS', start: 11600, end: 12900, strand: '+', attributes: { ID: 'SEN_LT2_005', Name: 'rpsA', product: '30S ribosomal protein S1', cluster: 5 } },
+  { seqid: 'SEN_LT2', source: 'Infernal', type: 'ncRNA', start: 13100, end: 13400, strand: '-', attributes: { ID: 'SEN_LT2_sRNA1', Name: 'RyhB', product: 'small regulatory RNA RyhB', ncrna_type: 'sRNA' } },
+  { seqid: 'SEN_LT2', source: 'Prokka', type: 'CDS', start: 13600, end: 14900, strand: '+', attributes: { ID: 'SEN_LT2_006', Name: 'rpoB', product: 'DNA-directed RNA polymerase subunit beta', cluster: 6 } },
+  
+  // KPN_MGH - with tmRNA
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 300, end: 1600, strand: '+', attributes: { ID: 'KPN_MGH_001', Name: 'dnaA', product: 'Chromosomal replication initiator', cluster: 1 } },
+  { seqid: 'KPN_MGH', source: 'Infernal', type: 'ncRNA', start: 1700, end: 1775, strand: '+', attributes: { ID: 'KPN_MGH_tRNA1', Name: 'tRNA-Ala', product: 'tRNA-Ala(TGC)', ncrna_type: 'tRNA' } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 1900, end: 3200, strand: '+', attributes: { ID: 'KPN_MGH_002', Name: 'dnaN', product: 'DNA polymerase III subunit beta', cluster: 2 } },
+  { seqid: 'KPN_MGH', source: 'Infernal', type: 'ncRNA', start: 3400, end: 3760, strand: '+', attributes: { ID: 'KPN_MGH_tmRNA', Name: 'ssrA', product: 'transfer-messenger RNA', ncrna_type: 'tmRNA' } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 3900, end: 5200, strand: '+', attributes: { ID: 'KPN_MGH_003', Name: 'recF', product: 'DNA replication and repair protein RecF', cluster: 3 } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 5400, end: 6700, strand: '+', attributes: { ID: 'KPN_MGH_004', Name: 'gyrB', product: 'DNA gyrase subunit B', cluster: 4 } },
+  { seqid: 'KPN_MGH', source: 'Infernal', type: 'ncRNA', start: 6900, end: 8440, strand: '+', attributes: { ID: 'KPN_MGH_16S', Name: '16S rRNA', product: '16S ribosomal RNA', ncrna_type: 'rRNA' } },
+  { seqid: 'KPN_MGH', source: 'Infernal', type: 'ncRNA', start: 8600, end: 11500, strand: '+', attributes: { ID: 'KPN_MGH_23S', Name: '23S rRNA', product: '23S ribosomal RNA', ncrna_type: 'rRNA' } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 11700, end: 13000, strand: '+', attributes: { ID: 'KPN_MGH_005', Name: 'rpsA', product: '30S ribosomal protein S1', cluster: 5 } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 13200, end: 14500, strand: '+', attributes: { ID: 'KPN_MGH_006', Name: 'rpoB', product: 'DNA-directed RNA polymerase subunit beta', cluster: 6 } },
+]
+
+// ncRNA metadata with sequences and secondary structures
+const SAMPLE_NCRNA_METADATA: Record<string, any> = {
+  'ECO_K12:1900:1975': { type: 'tRNA', name: 'tRNA-Ala', sequence: 'GGGGCTATAGCTCAGCTGGGAGAGCGCCTGCTTTGCACGCAGGAGGTCTGCGGTTCGATCCCGCATAGCTCCACCA', structure: '(((((((..((((........)))).(((((.......))))).....(((((.......))))))))))))....' },
+  'ECO_K12:4900:4975': { type: 'tRNA', name: 'tRNA-Gly', sequence: 'GCGGGCGTAGTTCAATGGTAGAACGCTCGGCTGCCAACCCGACGGGTCTGGGGTTCGAATCCCCACCGCCCGCACCA', structure: '(((((((..((((........)))).(((((.......))))).....(((((.......)))))))))))))....' },
+  'ECO_K12:8200:8275': { type: 'tRNA', name: 'tRNA-Ile', sequence: 'AGGCTTGTAGCTCAGGTGGTTAGAGCGCACCCCTGATAAGGGTGAGGTCGGTGGTTCAAGTCCACTCAGGCCTACCA', structure: '(((((((..((((........)))).(((((.......))))).....(((((.......))))))))))))....' },
+  'ECO_K12:13200:13500': { type: 'sRNA', name: 'RyhB', sequence: 'GCGATCAGGAAGACCCTCGCGGAGAACCTGAAAGCACGACATTGCTCACATTGCTTCCAGTATTACTTAGCCAGCCGGGTGCTGGCTTTTTTTT', structure: '....((((((((....))))))))....((((((.......))))))......((((....))))...........' },
+  'SEN_LT2:1800:1875': { type: 'tRNA', name: 'tRNA-Ala', sequence: 'GGGGCTATAGCTCAGCTGGGAGAGCGCCTGCTTTGCACGCAGGAGGTCTGCGGTTCGATCCCGCATAGCTCCACCA', structure: '(((((((..((((........)))).(((((.......))))).....(((((.......))))))))))))....' },
+  'SEN_LT2:4800:4875': { type: 'tRNA', name: 'tRNA-Gly', sequence: 'GCGGGCGTAGTTCAATGGTAGAACGCTCGGCTGCCAACCCGACGGGTCTGGGGTTCGAATCCCCACCGCCCGCACCA', structure: '(((((((..((((........)))).(((((.......))))).....(((((.......)))))))))))))....' },
+  'KPN_MGH:1700:1775': { type: 'tRNA', name: 'tRNA-Ala', sequence: 'GGGGCTATAGCTCAGCTGGGAGAGCGCCTGCTTTGCACGCAGGAGGTCTGCGGTTCGATCCCGCATAGCTCCACCA', structure: '(((((((..((((........)))).(((((.......))))).....(((((.......))))))))))))....' },
+  'KPN_MGH:3400:3760': { type: 'tmRNA', name: 'ssrA', sequence: 'GGGGCTGATTCTGGATTCGACGGGATTGCGAAACCCAAGGTGCATGCCGAGGGGCGTTAAAAAGTTCGATCAAAGTCTCATTAGCGACGGGAAGGACGC', structure: '(((((((((...((((...))))...((((......)))).((((.....))))....)))))))))(((....)))' },
+}
+
+// Hoods for ncRNA demo
+const SAMPLE_NCRNA_HOODS = [
+  { hood_id: 'hood_1', seqid: 'ECO_K12', start: 0, end: 16000, align_gene: 'ECO_K12_16S' },
+  { hood_id: 'hood_2', seqid: 'SEN_LT2', start: 0, end: 16000, align_gene: 'SEN_LT2_16S' },
+  { hood_id: 'hood_3', seqid: 'KPN_MGH', start: 0, end: 16000, align_gene: 'KPN_MGH_16S' },
+]
+
+// Simple newick for ncRNA demo (3 genomes)
+const SAMPLE_NCRNA_NEWICK = '((ECO_K12:0.02,SEN_LT2:0.03):0.04,KPN_MGH:0.05);'
+
+// Region features - CRISPR arrays, prophages, defense systems, operons
+const SAMPLE_REGION_GFF_FEATURES = [
+  // KPN_MGH - with CRISPR-Cas system and defense island
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 500, end: 1800, strand: '+', attributes: { ID: 'KPN_MGH_001', Name: 'repA', product: 'Replication initiation protein', cluster: 1 } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 2000, end: 3300, strand: '+', attributes: { ID: 'KPN_MGH_002', Name: 'parA', product: 'Partition protein A', cluster: 2 } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 3500, end: 4800, strand: '+', attributes: { ID: 'KPN_MGH_003', Name: 'parB', product: 'Partition protein B', cluster: 3 } },
+  // CRISPR-Cas genes
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 6000, end: 7200, strand: '-', attributes: { ID: 'KPN_MGH_004', Name: 'cas3', product: 'CRISPR-associated helicase Cas3', cluster: 4 } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 7300, end: 8000, strand: '-', attributes: { ID: 'KPN_MGH_005', Name: 'cas5', product: 'CRISPR-associated protein Cas5', cluster: 5 } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 8100, end: 8700, strand: '-', attributes: { ID: 'KPN_MGH_006', Name: 'cas6', product: 'CRISPR-associated endoribonuclease Cas6', cluster: 6 } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 8800, end: 9700, strand: '-', attributes: { ID: 'KPN_MGH_007', Name: 'cas1', product: 'CRISPR-associated endonuclease Cas1', cluster: 7 } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 9800, end: 10100, strand: '-', attributes: { ID: 'KPN_MGH_008', Name: 'cas2', product: 'CRISPR-associated protein Cas2', cluster: 8 } },
+  // Defense system genes (RM Type I)
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 14000, end: 17000, strand: '+', attributes: { ID: 'KPN_MGH_009', Name: 'hsdR', product: 'Type I restriction enzyme R protein', cluster: 9 } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 17100, end: 18600, strand: '+', attributes: { ID: 'KPN_MGH_010', Name: 'hsdM', product: 'Type I restriction enzyme M protein', cluster: 10 } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 18700, end: 20000, strand: '+', attributes: { ID: 'KPN_MGH_011', Name: 'hsdS', product: 'Type I restriction enzyme S protein', cluster: 11 } },
+  // Prophage genes
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 24000, end: 25200, strand: '+', attributes: { ID: 'KPN_MGH_012', Name: 'int', product: 'Phage integrase', cluster: 12 } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 25300, end: 26500, strand: '+', attributes: { ID: 'KPN_MGH_013', Name: 'xis', product: 'Phage excisionase', cluster: 13 } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 26600, end: 28000, strand: '+', attributes: { ID: 'KPN_MGH_014', Name: 'portal', product: 'Phage portal protein', cluster: 14 } },
+  { seqid: 'KPN_MGH', source: 'Prokka', type: 'CDS', start: 28100, end: 29500, strand: '+', attributes: { ID: 'KPN_MGH_015', Name: 'capsid', product: 'Phage major capsid protein', cluster: 15 } },
+  
+  // REGION FEATURES - type must be 'region' for GenomeView to recognize them
+  { seqid: 'KPN_MGH', source: 'custom', type: 'region', start: 400, end: 5000, strand: '.', attributes: { ID: 'operon_1', Name: 'replication_operon', region_type: 'operon' } },
+  { seqid: 'KPN_MGH', source: 'CCTyper', type: 'region', start: 5500, end: 10500, strand: '.', attributes: { ID: 'crispr_1', Name: 'CRISPR-I-E', region_type: 'CRISPR', subtype: 'I-E' } },
+  { seqid: 'KPN_MGH', source: 'PADLOC', type: 'region', start: 13500, end: 20500, strand: '.', attributes: { ID: 'defense_1', Name: 'RM_Type_I', region_type: 'defense' } },
+  { seqid: 'KPN_MGH', source: 'geNomad', type: 'region', start: 23500, end: 30000, strand: '.', attributes: { ID: 'prophage_1', Name: 'Prophage_1', region_type: 'prophage' } },
+  
+  // KPN_HS11 - similar regions
+  { seqid: 'KPN_HS11', source: 'Prokka', type: 'CDS', start: 600, end: 1900, strand: '+', attributes: { ID: 'KPN_HS11_001', Name: 'repA', product: 'Replication initiation protein', cluster: 1 } },
+  { seqid: 'KPN_HS11', source: 'Prokka', type: 'CDS', start: 2100, end: 3400, strand: '+', attributes: { ID: 'KPN_HS11_002', Name: 'parA', product: 'Partition protein A', cluster: 2 } },
+  { seqid: 'KPN_HS11', source: 'Prokka', type: 'CDS', start: 3600, end: 4900, strand: '+', attributes: { ID: 'KPN_HS11_003', Name: 'parB', product: 'Partition protein B', cluster: 3 } },
+  { seqid: 'KPN_HS11', source: 'Prokka', type: 'CDS', start: 6100, end: 7300, strand: '-', attributes: { ID: 'KPN_HS11_004', Name: 'cas3', product: 'CRISPR-associated helicase Cas3', cluster: 4 } },
+  { seqid: 'KPN_HS11', source: 'Prokka', type: 'CDS', start: 7400, end: 8100, strand: '-', attributes: { ID: 'KPN_HS11_005', Name: 'cas5', product: 'CRISPR-associated protein Cas5', cluster: 5 } },
+  { seqid: 'KPN_HS11', source: 'Prokka', type: 'CDS', start: 8200, end: 8800, strand: '-', attributes: { ID: 'KPN_HS11_006', Name: 'cas6', product: 'CRISPR-associated endoribonuclease Cas6', cluster: 6 } },
+  { seqid: 'KPN_HS11', source: 'Prokka', type: 'CDS', start: 8900, end: 9800, strand: '-', attributes: { ID: 'KPN_HS11_007', Name: 'cas1', product: 'CRISPR-associated endonuclease Cas1', cluster: 7 } },
+  { seqid: 'KPN_HS11', source: 'Prokka', type: 'CDS', start: 9900, end: 10200, strand: '-', attributes: { ID: 'KPN_HS11_008', Name: 'cas2', product: 'CRISPR-associated protein Cas2', cluster: 8 } },
+  { seqid: 'KPN_HS11', source: 'Prokka', type: 'CDS', start: 14100, end: 17100, strand: '+', attributes: { ID: 'KPN_HS11_009', Name: 'hsdR', product: 'Type I restriction enzyme R protein', cluster: 9 } },
+  { seqid: 'KPN_HS11', source: 'Prokka', type: 'CDS', start: 17200, end: 18700, strand: '+', attributes: { ID: 'KPN_HS11_010', Name: 'hsdM', product: 'Type I restriction enzyme M protein', cluster: 10 } },
+  { seqid: 'KPN_HS11', source: 'Prokka', type: 'CDS', start: 18800, end: 20100, strand: '+', attributes: { ID: 'KPN_HS11_011', Name: 'hsdS', product: 'Type I restriction enzyme S protein', cluster: 11 } },
+  // Regions for KPN_HS11 - type must be 'region'
+  { seqid: 'KPN_HS11', source: 'custom', type: 'region', start: 500, end: 5100, strand: '.', attributes: { ID: 'operon_2', Name: 'replication_operon', region_type: 'operon' } },
+  { seqid: 'KPN_HS11', source: 'CCTyper', type: 'region', start: 5600, end: 10600, strand: '.', attributes: { ID: 'crispr_2', Name: 'CRISPR-I-E', region_type: 'CRISPR', subtype: 'I-E' } },
+  { seqid: 'KPN_HS11', source: 'PADLOC', type: 'region', start: 13600, end: 20600, strand: '.', attributes: { ID: 'defense_2', Name: 'RM_Type_I', region_type: 'defense' } },
+]
+
+// Hoods for region demo
+const SAMPLE_REGION_HOODS = [
+  { hood_id: 'hood_1', seqid: 'KPN_MGH', start: 0, end: 31000, align_gene: 'KPN_MGH_007' },
+  { hood_id: 'hood_2', seqid: 'KPN_HS11', start: 0, end: 22000, align_gene: 'KPN_HS11_007' },
+]
+
+// Simple newick for region demo (2 genomes)
+const SAMPLE_REGION_NEWICK = '(KPN_MGH:0.02,KPN_HS11:0.03);'
+
 function DemoSkeleton() {
   return (
     <div className="hoodini-demo-skeleton">
@@ -624,7 +749,7 @@ export function HoodiniDemo({
           const link = document.createElement('link')
           link.rel = 'stylesheet'
           link.id = 'hoodini-viz-css'
-          link.href = 'https://unpkg.com/hoodini-viz@0.2.3/dist/hoodini-viz.css'
+          link.href = 'https://unpkg.com/hoodini-viz@latest/dist/hoodini-viz.css'
           document.head.appendChild(link)
           
           // Add override styles AFTER hoodini-viz CSS to fix body pollution
@@ -654,7 +779,7 @@ export function HoodiniDemo({
 
         // Load UMD script (this goes in document, not shadow DOM)
         const script = document.createElement('script')
-        script.src = 'https://unpkg.com/hoodini-viz@0.2.11/dist/hoodini-viz.umd.js'
+        script.src = 'https://unpkg.com/hoodini-viz@latest/dist/hoodini-viz.umd.js'
         script.async = true
         
         script.onload = () => {
@@ -944,21 +1069,46 @@ export function VizWithDomainsDemo() {
 }
 
 /**
- * 7. Full Viz - All features combined
+ * 9. Full Viz - All features combined (genes, domains, links, ncRNAs, regions)
  */
 export function VizFullDemo() {
+  // Combine regular GFF features with ncRNA and region features
+  // Note: Coordinates must be within hood ranges (ECO_K12: 0-30000, SEN_LT2: 0-29000, KPN_MGH: 0-31000)
+  // Important: ncRNA type must contain "ncRNA" (e.g. "ncRNA", "ncRNA_gene"), use ncrna_type attribute for subtype
+  const combinedGffFeatures = [
+    ...SAMPLE_GFF_FEATURES,
+    // Add ncRNA features - type must be 'ncRNA', subtype in ncrna_type attribute
+    { seqid: 'ECO_K12', source: 'Rfam', type: 'ncRNA', start: 9050, end: 9125, score: '.', strand: '+', phase: '.', attributes: { ID: 'tRNA_Arg_1', Name: 'tRNA-Arg', ncrna_type: 'tRNA' } },
+    { seqid: 'ECO_K12', source: 'Rfam', type: 'ncRNA', start: 21450, end: 21550, score: '.', strand: '-', phase: '.', attributes: { ID: 'sRNA_1', Name: 'GcvB sRNA', ncrna_type: 'sRNA' } },
+    { seqid: 'SEN_LT2', source: 'Rfam', type: 'ncRNA', start: 9050, end: 9095, score: '.', strand: '-', phase: '.', attributes: { ID: 'tRNA_Leu_1', Name: 'tRNA-Leu', ncrna_type: 'tRNA' } },
+    { seqid: 'KPN_MGH', source: 'Rfam', type: 'ncRNA', start: 13250, end: 13350, score: '.', strand: '+', phase: '.', attributes: { ID: 'rRNA_5S', Name: '5S rRNA', ncrna_type: 'rRNA' } },
+    // Add region features - type must be 'region', subtype in region_type attribute
+    { seqid: 'ECO_K12', source: 'DefenseFinder', type: 'region', start: 2600, end: 9100, score: '.', strand: '.', phase: '.', attributes: { ID: 'RM_system_1', Name: 'R-M System Type I', region_type: 'defense_system' } },
+    { seqid: 'KPN_MGH', source: 'CRISPRCasFinder', type: 'region', start: 8900, end: 13300, score: '.', strand: '.', phase: '.', attributes: { ID: 'CRISPR_1', Name: 'CRISPR-Cas System', region_type: 'CRISPR_array' } },
+    { seqid: 'SEN_LT2', source: 'PHASTER', type: 'region', start: 10200, end: 17500, score: '.', strand: '.', phase: '.', attributes: { ID: 'prophage_1', Name: 'Prophage Region', region_type: 'prophage' } },
+  ];
+
+  // ncRNA metadata for secondary structure visualization (keys must match seqid:start:end)
+  const ncRNAMetadata: Record<string, any> = {
+    'ECO_K12:9050:9125': { sequence: 'GCGGAUUUAGCUCAGUUGGGAGAGCGCCAGACUGAAGAUCUGGAGGUCCUGUGUUCGAUCCACAGAAUUCGCA', structure: '(((((((..((((........)))).(((((.......))))).....(((((.......)))))))))))).' },
+    'ECO_K12:21450:21550': { sequence: 'AUCUUCACUCGCCGUUAUAUUGGUAUUUUUGCGU', structure: '...((((((....))))))...' },
+    'SEN_LT2:9050:9095': { sequence: 'GCCUUGUUGGCGCAAUGGAUAGCGCAUUGGACUUAAAAUCC', structure: '(((((((..((((.....))))....))))))).' },
+    'KPN_MGH:13250:13350': { sequence: 'UGCCUGGCGGCCGUAGCGCGGUGGUCCCACCUGACCCCAUGCC', structure: '(((((....(((....))).....)))))..' },
+  };
+
   return (
     <HoodiniDemo 
       type="viz"
       vizData={{
         newickStr: SAMPLE_NEWICK,
-        gffFeatures: SAMPLE_GFF_FEATURES,
+        gffFeatures: combinedGffFeatures,
         hoods: SAMPLE_HOODS,
         proteinLinks: SAMPLE_PROTEIN_LINKS,
         nucleotideLinks: SAMPLE_NUCLEOTIDE_LINKS,
         domainsByGene: SAMPLE_DOMAINS_BY_GENE,
         proteinMetadata: SAMPLE_PROTEIN_METADATA,
         treeMetadata: SAMPLE_TREE_METADATA,
+        ncRNAMetadata: ncRNAMetadata,
       }}
       config={{
         showScrollbar: true,
@@ -970,8 +1120,71 @@ export function VizFullDemo() {
         domainPalette: { type: 'qualitative', name: 'Prism', numColors: 12, enabled: true },
         domainColorBy: 'domainName',
         proteinLinkConfig: { colorBy: 'source_gene', useAlpha: true, minAlpha: 0.1, maxAlpha: 0.5 },
+        showNcRNALayer: true,
+        showRegionsLayer: true,
       }}
       height="850px"
+    />
+  )
+}
+
+/**
+ * 7. With ncRNAs - Show non-coding RNA features with secondary structure
+ */
+export function VizWithNcRNAsDemo() {
+  return (
+    <HoodiniDemo 
+      type="viz"
+      vizData={{
+        newickStr: SAMPLE_NCRNA_NEWICK,
+        gffFeatures: SAMPLE_NCRNA_GFF_FEATURES,
+        hoods: SAMPLE_NCRNA_HOODS,
+        proteinLinks: [],
+        nucleotideLinks: [],
+        domainsByGene: {},
+        ncRNAMetadata: SAMPLE_NCRNA_METADATA,
+      }}
+      config={{
+        showScrollbar: true,
+        showRuler: true,
+        geneLabelBy: 'Name',
+        geneHeight: 70,
+        genePalette: { type: 'qualitative', name: 'Vivid', numColors: 10, enabled: true },
+        geneColorBy: 'cluster',
+        ncRNAPalette: { type: 'qualitative', name: 'Pastel', numColors: 6, enabled: true },
+        showNcRNALayer: true,
+      }}
+      height="700px"
+    />
+  )
+}
+
+/**
+ * 8. With Regions - Show CRISPR arrays, prophages, defense systems
+ */
+export function VizWithRegionsDemo() {
+  return (
+    <HoodiniDemo 
+      type="viz"
+      vizData={{
+        newickStr: SAMPLE_REGION_NEWICK,
+        gffFeatures: SAMPLE_REGION_GFF_FEATURES,
+        hoods: SAMPLE_REGION_HOODS,
+        proteinLinks: [],
+        nucleotideLinks: [],
+        domainsByGene: {},
+      }}
+      config={{
+        showScrollbar: true,
+        showRuler: true,
+        geneLabelBy: 'Name',
+        geneHeight: 70,
+        genePalette: { type: 'qualitative', name: 'Bold', numColors: 15, enabled: true },
+        geneColorBy: 'cluster',
+        regionPalette: { type: 'qualitative', name: 'Prism', numColors: 8, enabled: true },
+        showRegionsLayer: true,
+      }}
+      height="600px"
     />
   )
 }

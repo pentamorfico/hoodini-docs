@@ -1,0 +1,125 @@
+# 7. With ncRNAs
+
+Non-coding RNA features with secondary structure visualization. This example shows 
+tRNAs, rRNAs, and other ncRNAs annotated by Infernal, displayed as colored boxes 
+on the genomic tracks.
+
+<VizWithNcRNAsDemo />
+
+## Data
+
+### ncRNA Features (from GFF)
+
+ncRNAs are parsed from GFF features with type `tRNA`, `rRNA`, `tmRNA`, `ncRNA`, etc.
+
+```js
+const gffFeatures = [
+  // Regular CDS genes
+  { seqid: 'ECO_K12', source: 'Prokka', type: 'CDS', start: 500, end: 1800, strand: '+', 
+    attributes: { ID: 'ECO_K12_001', Name: 'dnaA', product: 'Chromosomal replication initiator', cluster: 1 } },
+  { seqid: 'ECO_K12', source: 'Prokka', type: 'CDS', start: 1900, end: 2600, strand: '+', 
+    attributes: { ID: 'ECO_K12_002', Name: 'dnaN', product: 'DNA polymerase III subunit beta', cluster: 2 } },
+  
+  // tRNA features
+  { seqid: 'ECO_K12', source: 'Infernal', type: 'tRNA', start: 2700, end: 2775, strand: '+', 
+    attributes: { ID: 'tRNA_001', Name: 'tRNA-Ala', product: 'tRNA-Ala(TGC)', ncrna_type: 'tRNA' } },
+  { seqid: 'ECO_K12', source: 'Infernal', type: 'tRNA', start: 4500, end: 4575, strand: '-', 
+    attributes: { ID: 'tRNA_002', Name: 'tRNA-Gly', product: 'tRNA-Gly(GCC)', ncrna_type: 'tRNA' } },
+  
+  // rRNA features
+  { seqid: 'ECO_K12', source: 'Infernal', type: 'rRNA', start: 8000, end: 9540, strand: '+', 
+    attributes: { ID: 'rRNA_001', Name: '16S rRNA', product: '16S ribosomal RNA', ncrna_type: 'rRNA' } },
+  { seqid: 'ECO_K12', source: 'Infernal', type: 'rRNA', start: 9600, end: 12500, strand: '+', 
+    attributes: { ID: 'rRNA_002', Name: '23S rRNA', product: '23S ribosomal RNA', ncrna_type: 'rRNA' } },
+  
+  // tmRNA feature
+  { seqid: 'ECO_K12', source: 'Infernal', type: 'tmRNA', start: 6200, end: 6560, strand: '+', 
+    attributes: { ID: 'tmRNA_001', Name: 'ssrA', product: 'transfer-messenger RNA', ncrna_type: 'tmRNA' } },
+  
+  // Other ncRNA types
+  { seqid: 'ECO_K12', source: 'Infernal', type: 'ncRNA', start: 14000, end: 14300, strand: '-', 
+    attributes: { ID: 'ncRNA_001', Name: 'RyhB', product: 'small regulatory RNA RyhB', ncrna_type: 'sRNA' } },
+  
+  // More CDS genes...
+  { seqid: 'ECO_K12', source: 'Prokka', type: 'CDS', start: 3000, end: 4200, strand: '+', 
+    attributes: { ID: 'ECO_K12_003', Name: 'recF', product: 'DNA replication and repair protein RecF', cluster: 3 } },
+  
+  // Second genome with similar ncRNAs
+  { seqid: 'SEN_LT2', source: 'Prokka', type: 'CDS', start: 400, end: 1700, strand: '+', 
+    attributes: { ID: 'SEN_LT2_001', Name: 'dnaA', product: 'Chromosomal replication initiator', cluster: 1 } },
+  { seqid: 'SEN_LT2', source: 'Infernal', type: 'tRNA', start: 2600, end: 2675, strand: '+', 
+    attributes: { ID: 'tRNA_SEN_001', Name: 'tRNA-Ala', product: 'tRNA-Ala(TGC)', ncrna_type: 'tRNA' } },
+  { seqid: 'SEN_LT2', source: 'Infernal', type: 'rRNA', start: 7800, end: 9340, strand: '+', 
+    attributes: { ID: 'rRNA_SEN_001', Name: '16S rRNA', product: '16S ribosomal RNA', ncrna_type: 'rRNA' } },
+];
+```
+
+### ncRNA Metadata (for secondary structure)
+
+The ncRNA metadata file provides sequence and secondary structure information for the sidebar viewer.
+
+```js
+const ncRNAMetadata = {
+  // Key format: "seqid:start:end"
+  'ECO_K12:2700:2775': {
+    type: 'tRNA',
+    name: 'tRNA-Ala',
+    sequence: 'GGGGCTATAGCTCAGCTGGGAGAGCGCCTGCTTTGCACGCAGGAGGTCTGCGGTTCGATCCCGCATAGCTCCACCA',
+    structure: '(((((((..((((........)))).(((((.......))))).....(((((.......))))))))))))....'
+  },
+  'ECO_K12:4500:4575': {
+    type: 'tRNA',
+    name: 'tRNA-Gly',
+    sequence: 'GCGGGCGTAGTTCAATGGTAGAACGCTCGGCTGCCAACCCGACGGGTCTGGGGTTCGAATCCCCACCGCCCGCACCA',
+    structure: '(((((((..((((........)))).(((((.......))))).....(((((.......)))))))))))))....'
+  },
+  'ECO_K12:6200:6560': {
+    type: 'tmRNA',
+    name: 'ssrA',
+    sequence: 'GGGGCTGATTCTGGATTCGACGGGATTGCGAAACCCAAGG...',
+    structure: '(((((((((...((((...))))...((((......))))'
+  },
+  'ECO_K12:14000:14300': {
+    type: 'sRNA',
+    name: 'RyhB',
+    sequence: 'GCGATCAGGAAGACCCTCGCGGAGAACCTGAAAGCACGACA...',
+    structure: '....(((((((...)))))))...((((....))))..'
+  }
+};
+```
+
+## Code
+
+```jsx
+import { HoodiniViz } from 'hoodini-viz';
+
+<HoodiniViz
+  newickStr={newickStr}
+  gffFeatures={gffFeatures}
+  hoods={hoods}
+  ncRNAMetadata={ncRNAMetadata}
+  geneHeight={70}
+  genePalette={{ type: 'qualitative', name: 'Vivid', numColors: 10, enabled: true }}
+  ncRNAPalette={{ type: 'qualitative', name: 'Pastel', numColors: 6, enabled: true }}
+  showNcRNALayer={true}
+  showScrollbar={true}
+/>
+```
+
+## Key Features Shown
+
+- **tRNAs**: Small transfer RNA genes (~75bp), shown as colored boxes
+- **rRNAs**: Ribosomal RNA operons (16S, 23S, 5S)
+- **tmRNA**: Transfer-messenger RNA for ribosome rescue
+- **sRNAs**: Small regulatory RNAs (like RyhB)
+- **Secondary Structure Viewer**: Click on any ncRNA to see its secondary structure in the sidebar panel
+
+## ncRNA Types and Colors
+
+| Type | Description | Typical Size |
+|------|-------------|--------------|
+| `tRNA` | Transfer RNA | 70-90 bp |
+| `rRNA` | Ribosomal RNA | 120-5000 bp |
+| `tmRNA` | Transfer-messenger RNA | 300-400 bp |
+| `sRNA` | Small regulatory RNA | 50-500 bp |
+| `ncRNA` | Other non-coding RNA | Variable |

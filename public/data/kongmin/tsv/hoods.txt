@@ -1,0 +1,71 @@
+hood_id	seqid	start	end	align_gene	ipg_id	source	protein name	organism	strain	ipg_protein_id
+3	NZ_FOWV01000001.1	396678	417239	WP_092969816.1	155765927	RefSeq	non-canonical purine NTP pyrophosphatase	Ralstonia sp. NFACC01	NFACC01	WP_092969816.1
+0	NZ_CP158262.1	846791	867343	WP_368655612.1	885416895	RefSeq	non-canonical purine NTP pyrophosphatase	Castellaniella ginsengisoli	144863	WP_368655612.1
+5	NZ_FPKR01000014.1	116367	136913	WP_217651497.1	129744350	RefSeq	non-canonical purine NTP pyrophosphatase	Chitinimonas taiwanensis DSM 18899	DSM 18899	WP_217651497.1
+8	NZ_AVPH01000070.1	0	13659	WP_200862021.1	391635515	RefSeq	non-canonical purine NTP pyrophosphatase	Pseudogulbenkiania ferrooxidans EGD-HP2	EGD-HP2	WP_200862021.1
+6	NZ_LRHX01000009.1	31159	51720	WP_070280091.1	119852435	RefSeq	non-canonical purine NTP pyrophosphatase	Janthinobacterium sp. MP5059B	MP5059B	WP_070280091.1
+10	NZ_JBRFWQ010000001.1	1003329	1023875	WP_449274918.1	1076632450	RefSeq	non-canonical purine NTP pyrophosphatase	Pandoraea sputorum	WP21	WP_449274918.1
+11	NZ_JAXKSO010000012.1	136867	157413	WP_322018702.1	723756811	RefSeq	non-canonical purine NTP pyrophosphatase	Ralstonia wenshanensis	VS23747	WP_322018702.1
+7	NZ_CP039544.1	3981222	4001783	WP_283737683.1	655205561	RefSeq	non-canonical purine NTP pyrophosphatase	Alcaligenes faecalis	PGB1	WP_283737683.1
+13	NZ_ATZJ01000056.1	2500	19181	WP_211234076.1	448570895	RefSeq	non-canonical purine NTP pyrophosphatase	Chitinilyticum litopenaei DSM 21440	DSM 21440	WP_211234076.1
+9	NZ_CP027666.1	1723611	1744172	WP_106702757.1	183005707	RefSeq	non-canonical purine NTP pyrophosphatase	Ottowia oryzae	KADR8-3	WP_106702757.1
+12	NZ_JAJISP010000001.1	471490	492051	WP_238040095.1	523737887	RefSeq	non-canonical purine NTP pyrophosphatase	Pseudomonas sp. MMS21 TM103	MMS21 TM103	WP_238040095.1
+16	NZ_DBFAOF010000155.1	0	10403	WP_417285474.1	983754189	RefSeq	non-canonical purine NTP pyrophosphatase	Comamonas sp.		WP_417285474.1
+15	NZ_FWXQ01000011.1	173106	193667	WP_084297430.1	143865018	RefSeq	non-canonical purine NTP pyrophosphatase	Pseudomonas sp. URIL14HWK12:I5	URIL14HWK12:I5	WP_084297430.1
+17	NZ_JAUZUQ010000012.1	148896	169457	WP_311234058.1	700225570	RefSeq	non-canonical purine NTP pyrophosphatase	Acidovorax sp. PRC11	PRC11	WP_311234058.1
+1	NZ_LN890476.1	2733788	2754355	WP_155867642.1	283858696	RefSeq	non-canonical purine NTP pyrophosphatase	Achromobacter xylosoxidans		WP_155867642.1
+23	NZ_DALZQH010000005.1	7036	27582	WP_008569025.1	31141680	RefSeq	non-canonical purine NTP pyrophosphatase	Stutzerimonas nitrititolerans		WP_008569025.1
+24	JBQELO010000001.1	67903	88464	MGO3889396.1	1064876679	INSDC	non-canonical purine NTP pyrophosphatase	Paenalcaligenes sp.		MGO3889396.1
+26	NZ_JAKQZC010000001.1	57445	77985	WP_251975720.1	558787730	RefSeq	non-canonical purine NTP pyrophosphatase	Salinicola avicenniae	S1-1-2	WP_251975720.1
+14	NZ_CP016278.1	929644	950205	WP_054258002.1	92624165	RefSeq	non-canonical purine NTP pyrophosphatase	Diaphorobacter nitroreducens	SL-205	WP_054258002.1
+29	NZ_DJTK01000038.1	723	21284	WP_287029163.1	661245238	RefSeq	non-canonical purine NTP pyrophosphatase	Pseudomonas sp. UBA6310		WP_287029163.1
+22	NZ_CP042382.1	1249013	1269553	WP_246131744.1	544423187	RefSeq	non-canonical purine NTP pyrophosphatase	Pistricoccus aurantiacus	CBA4606	WP_246131744.1
+35	NZ_JBDIVF010000011.1	74160	93982	WP_345929745.1	844256065	RefSeq	non-canonical purine NTP pyrophosphatase	Uliginosibacterium paludis	KBP-13	WP_345929745.1
+32	NZ_CADEUJ010000013.1	155520	176081	WP_175807613.1	332657677	RefSeq	non-canonical purine NTP pyrophosphatase	Burkholderia cenocepacia	BCC0199	WP_175807613.1
+33	NZ_JBQVOT010000128.1	0	7615	WP_444759992.1	1071400960	RefSeq	non-canonical purine NTP pyrophosphatase	Rhizobium oryzihabitans		WP_444759992.1
+31	NZ_CP023406.1	668315	688870	WP_096296892.1	160983274	RefSeq	non-canonical purine NTP pyrophosphatase	Luteimonas chenhongjianii	100111	WP_096296892.1
+39	NZ_SITD01000061.1	2738	23299	WP_130959949.1	236361161	RefSeq	non-canonical purine NTP pyrophosphatase	Hafnia paralvei	PCM_1194	WP_130959949.1
+27	NZ_CP197385.1	1939805	1960366	WP_099498107.1	169309641	RefSeq	non-canonical purine NTP pyrophosphatase	Stenotrophomonas maltophilia	RY12681	WP_099498107.1
+25	NZ_CP077076.1	3112447	3133008	WP_217838678.1	468409207	RefSeq	non-canonical purine NTP pyrophosphatase	Pseudomonas fakonensis	COW40	WP_217838678.1
+28	NZ_CP110364.1	700736	721297	WP_265062119.1	593095499	RefSeq	non-canonical purine NTP pyrophosphatase	Aeromonas veronii	C4	WP_265062119.1
+42	NZ_PJAW01000103.1	29574	50120	WP_198551467.1	387061524	RefSeq	non-canonical purine NTP pyrophosphatase	Stenotrophomonas sp. Betaine-02u-21	Betaine-02u-21	WP_198551467.1
+34	NZ_CP028297.1	202704	223250	WP_208947732.1	425318755	RefSeq	non-canonical purine NTP pyrophosphatase	Paracidovorax avenae	MOR	WP_208947732.1
+44	NZ_FOUI01000012.1	4217	24778	WP_093476851.1	127133075	RefSeq	non-canonical purine NTP pyrophosphatase	Halopseudomonas yangmingensis	DSM 24213	WP_093476851.1
+45	NZ_CADIKQ010000006.1	0	17248	WP_217470034.1	467294428	RefSeq	non-canonical purine NTP pyrophosphatase	Achromobacter mucicolens	LMG 26684	WP_217470034.1
+47	NZ_JACYVC010000003.1	208342	228903	WP_192094293.1	364100457	RefSeq	non-canonical purine NTP pyrophosphatase	Stenotrophomonas sp. CFBP 13718	CFBP13718	WP_192094293.1
+37	NC_014311.1	3088222	3108783	WP_013213580.1	20375762	RefSeq	non-canonical purine NTP pyrophosphatase	Ralstonia solanacearum PSI07	PSI07	WP_013213580.1
+46	NZ_LFQO01000013.1	1871	22423	WP_050681530.1	87600211	RefSeq	non-canonical purine NTP pyrophosphatase	Pseudomonas lini	ZBG1	WP_050681530.1
+49	NZ_JBHVRF010000002.1	484543	505110	WP_386959750.1	920236873	RefSeq	non-canonical purine NTP pyrophosphatase	Microbacterium sp. NPDC058021	NPDC058021	WP_386959750.1
+51	NZ_JYDE01000057.1	0	9649	WP_112169571.1	195655453	RefSeq	non-canonical purine NTP pyrophosphatase	Rahnella inusitata	DSM 30078	WP_112169571.1
+50	NZ_DALZFK010000006.1	17620	38181	WP_312239890.1	702929106	RefSeq	non-canonical purine NTP pyrophosphatase	Pantoea sp.		WP_312239890.1
+58	NZ_FNNH01000033.1	20981	33699	WP_074667505.1	124675763	RefSeq	non-canonical purine NTP pyrophosphatase	Nitrosomonas communis	Nm110	WP_074667505.1
+59	NZ_LR026980.1	12787	33348	WP_130835756.1	236444205	RefSeq	non-canonical purine NTP pyrophosphatase	[Erwinia] mediterraneensis	Marseille-P5165	WP_130835756.1
+56	NZ_RMVG01000009.1	108014	128575	WP_123801390.1	219220069	RefSeq	non-canonical purine NTP pyrophosphatase	Candidatus Pantoea deserta		WP_123801390.1
+57	NZ_JBLYPQ010000001.1	169949	190507	WP_439212024.1	1058334941	RefSeq	non-canonical purine NTP pyrophosphatase	Duffyella gerundensis	Ts1	WP_439212024.1
+60	NZ_JACAFO010000005.1	189919	210480	WP_194761679.1	373287543	RefSeq	non-canonical purine NTP pyrophosphatase	Pantoea ananatis	UFMG54	WP_194761679.1
+43	NZ_PHQX01000001.1	3883590	3904151	WP_100553857.1	171402354	RefSeq	non-canonical purine NTP pyrophosphatase	Stenotrophomonas lactitubi	M15	WP_100553857.1
+61	NZ_JBBCMO010000003.1	140630	161191	WP_337010771.1	822747054	RefSeq	non-canonical purine NTP pyrophosphatase	Pantoea sp. AS142	AS142	WP_337010771.1
+53	NZ_JAPQKE010000001.1	200774	221326	WP_268179787.1	603939577	RefSeq	non-canonical purine NTP pyrophosphatase	Leptolyngbya sp. GGD	GGD	WP_268179787.1
+63	NZ_DGLH01000005.1	150628	171189	WP_065647348.1	113939370	RefSeq	non-canonical purine NTP pyrophosphatase	Pantoea sp. UBA4549		WP_065647348.1
+67	NZ_JBHUFX010000005.1	110838	131399	WP_141176832.1	257618299	RefSeq	non-canonical purine NTP pyrophosphatase	Mixta tenebrionis	CGMCC 1.17041	WP_141176832.1
+70	NZ_VWXF01000004.1	302853	323414	WP_017346724.1	37950445	RefSeq	non-canonical purine NTP pyrophosphatase	Candidatus Pantoea multigeneris		WP_017346724.1
+62	NZ_CAXURY020000003.1	57567	78119	WP_436297351.1	1049554619	RefSeq	non-canonical purine NTP pyrophosphatase	Variovorax sp. LjRoot175		WP_436297351.1
+71	NZ_JBCLVN010000005.1	67616	88177	WP_343300507.1	842768734	RefSeq	non-canonical purine NTP pyrophosphatase	Cellulomonas olei	P4	WP_343300507.1
+66	NZ_CP026378.1	1130514	1151072	WP_038627724.1	66342897	RefSeq	non-canonical purine NTP pyrophosphatase	Mixta calida	DSM 22759	WP_038627724.1
+69	NZ_NUON01000106.1	60695	81244	WP_098886655.1	164523012	RefSeq	non-canonical purine NTP pyrophosphatase	Priestia megaterium	AFS032489	WP_098886655.1
+80	NZ_JGEV01000025.1	201697	222240	WP_032575865.1	49856362	RefSeq	non-canonical purine NTP pyrophosphatase	Bacteroides fragilis str. S38L3	S38L3	WP_032575865.1
+75	NZ_FXUL01000003.1	130385	150946	WP_283441391.1	643676060	RefSeq	non-canonical purine NTP pyrophosphatase	Noviherbaspirillum suwonense	DSM 26001	WP_283441391.1
+85	NZ_DAMCTO010000016.1	10114	30669	WP_296243732.1	668557042	RefSeq	non-canonical purine NTP pyrophosphatase	Psychrobacter sp.		WP_296243732.1
+87	NZ_BLIE01000009.1	98737	119292	WP_159739676.1	291925215	RefSeq	non-canonical purine NTP pyrophosphatase	Vibrio atypicus	TUMSAT1	WP_159739676.1
+86	NZ_JABEQZ010000009.1	31972	52509	WP_206119750.1	413805161	RefSeq	non-canonical purine NTP pyrophosphatase	Rhizobium laguerreae	GPTR19	WP_206119750.1
+90	NZ_JAMDLY010000009.1	63542	84097	WP_268631944.1	604879037	RefSeq	non-canonical purine NTP pyrophosphatase	Paenibacillus alvei	NRRL NRS-750	WP_268631944.1
+88	NFUW01000002.1	1127188	1147737	OSZ78908.1	148881180	INSDC	non-canonical purine NTP pyrophosphatase	Chitinophagaceae bacterium IBVUCB1	IBVUCB1	OSZ78908.1
+82	NZ_CP100350.1	2403390	2423951	WP_254263764.1	563346725	RefSeq	non-canonical purine NTP pyrophosphatase	Gilvimarinus sp. DA14	DA14	WP_254263764.1
+94	NZ_JAAXEH010000006.1	234548	255109	WP_222401123.1	483050910	RefSeq	non-canonical purine NTP pyrophosphatase	Rhizobium leguminosarum	GuvenliB	WP_222401123.1
+98	NZ_JBKGAU010000002.1	24258	44807	WP_410418802.1	961857109	RefSeq	non-canonical purine NTP pyrophosphatase	Lonsdalea quercina	B161	WP_410418802.1
+97	NZ_JBHUEM010000003.1	166903	187455	WP_377926518.1	910550895	RefSeq	non-canonical purine NTP pyrophosphatase	Bacillus salitolerans	CGMCC 1.12810	WP_377926518.1
+93	NZ_WIRE01000001.1	1050879	1071494	WP_235901661.1	518981164	RefSeq	non-canonical purine NTP pyrophosphatase	Alcanivorax sediminis	PA15-N-34	WP_235901661.1
+99	NZ_WISM01000174.1	5917	26475	WP_153529358.1	278822871	RefSeq	non-canonical purine NTP pyrophosphatase	Sinorhizobium meliloti	M249	WP_153529358.1
+91	NZ_CP075175.1	4773392	4793947	WP_232275546.1	511145267	RefSeq	non-canonical purine NTP pyrophosphatase	Paenibacillus sp. 481	481	WP_232275546.1
+76	NZ_CP167916.1	4303100	4323646	WP_080684199.1	142745086	RefSeq	non-canonical purine NTP pyrophosphatase	Pseudomonas chlororaphis subsp. aureofaciens	W9-1	WP_080684199.1
+95	NZ_JBBMOW010000001.1	5619405	5639972	WP_436611725.1	1050353542	RefSeq	non-canonical purine NTP pyrophosphatase	Sorangium sp. So ce1024	So ce1024	WP_436611725.1
