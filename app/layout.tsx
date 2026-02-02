@@ -74,7 +74,22 @@ const footer = (
   </Footer>
 )
 
+// Filter out demo pages from sidebar (they're accessed via Gallery)
+function filterPageMap(pageMap: any[]): any[] {
+  return pageMap
+    .filter(item => item.name !== 'demo')
+    .map(item => {
+      if (item.children) {
+        return { ...item, children: filterPageMap(item.children) }
+      }
+      return item
+    })
+}
+
 export default async function RootLayout({ children }: { children: ReactNode }) {
+  const pageMap = await getPageMap()
+  const filteredPageMap = filterPageMap(pageMap)
+  
   return (
     <html lang="en" dir="ltr" suppressHydrationWarning className={spaceGrotesk.variable}>
       <Head />
@@ -84,7 +99,7 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
           footer={footer}
           docsRepositoryBase="https://github.com/pentamorfico/hoodini-docs/tree/main"
           sidebar={{ defaultMenuCollapseLevel: 1 }}
-          pageMap={await getPageMap()}
+          pageMap={filteredPageMap}
         >
           {children}
         </Layout>

@@ -55,7 +55,7 @@ export default function HomePage() {
           {/* CTA Buttons */}
           <div className="flex gap-4 justify-center flex-wrap">
             <Link 
-              href="/docs/hoodini/quickstart" 
+              href="/docs/hoodini" 
               className="btn btn-primary glow-btn"
             >
               Get Started
@@ -94,7 +94,7 @@ export default function HomePage() {
                 <span className="text-sm text-gray-500 font-mono">hoodini-visualization</span>
               </div>
               <Link 
-                href="/docs/viz"
+                href="/docs/hoodini-viz"
                 className="text-xs text-gray-400 hover:text-amber-500 transition-colors flex items-center gap-1"
               >
                 View documentation
@@ -171,7 +171,7 @@ export default function HomePage() {
               <span className="text-amber-600 dark:text-amber-400 text-sm font-medium group-hover:underline">Learn more →</span>
             </Link>
 
-            <Link href="/docs/viz" className="glow-card group p-7 bg-white dark:bg-[#111] border border-gray-200 dark:border-[#222] rounded-2xl transition-all">
+            <Link href="/docs/hoodini-viz" className="glow-card group p-7 bg-white dark:bg-[#111] border border-gray-200 dark:border-[#222] rounded-2xl transition-all">
               <span className="badge badge-blue mb-4">WEB</span>
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Hoodini Viz</h3>
               <p className="text-gray-600 dark:text-gray-400 text-sm mb-4 leading-relaxed">
@@ -185,7 +185,7 @@ export default function HomePage() {
               <span className="text-blue-600 dark:text-blue-400 text-sm font-medium group-hover:underline">Learn more →</span>
             </Link>
 
-            <Link href="/docs/colab" className="glow-card group p-7 bg-white dark:bg-[#111] border border-gray-200 dark:border-[#222] rounded-2xl transition-all">
+            <Link href="/docs/hoodini-colab" className="glow-card group p-7 bg-white dark:bg-[#111] border border-gray-200 dark:border-[#222] rounded-2xl transition-all">
               <span className="badge badge-green mb-4">DIY</span>
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Hoodini Colab</h3>
               <p className="text-gray-600 dark:text-gray-400 text-sm mb-4 leading-relaxed">

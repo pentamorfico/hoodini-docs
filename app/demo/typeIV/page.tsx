@@ -69,7 +69,7 @@ export default function TypeIVDemoPage() {
               </p>
             </div>
             <a
-              href="/gallery"
+              href={`${basePath}/gallery`}
               className="text-sm text-blue-600 dark:text-blue-400 hover:underline flex items-center gap-1 self-start"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

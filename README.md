@@ -115,13 +115,10 @@ hoodini/docs/
 ├── _meta.json              # Nextra navigation config
 ├── index.mdx               # Introduction
 ├── installation.mdx        # Installation guide
-├── quickstart.mdx          # Quick start guide
+├── tutorial.mdx            # Step-by-step tutorial
 ├── cli-reference.mdx       # CLI documentation
-├── AI_AGENT_GUIDE.mdx      # Guide for AI agents
-├── ARCHITECTURE.mdx        # Architecture overview
-├── STYLE_GUIDE.mdx         # Code style guide
-└── api/
-    └── reference.mdx       # API documentation
+├── outputs.mdx             # Output files description
+└── api/                    # API documentation (coming soon)
 ```
 
 ### Adding New Pages
