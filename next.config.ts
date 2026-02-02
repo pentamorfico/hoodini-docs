@@ -6,7 +6,7 @@ const withNextra = nextra({
 })
 
 export default withNextra({
-  // output: 'export', // Uncomment for production static export
+  output: 'export', // Static export for GitHub Pages
   images: {
     unoptimized: true
   },
