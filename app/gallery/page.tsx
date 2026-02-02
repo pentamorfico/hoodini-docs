@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import { basePath } from '../config'
 
 // Gallery items - replace placeholder images with real screenshots later
 const galleryItems = [
@@ -254,31 +255,31 @@ function GalleryCard({ item, index }: { item: typeof galleryItems[0], index: num
                 <div className="flex items-start gap-2">
                   {item.paper.journal === 'Science' ? (
                     <img 
-                      src="/images/science-favicon.ico" 
+                      src={`${basePath}/images/science-favicon.ico`}
                       alt="Science" 
                       className="w-4 h-4 flex-shrink-0 mt-0.5"
                     />
                   ) : item.paper.journal === 'PLOS Biology' ? (
                     <img 
-                      src="/images/plos-favicon.ico" 
+                      src={`${basePath}/images/plos-favicon.ico`}
                       alt="PLOS Biology" 
                       className="w-4 h-4 flex-shrink-0 mt-0.5"
                     />
                   ) : item.paper.journal === 'Nature Reviews Microbiology' || item.paper.journal === 'Nature Communications' ? (
                     <img 
-                      src="/images/nature-favicon.ico" 
+                      src={`${basePath}/images/nature-favicon.ico`}
                       alt={item.paper.journal} 
                       className="w-4 h-4 flex-shrink-0 mt-0.5"
                     />
                   ) : item.paper.journal === 'Cell Host Microbe' ? (
                     <img 
-                      src="/images/cell-favicon.ico" 
+                      src={`${basePath}/images/cell-favicon.ico`}
                       alt="Cell Host Microbe" 
                       className="w-4 h-4 flex-shrink-0 mt-0.5"
                     />
                   ) : item.paper.journal === 'bioRxiv' ? (
                     <img 
-                      src="/images/biorxiv-favicon.ico" 
+                      src={`${basePath}/images/biorxiv-favicon.ico`}
                       alt="bioRxiv" 
                       className="w-4 h-4 flex-shrink-0 mt-0.5"
                     />

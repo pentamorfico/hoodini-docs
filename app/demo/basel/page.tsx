@@ -1,6 +1,7 @@
 'use client'
 
 import { HoodiniDemo } from '../../components/HoodiniDemo'
+import { basePath } from '../../config'
 
 // Data paths for the BASEL phage collection
 const BASEL_DATA_PATHS = {
@@ -49,7 +50,7 @@ export default function BaselDemoPage() {
                   className="flex items-center gap-1 text-xs text-gray-500 hover:text-amber-500 transition-colors"
                 >
                   <img 
-                    src="/images/plos-favicon.ico" 
+                    src={`${basePath}/images/plos-favicon.ico`}
                     alt="PLOS Biology" 
                     className="w-4 h-4"
                   />

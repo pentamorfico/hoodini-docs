@@ -1,6 +1,7 @@
 'use client'
 
 import { HoodiniDemo } from '../../components/HoodiniDemo'
+import { basePath } from '../../config'
 
 // Data paths for the CRISPR-Cas9 example
 const CAS9_DATA_PATHS = {

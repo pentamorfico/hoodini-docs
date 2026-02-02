@@ -1,6 +1,7 @@
 'use client'
 
 import { HoodiniDemo } from '../../components/HoodiniDemo'
+import { basePath } from '../../config'
 
 // Data paths for the Aca5 anti-CRISPR example
 const ACA5_DATA_PATHS = {
@@ -51,7 +52,7 @@ export default function Aca5DemoPage() {
                   className="flex items-center gap-1 text-xs text-gray-500 hover:text-blue-500 transition-colors"
                 >
                   <img 
-                    src="/images/nature-favicon.ico" 
+                    src={`${basePath}/images/nature-favicon.ico`}
                     alt="Nature Communications" 
                     className="w-4 h-4"
                   />

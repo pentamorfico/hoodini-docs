@@ -5,10 +5,16 @@ const withNextra = nextra({
   defaultShowCopyCode: true
 })
 
+const isProd = process.env.NODE_ENV === 'production'
+const basePath = isProd ? '/hoodini-docs' : ''
+
 export default withNextra({
   output: 'export', // Static export for GitHub Pages
   images: {
     unoptimized: true
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/hoodini-docs' : ''
+  basePath,
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath
+  }
 })

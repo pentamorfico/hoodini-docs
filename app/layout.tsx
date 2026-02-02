@@ -5,6 +5,7 @@ import type { ReactNode } from 'react'
 import { Space_Grotesk } from 'next/font/google'
 import Link from 'next/link'
 import './globals.css'
+import { basePath } from './config'
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
@@ -19,7 +20,7 @@ export const metadata = {
   },
   description: 'Gene Neighborhood Analysis at Scale - Documentation for the Hoodini Suite',
   icons: {
-    icon: '/favicon.svg'
+    icon: `${basePath}/favicon.svg`
   }
 }
 
@@ -27,13 +28,13 @@ const logo = (
   <span className="flex items-center font-semibold">
     {/* Light mode logo */}
     <img 
-      src="/images/hoodini_logo.svg" 
+      src={`${basePath}/images/hoodini_logo.svg`}
       alt="Hoodini" 
       className="h-8 w-auto logo-light" 
     />
     {/* Dark mode logo */}
     <img 
-      src="/images/hoodini_logo_light.svg" 
+      src={`${basePath}/images/hoodini_logo_light.svg`}
       alt="Hoodini" 
       className="h-8 w-auto logo-dark" 
     />

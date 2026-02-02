@@ -1,6 +1,7 @@
 'use client'
 
 import { HoodiniDemo } from '../../components/HoodiniDemo'
+import { basePath } from '../../config'
 
 // Data paths for the Type IV CRISPR example
 const TYPEIV_DATA_PATHS = {
@@ -51,7 +52,7 @@ export default function TypeIVDemoPage() {
                   className="flex items-center gap-1 text-xs text-gray-500 hover:text-blue-500 transition-colors"
                 >
                   <img 
-                    src="/images/cell-favicon.ico" 
+                    src={`${basePath}/images/cell-favicon.ico`}
                     alt="Cell Host Microbe" 
                     className="w-4 h-4"
                   />

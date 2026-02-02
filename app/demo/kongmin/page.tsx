@@ -1,6 +1,7 @@
 'use client'
 
 import { HoodiniDemo } from '../../components/HoodiniDemo'
+import { basePath } from '../../config'
 
 // Data paths for the Kongming defense system (KomB) example
 const KONGMIN_DATA_PATHS = {
@@ -51,7 +52,7 @@ export default function KongminDemoPage() {
                   className="flex items-center gap-1 text-xs text-gray-500 hover:text-amber-500 transition-colors"
                 >
                   <img 
-                    src="/images/science-favicon.ico" 
+                    src={`${basePath}/images/science-favicon.ico`}
                     alt="Science" 
                     className="w-4 h-4"
                   />
