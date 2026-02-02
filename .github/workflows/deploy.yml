@@ -48,7 +48,7 @@ jobs:
       - name: Sync documentation from submodules
         run: npm run sync
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.DOCS_SYNC_TOKEN || secrets.GITHUB_TOKEN }}
       
       - name: Build with Next.js
         run: npm run build
