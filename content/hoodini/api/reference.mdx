@@ -1,0 +1,76 @@
+---
+title: API Reference
+description: Python API reference for Hoodini
+---
+
+import { Callout } from 'nextra/components'
+
+# API Reference
+
+<Callout type="info">
+  The full API documentation is auto-generated from the Hoodini source code.
+</Callout>
+
+For the complete Python API reference, see the [auto-generated API documentation](/api/hoodini/reference.html).
+
+## Quick Links
+
+- [CLI Reference](/docs/hoodini/cli-reference) — Command-line usage
+- [Tutorial](/docs/hoodini/tutorial) — Getting started guide  
+- [Outputs](/docs/hoodini/outputs) — Output file formats
+
+## Main Modules
+
+### `hoodini.pipeline`
+
+The main pipeline module for running Hoodini analyses.
+
+```python
+from hoodini.pipeline import Pipeline
+
+# Create and run a pipeline
+pipeline = Pipeline(
+    input="WP_012345678.1",
+    output="results/"
+)
+pipeline.run()
+```
+
+### `hoodini.config`
+
+Configuration management for Hoodini runs.
+
+```python
+from hoodini.config import Config
+
+# Load configuration from file
+config = Config.from_yaml("my_config.yml")
+
+# Or create programmatically
+config = Config(
+    blast_limit=100,
+    neighborhood_size=20000,
+    padloc=True
+)
+```
+
+### `hoodini.utils`
+
+Utility functions for working with genomic data.
+
+```python
+from hoodini.utils import (
+    parse_protein_ids,
+    fetch_assembly,
+    extract_neighborhood
+)
+```
+
+## Full Reference
+
+For detailed documentation of all modules, classes, and functions, see:
+
+- [Full API Reference (HTML)](/api/hoodini/reference.html)
+- [Pipeline Module](/api/hoodini/pipeline.html)
+- [Config Module](/api/hoodini/config.html)
+- [Utils Module](/api/hoodini/utils.html)
