@@ -5,16 +5,16 @@ import { basePath } from '../../config'
 
 // Data paths for the CRISPR-Cas9 example
 const CAS9_DATA_PATHS = {
-  newick: '/data/cas9/tree.nwk',
-  gffParquet: '/data/cas9/parquet/gff.parquet',
-  hoodsParquet: '/data/cas9/parquet/hoods.parquet',
-  proteinLinksParquet: '/data/cas9/parquet/protein_links.parquet',
-  nucleotideLinksParquet: '/data/cas9/parquet/nucleotide_links.parquet',
-  domainsParquet: '/data/cas9/parquet/domains.parquet',
-  proteinMetadataParquet: '/data/cas9/parquet/protein_metadata.parquet',
-  domainsMetadataParquet: '/data/cas9/parquet/domains_metadata.parquet',
-  treeMetadataParquet: '/data/cas9/parquet/tree_metadata.parquet',
-  ncRNAMetadataParquet: '/data/cas9/parquet/ncrna_metadata.parquet',
+  newick: `${basePath}/data/cas9/tree.nwk`,
+  gffParquet: `${basePath}/data/cas9/parquet/gff.parquet`,
+  hoodsParquet: `${basePath}/data/cas9/parquet/hoods.parquet`,
+  proteinLinksParquet: `${basePath}/data/cas9/parquet/protein_links.parquet`,
+  nucleotideLinksParquet: `${basePath}/data/cas9/parquet/nucleotide_links.parquet`,
+  domainsParquet: `${basePath}/data/cas9/parquet/domains.parquet`,
+  proteinMetadataParquet: `${basePath}/data/cas9/parquet/protein_metadata.parquet`,
+  domainsMetadataParquet: `${basePath}/data/cas9/parquet/domains_metadata.parquet`,
+  treeMetadataParquet: `${basePath}/data/cas9/parquet/tree_metadata.parquet`,
+  ncRNAMetadataParquet: `${basePath}/data/cas9/parquet/ncrna_metadata.parquet`,
 }
 
 // Paper info

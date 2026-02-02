@@ -5,16 +5,16 @@ import { basePath } from '../../config'
 
 // Data paths for the Aca5 anti-CRISPR example
 const ACA5_DATA_PATHS = {
-  newick: '/data/aca5/tree.nwk',
-  gffParquet: '/data/aca5/parquet/gff.parquet',
-  hoodsParquet: '/data/aca5/parquet/hoods.parquet',
-  proteinLinksParquet: '/data/aca5/parquet/protein_links.parquet',
-  nucleotideLinksParquet: '/data/aca5/parquet/nucleotide_links.parquet',
-  domainsParquet: '/data/aca5/parquet/domains.parquet',
-  proteinMetadataParquet: '/data/aca5/parquet/protein_metadata.parquet',
-  domainsMetadataParquet: '/data/aca5/parquet/domains_metadata.parquet',
-  treeMetadataParquet: '/data/aca5/parquet/tree_metadata.parquet',
-  ncRNAMetadataParquet: '/data/aca5/parquet/ncrna_metadata.parquet',
+  newick: `${basePath}/data/aca5/tree.nwk`,
+  gffParquet: `${basePath}/data/aca5/parquet/gff.parquet`,
+  hoodsParquet: `${basePath}/data/aca5/parquet/hoods.parquet`,
+  proteinLinksParquet: `${basePath}/data/aca5/parquet/protein_links.parquet`,
+  nucleotideLinksParquet: `${basePath}/data/aca5/parquet/nucleotide_links.parquet`,
+  domainsParquet: `${basePath}/data/aca5/parquet/domains.parquet`,
+  proteinMetadataParquet: `${basePath}/data/aca5/parquet/protein_metadata.parquet`,
+  domainsMetadataParquet: `${basePath}/data/aca5/parquet/domains_metadata.parquet`,
+  treeMetadataParquet: `${basePath}/data/aca5/parquet/tree_metadata.parquet`,
+  ncRNAMetadataParquet: `${basePath}/data/aca5/parquet/ncrna_metadata.parquet`,
 }
 
 // Paper info

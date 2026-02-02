@@ -5,16 +5,16 @@ import { basePath } from '../../config'
 
 // Data paths for the Kongming defense system (KomB) example
 const KONGMIN_DATA_PATHS = {
-  newick: '/data/kongmin/tree.nwk',
-  gffParquet: '/data/kongmin/parquet/gff.parquet',
-  hoodsParquet: '/data/kongmin/parquet/hoods.parquet',
-  proteinLinksParquet: '/data/kongmin/parquet/protein_links.parquet',
-  nucleotideLinksParquet: '/data/kongmin/parquet/nucleotide_links.parquet',
-  domainsParquet: '/data/kongmin/parquet/domains.parquet',
-  proteinMetadataParquet: '/data/kongmin/parquet/protein_metadata.parquet',
-  domainsMetadataParquet: '/data/kongmin/parquet/domains_metadata.parquet',
-  treeMetadataParquet: '/data/kongmin/parquet/tree_metadata.parquet',
-  ncRNAMetadataParquet: '/data/kongmin/parquet/ncrna_metadata.parquet',
+  newick: `${basePath}/data/kongmin/tree.nwk`,
+  gffParquet: `${basePath}/data/kongmin/parquet/gff.parquet`,
+  hoodsParquet: `${basePath}/data/kongmin/parquet/hoods.parquet`,
+  proteinLinksParquet: `${basePath}/data/kongmin/parquet/protein_links.parquet`,
+  nucleotideLinksParquet: `${basePath}/data/kongmin/parquet/nucleotide_links.parquet`,
+  domainsParquet: `${basePath}/data/kongmin/parquet/domains.parquet`,
+  proteinMetadataParquet: `${basePath}/data/kongmin/parquet/protein_metadata.parquet`,
+  domainsMetadataParquet: `${basePath}/data/kongmin/parquet/domains_metadata.parquet`,
+  treeMetadataParquet: `${basePath}/data/kongmin/parquet/tree_metadata.parquet`,
+  ncRNAMetadataParquet: `${basePath}/data/kongmin/parquet/ncrna_metadata.parquet`,
 }
 
 // Paper info

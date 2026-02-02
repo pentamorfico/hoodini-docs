@@ -5,16 +5,16 @@ import { basePath } from '../../config'
 
 // Data paths for the Type IV CRISPR example
 const TYPEIV_DATA_PATHS = {
-  newick: '/data/typeIV/tree.nwk',
-  gffParquet: '/data/typeIV/parquet/gff.parquet',
-  hoodsParquet: '/data/typeIV/parquet/hoods.parquet',
-  proteinLinksParquet: '/data/typeIV/parquet/protein_links.parquet',
-  nucleotideLinksParquet: '/data/typeIV/parquet/nucleotide_links.parquet',
-  domainsParquet: '/data/typeIV/parquet/domains.parquet',
-  proteinMetadataParquet: '/data/typeIV/parquet/protein_metadata.parquet',
-  domainsMetadataParquet: '/data/typeIV/parquet/domains_metadata.parquet',
-  treeMetadataParquet: '/data/typeIV/parquet/tree_metadata.parquet',
-  ncRNAMetadataParquet: '/data/typeIV/parquet/ncrna_metadata.parquet',
+  newick: `${basePath}/data/typeIV/tree.nwk`,
+  gffParquet: `${basePath}/data/typeIV/parquet/gff.parquet`,
+  hoodsParquet: `${basePath}/data/typeIV/parquet/hoods.parquet`,
+  proteinLinksParquet: `${basePath}/data/typeIV/parquet/protein_links.parquet`,
+  nucleotideLinksParquet: `${basePath}/data/typeIV/parquet/nucleotide_links.parquet`,
+  domainsParquet: `${basePath}/data/typeIV/parquet/domains.parquet`,
+  proteinMetadataParquet: `${basePath}/data/typeIV/parquet/protein_metadata.parquet`,
+  domainsMetadataParquet: `${basePath}/data/typeIV/parquet/domains_metadata.parquet`,
+  treeMetadataParquet: `${basePath}/data/typeIV/parquet/tree_metadata.parquet`,
+  ncRNAMetadataParquet: `${basePath}/data/typeIV/parquet/ncrna_metadata.parquet`,
 }
 
 // Paper info

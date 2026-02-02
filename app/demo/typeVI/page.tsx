@@ -5,16 +5,16 @@ import { basePath } from '../../config'
 
 // Data paths for the Type VI Retrons example
 const TYPEVI_DATA_PATHS = {
-  newick: '/data/typeVI/tree.nwk',
-  gffParquet: '/data/typeVI/parquet/gff.parquet',
-  hoodsParquet: '/data/typeVI/parquet/hoods.parquet',
-  proteinLinksParquet: '/data/typeVI/parquet/protein_links.parquet',
-  nucleotideLinksParquet: '/data/typeVI/parquet/nucleotide_links.parquet',
-  domainsParquet: '/data/typeVI/parquet/domains.parquet',
-  proteinMetadataParquet: '/data/typeVI/parquet/protein_metadata.parquet',
-  domainsMetadataParquet: '/data/typeVI/parquet/domains_metadata.parquet',
-  treeMetadataParquet: '/data/typeVI/parquet/tree_metadata.parquet',
-  ncRNAMetadataParquet: '/data/typeVI/parquet/ncrna_metadata.parquet',
+  newick: `${basePath}/data/typeVI/tree.nwk`,
+  gffParquet: `${basePath}/data/typeVI/parquet/gff.parquet`,
+  hoodsParquet: `${basePath}/data/typeVI/parquet/hoods.parquet`,
+  proteinLinksParquet: `${basePath}/data/typeVI/parquet/protein_links.parquet`,
+  nucleotideLinksParquet: `${basePath}/data/typeVI/parquet/nucleotide_links.parquet`,
+  domainsParquet: `${basePath}/data/typeVI/parquet/domains.parquet`,
+  proteinMetadataParquet: `${basePath}/data/typeVI/parquet/protein_metadata.parquet`,
+  domainsMetadataParquet: `${basePath}/data/typeVI/parquet/domains_metadata.parquet`,
+  treeMetadataParquet: `${basePath}/data/typeVI/parquet/tree_metadata.parquet`,
+  ncRNAMetadataParquet: `${basePath}/data/typeVI/parquet/ncrna_metadata.parquet`,
 }
 
 // Paper info

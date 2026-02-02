@@ -5,16 +5,16 @@ import { basePath } from '../../config'
 
 // Data paths for the BASEL phage collection
 const BASEL_DATA_PATHS = {
-  newick: '/data/basel/tree.nwk',
-  gffParquet: '/data/basel/parquet/gff.parquet',
-  hoodsParquet: '/data/basel/parquet/hoods.parquet',
-  proteinLinksParquet: '/data/basel/parquet/protein_links.parquet',
-  nucleotideLinksParquet: '/data/basel/parquet/nucleotide_links.parquet',
-  domainsParquet: '/data/basel/parquet/domains.parquet',
-  proteinMetadataParquet: '/data/basel/parquet/protein_metadata.parquet',
-  domainsMetadataParquet: '/data/basel/parquet/domains_metadata.parquet',
-  treeMetadataParquet: '/data/basel/parquet/tree_metadata.parquet',
-  ncRNAMetadataParquet: '/data/basel/parquet/ncrna_metadata.parquet',
+  newick: `${basePath}/data/basel/tree.nwk`,
+  gffParquet: `${basePath}/data/basel/parquet/gff.parquet`,
+  hoodsParquet: `${basePath}/data/basel/parquet/hoods.parquet`,
+  proteinLinksParquet: `${basePath}/data/basel/parquet/protein_links.parquet`,
+  nucleotideLinksParquet: `${basePath}/data/basel/parquet/nucleotide_links.parquet`,
+  domainsParquet: `${basePath}/data/basel/parquet/domains.parquet`,
+  proteinMetadataParquet: `${basePath}/data/basel/parquet/protein_metadata.parquet`,
+  domainsMetadataParquet: `${basePath}/data/basel/parquet/domains_metadata.parquet`,
+  treeMetadataParquet: `${basePath}/data/basel/parquet/tree_metadata.parquet`,
+  ncRNAMetadataParquet: `${basePath}/data/basel/parquet/ncrna_metadata.parquet`,
 }
 
 // Paper info
