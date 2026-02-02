@@ -98,7 +98,7 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
           navbar={navbar}
           footer={footer}
           docsRepositoryBase="https://github.com/pentamorfico/hoodini-docs/tree/main"
-          sidebar={{ defaultMenuCollapseLevel: 1 }}
+          sidebar={{ defaultMenuCollapseLevel: 2 }}
           pageMap={filteredPageMap}
         >
           {children}
