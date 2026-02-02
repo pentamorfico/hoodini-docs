@@ -46,8 +46,8 @@ const navbar = (
     logo={logo}
     projectLink="https://github.com/pentamorfico/hoodini"
   >
-    {/* Center navigation links */}
-    <div className="navbar-center-nav hidden md:flex">
+    {/* Center navigation links (desktop) */}
+    <div className="navbar-center-nav hidden xl:flex">
       <Link href="/docs">Docs</Link>
       <Link href="/demo">Live Demo</Link>
       <Link href="/gallery">Gallery</Link>
@@ -58,6 +58,24 @@ const navbar = (
       >
         Colab
       </a>
+    </div>
+    {/* Mobile menu */}
+    <div className="navbar-mobile-menu xl:hidden">
+      <details>
+        <summary>Menu</summary>
+        <div className="navbar-mobile-panel">
+          <Link href="/docs">Docs</Link>
+          <Link href="/demo">Live Demo</Link>
+          <Link href="/gallery">Gallery</Link>
+          <a 
+            href="https://colab.research.google.com/github/pentamorfico/hoodini-colab/blob/main/hoodini_colab.ipynb"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Colab
+          </a>
+        </div>
+      </details>
     </div>
     <ThemeSwitch />
   </Navbar>

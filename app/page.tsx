@@ -21,7 +21,7 @@ export default function HomePage() {
             Hoodini
           </h1>
           <p className="text-xl text-gray-500 dark:text-gray-400 mb-8">
-            Large-scale gene neighborhood analysis and visualization that feel like magic.
+            Large-scale gene neighborhood analysis and visualization that feels like magic.
           </p>
           
           {/* Badges */}
