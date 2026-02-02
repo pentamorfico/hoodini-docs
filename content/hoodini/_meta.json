@@ -5,5 +5,8 @@
   "input-formats": "Input Formats",
   "cli-reference": "CLI Reference",
   "outputs": "Outputs",
-  "api": "API"
+  "api": {
+    "title": "API Reference",
+    "type": "page"
+  }
 }
